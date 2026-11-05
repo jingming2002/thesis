@@ -1,0 +1,9 @@
+tree	clade_id	tree_id	source	phylum	SH_aLRT	UFBoot
+FolE	C01	NCBI_WP_107638985.1_FolE_Bacillota	NCBI	Bacillota	99.1	99.0
+FolE	C01	NCBI_WP_453993239.1_FolE_Bacillota	NCBI	Bacillota	99.1	99.0
+FolE	C02	PIBAC_PIGvsB100pB20_746_FolE_Bacteroidota	PIBAC	Bacteroidota	91.8	95.0
+FolE	C02	PIBAC_PIGvsB100pB20_1124_FolE_Bacteroidota	PIBAC	Bacteroidota	91.8	95.0
+FolE	C02	PIBAC_PIGvsB100pB20_647_FolE_Bacteroidota	PIBAC	Bacteroidota	91.8	95.0
+FolE	C02	PIBAC_PIGvsB100pB20_1056_FolE_Bacteroidota	PIBAC	Bacteroidota	91.8	95.0
+FolE	C03	PIBAC_PIGvsB100pB20_210_FolE_Bacteroidota	PIBAC	Bacteroidota	99.8	100.0
+FolE	C03	PIBAC_PIGvsB100pB20_539_FolE_Bacteroidota	PIBAC	Bacteroidota	99.8	100.0

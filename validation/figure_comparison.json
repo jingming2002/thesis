@@ -1,0 +1,23 @@
+[
+  {
+    "figure": 1,
+    "same_page_size": true,
+    "same_rendered_pixels_at_72dpi": true,
+    "mean_absolute_channel_difference": 0.0,
+    "rendered_pdf_valid": true
+  },
+  {
+    "figure": 2,
+    "same_page_size": true,
+    "same_rendered_pixels_at_72dpi": true,
+    "mean_absolute_channel_difference": 0.0,
+    "rendered_pdf_valid": true
+  },
+  {
+    "figure": 4,
+    "same_page_size": true,
+    "same_rendered_pixels_at_72dpi": true,
+    "mean_absolute_channel_difference": 0.0,
+    "rendered_pdf_valid": true
+  }
+]

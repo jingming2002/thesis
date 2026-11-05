@@ -1,0 +1,1543 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    woese.bioinformatics.nl (AVX512, FMA3, 755 GB RAM)
+Command: /home/wang500/miniconda3/envs/checkamg/bin/iqtree3 -s results/amg_family_representative_trees_20261025/NrdG.trimmed.faa -m MFP -B 1000 -alrt 1000 --bnni -T 16 -seed 20261025 -pre results/amg_family_representative_trees_20261025/NrdG.IQTREE
+Seed:    20261025 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 25 02:41:29 2026
+Kernel:  AVX+FMA - 16 threads (128 CPU cores detected)
+
+Reading alignment file results/amg_family_representative_trees_20261025/NrdG.trimmed.faa ... Fasta format detected
+Reading fasta file: done in 0.000404835 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00029707 secs using 897.1% CPU
+Alignment has 89 sequences with 124 columns, 120 distinct patterns
+108 parsimony-informative, 4 singleton sites, 12 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.20296e-05 secs using 933.4% CPU
+   1  vOTU_10050_NrdG_Solemoviridae_like                7.26%    passed     40.98%
+   2  vOTU_10069_NrdG_Family_unclassified               3.23%    passed     72.54%
+   3  vOTU_1026_NrdG_Steigviridae                       7.26%    passed     47.39%
+   4  vOTU_10447_NrdG_Intestiviridae_like               7.26%    passed     69.31%
+   5  vOTU_104_NrdG_Intestiviridae                      8.87%    passed     77.31%
+   6  vOTU_107_NrdG_Straboviridae                       8.06%    passed     97.24%
+   7  vOTU_1126_NrdG_Family_unclassified                8.87%    passed     70.00%
+   8  vOTU_11384_NrdG_Family_unclassified               4.03%    passed     98.46%
+   9  vOTU_1717_NrdG_Family_unclassified                8.06%    passed     97.89%
+  10  vOTU_1723_NrdG_Family_unclassified                3.23%    passed     48.59%
+  11  vOTU_174_NrdG_Kyanoviridae                        3.23%    passed     37.84%
+  12  vOTU_186_NrdG_Family_unclassified                 8.87%    passed     97.19%
+  13  vOTU_201_NrdG_Chimalliviridae                     3.23%    passed     90.62%
+  14  vOTU_2035_NrdG_Herelleviridae                     3.23%    passed     99.48%
+  15  vOTU_20589_NrdG_Autographiviridae                 4.03%    passed     97.13%
+  16  vOTU_270_NrdG_Suoliviridae                        4.03%    passed     62.71%
+  17  vOTU_328_NrdG_Family_unclassified                 3.23%    passed     37.18%
+  18  vOTU_3832_NrdG_Family_unclassified               12.10%    passed     60.63%
+  19  vOTU_39_NrdG_Fiersviridae                         7.26%    passed     87.23%
+  20  vOTU_497_NrdG_Family_unclassified                 3.23%    passed     83.92%
+  21  vOTU_8476_NrdG_Schitoviridae                      3.23%    passed     90.27%
+  22  vOTU_967_NrdG_Family_unclassified                 5.65%    passed     98.68%
+  23  PIBAC_PIGvsB100pB20_1733_NrdG_Firmicutes          3.23%    passed     40.47%
+  24  PIBAC_PIGvsB100pB20_700_NrdG_Firmicutes_A         3.23%    passed     99.71%
+  25  PIBAC_PIGvsB100pB20_200_NrdG_Firmicutes_A         3.23%    passed     85.53%
+  26  PIBAC_PIGvsB100pB20_238_NrdG_Firmicutes_A         3.23%    passed     46.99%
+  27  PIBAC_PIGvsB100pB20_1059_NrdG_Firmicutes_C        6.45%    passed     76.68%
+  28  PIBAC_PIGvsB100pB20_537_NrdG_Firmicutes_A         3.23%    passed     99.65%
+  29  PIBAC_PIGvsB100pB20_1294_NrdG_Firmicutes_A        3.23%    passed     96.38%
+  30  PIBAC_PIGvsB100pB20_710_NrdG_Firmicutes_A         6.45%    passed     49.65%
+  31  PIBAC_PIGvsB100pB20_1279_NrdG_Firmicutes_A        3.23%    passed     90.55%
+  32  PIBAC_PIGvsB100pB20_780_NrdG_Firmicutes_A         3.23%    passed     93.07%
+  33  PIBAC_PIGvsB100pB20_450_NrdG_Firmicutes_A         3.23%    passed     99.73%
+  34  PIBAC_PIGvsB100pB20_964_NrdG_Firmicutes_C         3.23%    passed     90.10%
+  35  PIBAC_PIGvsB100pB20_1076_NrdG_Firmicutes_A        3.23%    passed     72.09%
+  36  PIBAC_PIGvsB100pB20_126_NrdG_Firmicutes_A         4.03%    passed     96.25%
+  37  PIBAC_PIGvsB100pB20_210_NrdG_Bacteroidota         4.84%    passed     99.93%
+  38  PIBAC_PIGvsB100pB20_770_NrdG_Firmicutes_C         3.23%    passed     95.94%
+  39  PIBAC_PIGvsB100pB20_754_NrdG_Firmicutes_A         6.45%    passed     58.08%
+  40  PIBAC_PIBAC_CP009302_1_NrdG_Actinobacteriota      3.23%    passed     69.78%
+  41  PIBAC_PIGvsB100pB20_694_NrdG_Firmicutes_A         4.03%    passed     73.22%
+  42  PIBAC_PIGvsB100pB20_2219_NrdG_Firmicutes          3.23%    passed     94.58%
+  43  PIBAC_PIGvsB100pB20_1736_NrdG_Firmicutes_A        3.23%    passed     63.82%
+  44  PIBAC_PIGvsB100pB20_561_NrdG_Firmicutes_A         3.23%    passed     97.48%
+  45  PIBAC_PIGvsB100pB20_565_NrdG_Firmicutes_A         3.23%    passed     92.54%
+  46  PIBAC_PIGvsB100pB20_70_NrdG_Bacteroidota          5.65%    passed     95.08%
+  47  PIBAC_PIGvsB100pB20_705_NrdG_Firmicutes_A         3.23%    passed     94.89%
+  48  PIBAC_PIGvsB100pB20_254_NrdG_Firmicutes_A         3.23%    passed     92.92%
+  49  PIBAC_PIGvsB100pB20_646_NrdG_Firmicutes_A         3.23%    passed     99.50%
+  50  PIBAC_PIGvsB100pB20_707_NrdG_Firmicutes_A         4.03%    passed     93.82%
+  51  PIBAC_PIGvsB100pB20_1581_NrdG_Firmicutes_A        3.23%    passed      9.16%
+  52  PIBAC_PIGvsB100pB20_260_NrdG_Firmicutes_A         3.23%    passed     93.69%
+  53  PIBAC_PIGvsB100pB20_595_NrdG_Firmicutes_A         3.23%    passed     86.53%
+  54  PIBAC_PIGvsB100pB20_957_NrdG_Firmicutes_A         3.23%    passed     34.86%
+  55  PIBAC_PIGvsB100pB20_1186_NrdG_Firmicutes_A        3.23%    passed     79.03%
+  56  PIBAC_PIGvsB100pB20_334_NrdG_Firmicutes_A         3.23%    passed     99.91%
+  57  PIBAC_PIGvsB100pB20_470_NrdG_Firmicutes_C         4.03%    passed     99.56%
+  58  PIBAC_PIBAC_527_NrdG_Firmicutes_A                 3.23%    passed     51.43%
+  59  PIBAC_PIGvsB100pB20_912_NrdG_Firmicutes_A         1.61%    passed     81.60%
+  60  PIBAC_PIGvsB100pB20_1491_NrdG_Actinobacteriota    3.23%    passed     87.69%
+  61  PIBAC_PIGvsB100pB20_1470_NrdG_Firmicutes_A        3.23%    passed     95.06%
+  62  PIBAC_PIGvsB100pB20_1350_NrdG_Firmicutes          3.23%    passed     27.30%
+  63  NCBI_WP_007575649_NrdG_Bacteroidota               6.45%    passed     98.27%
+  64  NCBI_WP_007859493_NrdG_Bacillota                 14.52%    passed     20.86%
+  65  NCBI_WP_090545478_NrdG_Bacillota                  3.23%    passed     95.34%
+  66  NCBI_WP_101773555_NrdG_Bacillota                  3.23%    passed     91.72%
+  67  NCBI_WP_103241463_NrdG_Bacillota                  5.65%    passed     46.85%
+  68  NCBI_WP_120176838_NrdG_Pseudomonadota             3.23%    passed     79.27%
+  69  NCBI_WP_165797685_NrdG_Bacillota                  4.84%    passed     92.02%
+  70  NCBI_WP_195565479_NrdG_Bacillota                  3.23%    passed     72.54%
+  71  NCBI_WP_203126639_NrdG_Bacillota                  4.03%    passed     19.58%
+  72  NCBI_WP_227066737_NrdG_Bacillota                  7.26%    passed     96.43%
+  73  NCBI_WP_249092695_NrdG_Pseudomonadota             8.06%    passed     99.86%
+  74  NCBI_WP_312091246_NrdG_Bacillota                  6.45%    passed     95.28%
+  75  NCBI_WP_320806099_NrdG_Bacillota                  7.26%    passed     77.77%
+  76  NCBI_WP_341479116_NrdG_Bacillota                 13.71%    passed     30.32%
+  77  NCBI_WP_405308475_NrdG_Methanobacteriota          4.03%    passed     98.27%
+  78  NCBI_WP_412220476_NrdG_Bacillota                  3.23%    passed     83.24%
+  79  NCBI_WP_413780131_NrdG_Bacillota                  6.45%    passed      9.18%
+  80  NCBI_WP_428587116_NrdG_Pseudomonadota             8.06%    passed     52.40%
+  81  NCBI_WP_429191640_NrdG_Fusobacteriota             3.23%    passed     85.05%
+  82  NCBI_WP_439721439_NrdG_Bacillota                  6.45%    passed     33.75%
+  83  NCBI_WP_444880746_NrdG_Pseudomonadota             8.06%    passed     97.89%
+  84  NCBI_WP_498838947_NrdG_Bacillota                  4.84%    passed     93.22%
+  85  CUR_REF_NrdG_001_NrdG_Phylum_unresolved           2.42%    passed     91.05%
+  86  CUR_REF_NrdG_002_NrdG_Phylum_unresolved           3.23%    passed     11.33%
+  87  CUR_REF_NrdG_003_NrdG_Phylum_unresolved           3.23%    passed     95.08%
+  88  CUR_REF_NrdG_004_NrdG_Phylum_unresolved           3.23%    passed     97.88%
+  89  CUR_REF_NrdG_005_NrdG_Phylum_unresolved           7.26%    passed     99.72%
+****  TOTAL                                             4.79%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: NCBI_WP_195565479_NrdG_Bacillota is identical to vOTU_10069_NrdG_Family_unclassified but kept for subsequent analysis
+NOTE: NCBI_WP_444880746_NrdG_Pseudomonadota is identical to vOTU_1717_NrdG_Family_unclassified but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00027585 secs using 1003% CPU
+
+WARNING: 16 threads for alignment length 120 will slow down analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.034 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -13981.583
+2. Current log-likelihood: -13979.375
+Optimal log-likelihood: -13979.224
+Proportion of invariable sites: 0.067
+Gamma shape alpha: 1.537
+Parameters optimization took 2 rounds (0.094 sec)
+Time for fast ML tree search: 0.597 seconds
+
+NOTE: ModelFinder requires 19 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 124 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  LG            14779.019    175 29908.038    91508.038    30401.587
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  LG+I          14554.794    176 29461.588    91765.588    29957.957
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  LG+G4         13998.917    176 28349.834    90653.834    28846.203
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  LG+I+G4       13979.218    177 28312.437    91324.437    28811.626
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  LG+R2         14204.724    177 28763.448    91775.448    29262.637
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  LG+R3         14033.554    179 28425.109    92865.109    28929.939
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  7  LG+R4         14000.268    181 28362.535    94246.535    28873.006
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  8  LG+R5         13971.396    183 28308.793    95652.793    28824.904
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  9  LG+R6         13968.958    185 28307.916    97127.916    28829.668
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 14  LG+I+R2       14098.056    178 28552.112    92276.112    29054.122
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 15  LG+I+R3       13986.926    180 28333.852    93493.852    28841.503
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 16  LG+I+R4       13974.764    182 28313.529    94925.529    28826.820
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 17  LG+I+R5       13971.863    184 28311.726    96391.726    28830.657
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 26  LG+F+I+G4     14038.301    196 28468.602    105692.602   29021.377
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 48  WAG+I+G4      14062.415    177 28478.830    91490.830    28978.020
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 70  WAG+F+I+G4    14045.608    196 28483.215    105707.215   29035.990
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 92  JTT+I+G4      14329.466    177 29012.933    92024.933    29512.122
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+114  JTT+F+I+G4    14347.707    196 29087.415    106311.415   29640.190
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+136  Q.PFAM+I+G4   14003.644    177 28361.288    91373.288    28860.478
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+158  Q.PFAM+F+I+G4 14056.232    196 28504.464    105728.464   29057.239
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+180  Q.BIRD+I+G4   14717.836    177 29789.671    92801.671    30288.861
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+202  Q.BIRD+F+I+G4 14761.426    196 29914.852    107138.852   30467.627
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+224  Q.MAMMAL+I+G4 14575.107    177 29504.213    92516.213    30003.403
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+246  Q.MAMMAL+F+I+G4 14609.070    196 29610.140    106834.140   30162.915
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+268  Q.INSECT+I+G4 14123.729    177 28601.459    91613.459    29100.649
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+290  Q.INSECT+F+I+G4 14263.713    196 28919.426    106143.426   29472.201
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+312  Q.PLANT+I+G4  14402.196    177 29158.393    92170.393    29657.583
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+334  Q.PLANT+F+I+G4 14470.713    196 29333.425    106557.425   29886.200
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+356  Q.YEAST+I+G4  14044.577    177 28443.153    91455.153    28942.343
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+378  Q.YEAST+F+I+G4 14159.531    196 28711.063    105935.063   29263.838
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+400  JTTDCMUT+I+G4 14319.735    177 28993.471    92005.471    29492.661
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+422  JTTDCMUT+F+I+G4 14335.385    196 29062.770    106286.770   29615.545
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+444  DCMUT+I+G4    14377.116    177 29108.232    92120.232    29607.422
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+466  DCMUT+F+I+G4  14321.073    196 29034.146    106258.146   29586.921
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+488  VT+I+G4       14067.667    177 28489.334    91501.334    28988.524
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+510  VT+F+I+G4     14104.515    196 28601.031    105825.031   29153.806
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+532  PMB+I+G4      14105.565    177 28565.129    91577.129    29064.319
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+554  PMB+F+I+G4    14121.235    196 28634.471    105858.471   29187.246
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+576  BLOSUM62+I+G4 14054.131    177 28462.262    91474.262    28961.452
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+598  BLOSUM62+F+I+G4 14071.993    196 28535.985    105759.985   29088.761
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+620  DAYHOFF+I+G4  14378.089    177 29110.178    92122.178    29609.368
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+642  DAYHOFF+F+I+G4 14321.963    196 29035.925    106259.925   29588.701
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+664  MTREV+I+G4    15011.077    177 30376.154    93388.154    30875.344
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+686  MTREV+F+I+G4  14459.486    196 29310.972    106534.972   29863.747
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+708  MTART+I+G4    15171.758    177 30697.516    93709.516    31196.706
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+730  MTART+F+I+G4  14652.215    196 29696.431    106920.431   30249.206
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+752  MTZOA+I+G4    14834.434    177 30022.867    93034.867    30522.057
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+774  MTZOA+F+I+G4  14446.118    196 29284.236    106508.236   29837.011
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+796  MTMET+I+G4    14969.007    177 30292.013    93304.013    30791.203
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+818  MTMET+F+I+G4  14546.201    196 29484.402    106708.402   30037.178
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+840  MTVER+I+G4    15227.756    177 30809.513    93821.513    31308.703
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+862  MTVER+F+I+G4  14809.102    196 30010.204    107234.204   30562.979
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+884  MTINV+I+G4    14971.689    177 30297.378    93309.378    30796.568
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+906  MTINV+F+I+G4  14429.095    196 29250.190    106474.190   29802.965
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+928  MTMAM+I+G4    15442.623    177 31239.246    94251.246    31738.436
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+950  MTMAM+F+I+G4  14899.545    196 30191.091    107415.091   30743.866
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+972  FLAVI+I+G4    15145.043    177 30644.085    93656.085    31143.275
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+994  FLAVI+F+I+G4  15079.288    196 30550.576    107774.576   31103.351
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1016  HIVB+I+G4     14628.695    177 29611.390    92623.390    30110.580
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1038  HIVB+F+I+G4   14712.304    196 29816.609    107040.609   30369.384
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1060  HIVW+I+G4     15345.865    177 31045.730    94057.730    31544.920
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1082  HIVW+F+I+G4   15211.446    196 30814.892    108038.892   31367.667
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1104  FLU+I+G4      14503.461    177 29360.921    92372.921    29860.111
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1126  FLU+F+I+G4    14483.220    196 29358.440    106582.440   29911.215
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1148  RTREV+I+G4    14042.955    177 28439.910    91451.910    28939.100
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1170  RTREV+F+I+G4  14084.971    196 28561.942    105785.942   29114.717
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1192  CPREV+I+G4    14181.787    177 28717.575    91729.575    29216.764
+WARNING: 16 threads for alignment length 120 will slow down analysis
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+1214  CPREV+F+I+G4  14227.408    196 28846.816    106070.816   29399.591
+Akaike Information Criterion:           LG+R6
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+I+G4
+Best-fit model: LG+I+G4 chosen according to BIC
+
+All model information printed to results/amg_family_representative_trees_20261025/NrdG.IQTREE.model.gz
+CPU time for ModelFinder: 726.779 seconds (0h:12m:6s)
+Wall-clock time for ModelFinder: 57.139 seconds (0h:0m:57s)
+Generating 1000 samples for ultrafast bootstrap (seed: 20261025)...
+WARNING: 16 threads for alignment length 120 will slow down analysis
+
+NOTE: 8 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.219
+Init pinv, alpha: 0.011, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.220
+Init pinv, alpha: 0.022, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.220
+Init pinv, alpha: 0.032, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.220
+Init pinv, alpha: 0.043, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.220
+Init pinv, alpha: 0.054, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.220
+Init pinv, alpha: 0.065, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.219
+Init pinv, alpha: 0.075, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.219
+Init pinv, alpha: 0.086, 1.534 / Estimate: 0.067, 1.538 / LogL: -13979.219
+Init pinv, alpha: 0.097, 1.534 / Estimate: 0.067, 1.537 / LogL: -13979.219
+Optimal pinv,alpha: 0.067, 1.537 / LogL: -13979.219
+
+Parameters optimization took 1.852 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.069977 secs using 1515% CPU
+Computing ML distances took 0.080473 sec (of wall-clock time) 1.196991 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000331879 secs using 1876% CPU
+Constructing RapidNJ tree: done in 0.013181 secs using 1574% CPU
+Computing RapidNJ tree took 0.013581 sec (of wall-clock time) 0.220249 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -14003.180
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.881 second
+Computing log-likelihood of 98 initial trees ... 3.199 seconds
+Current best score: -13979.219
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -13979.218
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -13921.434
+Iteration 10 / LogL: -13979.347 / Time: 0h:1m:12s
+Iteration 20 / LogL: -13946.195 / Time: 0h:1m:22s
+Finish initializing candidate tree set (20)
+Current best tree score: -13921.434 / CPU time: 23.056
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -13920.187
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -13919.125
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -13917.993
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -13914.155
+Iteration 30 / LogL: -13917.538 / Time: 0h:1m:35s (0h:2m:10s left)
+Iteration 40 / LogL: -13920.807 / Time: 0h:1m:41s (0h:1m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -13912.484
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -13911.255
+Iteration 50 / LogL: -13911.927 / Time: 0h:1m:46s (0h:1m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 55: -13906.324
+Iteration 60 / LogL: -13914.274 / Time: 0h:1m:51s (0h:1m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -13904.012
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -13902.765
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -13900.079
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -13898.109
+Iteration 70 / LogL: -13902.774 / Time: 0h:1m:56s (0h:1m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -13896.068
+UPDATE BEST LOG-LIKELIHOOD: -13896.068
+Iteration 80 / LogL: -13904.998 / Time: 0h:2m:2s (0h:1m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -13895.513
+Iteration 90 / LogL: -13903.073 / Time: 0h:2m:8s (0h:1m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -13891.941
+Iteration 100 / LogL: -13895.218 / Time: 0h:2m:14s (0h:1m:12s left)
+Iteration 110 / LogL: -13896.981 / Time: 0h:2m:20s (0h:1m:3s left)
+Iteration 120 / LogL: -13895.364 / Time: 0h:2m:30s (0h:0m:57s left)
+Iteration 130 / LogL: -13916.385 / Time: 0h:2m:39s (0h:0m:49s left)
+Iteration 140 / LogL: -13892.585 / Time: 0h:2m:46s (0h:0m:41s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 143: -13889.768
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -13889.742
+Iteration 150 / LogL: -13893.973 / Time: 0h:2m:53s (0h:1m:15s left)
+Iteration 160 / LogL: -13903.556 / Time: 0h:2m:57s (0h:1m:6s left)
+Iteration 170 / LogL: -13899.733 / Time: 0h:3m:6s (0h:0m:58s left)
+Iteration 180 / LogL: -13889.853 / Time: 0h:3m:14s (0h:0m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 182: -13888.408
+Iteration 190 / LogL: -13891.141 / Time: 0h:3m:22s (0h:1m:10s left)
+Iteration 200 / LogL: -13894.596 / Time: 0h:3m:29s (0h:1m:2s left)
+Iteration 210 / LogL: -13893.431 / Time: 0h:3m:36s (0h:0m:54s left)
+Iteration 220 / LogL: -13893.708 / Time: 0h:3m:41s (0h:0m:46s left)
+Iteration 230 / LogL: -13890.902 / Time: 0h:3m:47s (0h:0m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 234: -13888.056
+Iteration 240 / LogL: -13890.101 / Time: 0h:4m:0s (0h:1m:12s left)
+Iteration 250 / LogL: -13911.302 / Time: 0h:4m:14s (0h:1m:6s left)
+Iteration 260 / LogL: -13890.380 / Time: 0h:4m:38s (0h:1m:3s left)
+Iteration 270 / LogL: -13888.811 / Time: 0h:4m:44s (0h:0m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 279: -13886.512
+Iteration 280 / LogL: -13899.167 / Time: 0h:4m:51s (0h:1m:23s left)
+Iteration 290 / LogL: -13894.714 / Time: 0h:4m:56s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 295: -13886.472
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 297: -13880.799
+Iteration 300 / LogL: -13885.001 / Time: 0h:5m:2s (0h:1m:19s left)
+Iteration 310 / LogL: -13890.138 / Time: 0h:5m:9s (0h:1m:10s left)
+Iteration 320 / LogL: -13898.783 / Time: 0h:5m:14s (0h:1m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 322: -13879.875
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 325: -13874.819
+Iteration 330 / LogL: -13878.016 / Time: 0h:5m:19s (0h:1m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 337: -13874.070
+Iteration 340 / LogL: -13875.558 / Time: 0h:5m:25s (0h:1m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 342: -13872.614
+Iteration 350 / LogL: -13874.460 / Time: 0h:5m:32s (0h:1m:12s left)
+Iteration 360 / LogL: -13874.597 / Time: 0h:5m:39s (0h:1m:4s left)
+Iteration 370 / LogL: -13874.320 / Time: 0h:5m:44s (0h:0m:56s left)
+Iteration 380 / LogL: -13872.657 / Time: 0h:5m:50s (0h:0m:48s left)
+Iteration 390 / LogL: -13876.051 / Time: 0h:5m:56s (0h:0m:40s left)
+Iteration 400 / LogL: -13872.835 / Time: 0h:6m:1s (0h:0m:32s left)
+Iteration 410 / LogL: -13874.856 / Time: 0h:6m:6s (0h:0m:24s left)
+Iteration 420 / LogL: -13884.776 / Time: 0h:6m:11s (0h:0m:16s left)
+Iteration 430 / LogL: -13896.004 / Time: 0h:6m:19s (0h:0m:9s left)
+Iteration 440 / LogL: -13876.093 / Time: 0h:6m:28s (0h:0m:1s left)
+Refining ufboot trees with NNI 1 branch...
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+100 samples done
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+200 samples done
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 66 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 67 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 68 will slow down analysis
+300 samples done
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 67 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 68 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 67 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 67 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+400 samples done
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 67 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 87 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+500 samples done
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 68 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 68 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+600 samples done
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 86 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+700 samples done
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 87 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+800 samples done
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 87 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 68 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+900 samples done
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 82 will slow down analysis
+WARNING: 15 threads for alignment length 84 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 72 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 70 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 71 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 78 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 83 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 69 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 76 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 74 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 77 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 73 will slow down analysis
+WARNING: 15 threads for alignment length 81 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 75 will slow down analysis
+WARNING: 15 threads for alignment length 79 will slow down analysis
+WARNING: 15 threads for alignment length 85 will slow down analysis
+WARNING: 15 threads for alignment length 80 will slow down analysis
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 443 ITERATIONS / Time: 0h:9m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -13872.614
+Optimal log-likelihood: -13872.612
+Proportion of invariable sites: 0.067
+Gamma shape alpha: 1.461
+Parameters optimization took 1 rounds (0.216 sec)
+BEST SCORE FOUND : -13872.612
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.179 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/amg_family_representative_trees_20261025/NrdG.IQTREE.splits.nex
+Total tree length: 48.931
+
+Total number of iterations: 443
+CPU time used for tree search: 7511.883 sec (2h:5m:11s)
+Wall-clock time used for tree search: 520.919 sec (0h:8m:40s)
+Total CPU time used: 8279.637 sec (2h:17m:59s)
+Total wall-clock time used: 581.003 sec (0h:9m:41s)
+UFBoot trees printed to results/amg_family_representative_trees_20261025/NrdG.IQTREE.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file results/amg_family_representative_trees_20261025/NrdG.IQTREE.splits.nex...
+89 taxa and 3364 splits.
+Consensus tree written to results/amg_family_representative_trees_20261025/NrdG.IQTREE.contree
+Reading input trees file results/amg_family_representative_trees_20261025/NrdG.IQTREE.contree
+Log-likelihood of consensus tree: -13882.212
+
+Analysis results written to: 
+  IQ-TREE report:                results/amg_family_representative_trees_20261025/NrdG.IQTREE.iqtree
+  Maximum-likelihood tree:       results/amg_family_representative_trees_20261025/NrdG.IQTREE.treefile
+  Likelihood distances:          results/amg_family_representative_trees_20261025/NrdG.IQTREE.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/amg_family_representative_trees_20261025/NrdG.IQTREE.splits.nex
+  Consensus tree:                results/amg_family_representative_trees_20261025/NrdG.IQTREE.contree
+  UFBoot trees:                  results/amg_family_representative_trees_20261025/NrdG.IQTREE.ufboot
+  Screen log file:               results/amg_family_representative_trees_20261025/NrdG.IQTREE.log
+
+Date and Time: Sun Oct 25 02:51:11 2026

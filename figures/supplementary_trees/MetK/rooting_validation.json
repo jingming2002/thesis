@@ -1,0 +1,11 @@
+{
+  "tree": "MetK",
+  "section": "current",
+  "diameter_tip_1": "vOTU_15927_MetK_Suoliviridae",
+  "diameter_tip_2": "vOTU_40950_MetK_Chimalliviridae_like",
+  "diameter": 5.590934959,
+  "root_to_endpoint": 2.7954674795,
+  "distance_pairs_checked": 2485,
+  "maximum_distance_change": 8.881784197001252e-16,
+  "support_splits_preserved": 68
+}

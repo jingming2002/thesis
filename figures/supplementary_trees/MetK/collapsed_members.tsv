@@ -1,0 +1,11 @@
+tree	clade_id	tree_id	source	phylum	SH_aLRT	UFBoot
+MetK	C01	NCBI_WP_412208771.1_MetK_Bacillota	NCBI	Bacillota	86.1	96.0
+MetK	C01	NCBI_WP_417083792.1_MetK_Bacillota	NCBI	Bacillota	86.1	96.0
+MetK	C02	PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes	PIBAC	Bacillota	96.6	97.0
+MetK	C02	PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes	PIBAC	Bacillota	96.6	97.0
+MetK	C03	PIBAC_PIBAC_500_MetK_Firmicutes	PIBAC	Bacillota	97.2	99.0
+MetK	C03	NCBI_WP_294580853.1_MetK_Bacillota	NCBI	Bacillota	97.2	99.0
+MetK	C04	PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota	PIBAC	Elusimicrobiota	100.0	100.0
+MetK	C04	NCBI_WP_424243924.1_MetK_Elusimicrobiota	NCBI	Elusimicrobiota	100.0	100.0
+MetK	C05	PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A	PIBAC	Bacillota_A	99.1	99.0
+MetK	C05	PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A	PIBAC	Bacillota_A	99.1	99.0

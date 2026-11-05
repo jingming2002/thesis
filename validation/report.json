@@ -1,0 +1,330 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Final catalogue unique proteins",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Final AVG-positive vOTUs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "AVG class counts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Distinct Function labels per class",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Eligible background",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Background lifestyle denominators",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Lifestyle-eligible final proteins and vOTUs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "AVG-positive lifestyle counts",
+      "passed": true,
+      "details": "{'Virulent': 2811, 'Temperate': 2049}"
+    },
+    {
+      "check": "Module count",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module-assignment protein keys",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Mapped protein count",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Anaerobic RNR activation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Folate-mediated one-carbon metabolism",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: S-adenosylmethionine synthesis",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Cobalamin biosynthesis",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Sulfur mobilization / Fe-S assembly",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: PhoH-family functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Folate biosynthesis",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: NAD biosynthesis / salvage",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Amino-acid transamination",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Nucleobase transport",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Shikimate-pathway reactions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Iron storage",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Toxin-antitoxin-associated functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Other anti-defense functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Anti-restriction",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: CRISPR-Cas-associated functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Sporulation-associated functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Anti-CRISPR",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Secretion-associated functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Abi-associated defense candidates",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Stress-response functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Transcription regulation (unspecified)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Anti-repression",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Transcriptional repression",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: RNA-binding-associated functions",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Transcription initiation / sigma factors",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Transcriptional activation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: SOS-associated regulation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Cell-division regulation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Biofilm / matrix regulation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Competence-associated regulation",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module totals: Transcription antitermination",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Module lifestyle counts reconstructed from catalogue",
+      "passed": true,
+      "details": "[]"
+    },
+    {
+      "check": "Fisher P and conditional OR/exact CI independently reproduced (cross-engine rtol=0.001)",
+      "passed": true,
+      "details": "[]"
+    },
+    {
+      "check": "BH adjustment across all 32 modules",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Eight main phylogenetic analyses",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Fhs_high5 tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "FolD tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "FolD trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "NrdG tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "NrdG trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "FolE tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "FolE trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "GlyA tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "GlyA trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "IscS tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "IscS trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "IscU_like tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "IscU_like trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "MetK tree IDs and manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "MetK trimmed alignment IDs and length",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Fhs main tree has five viral candidates",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "File checksums",
+      "passed": true,
+      "details": "[]"
+    }
+  ],
+  "limitations": [
+    "Current Fhs_high5 FASTA, alignments and IQ-TREE logs are missing; its tree and sequence manifest are present.",
+    "Initial 40,314-candidate protein-level source is absent; only archived summary counts are available.",
+    "Figure 3 exact manuscript PNG is preserved; the archived R drawing is a reconstruction."
+  ]
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "command": [
+      "Rscript",
+      "plot_overview_with_lifestyle.R"
+    ],
+    "cwd": "/workspace/scratch/cc72d1477cf7/gitprep_rerender_final/figure1",
+    "returncode": 0,
+    "stdout": "pdf \n  2 \npdf \n  2 \npdf \n  2 \n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "Rscript",
+      "plot_repertoire.R",
+      "."
+    ],
+    "cwd": "gitprep_rerender/figure2/components/panel_B",
+    "returncode": 0,
+    "stdout": "null device \n          1 \nnull device \n          1 \nnull device \n          1 \nnull device \n          1 \nBackground: 6061 3076 ; modules: 32 ; displayed: 32 \nTA exclusions: 76 ; translation-repression exclusions: 7 \n   Class                               Module Virulent_k Virulent_n Temperate_k\n14   APG Toxin-antitoxin-associated functions        176       6061         261\n18   APG     Sporulation-associated functions        110       6061          45\n   Temperate_n Pooled_carriers    V_pct    T_pct        OR  CI_lower  CI_upper\n14        3076             437 2.903811 8.485046 0.3225991 0.2635183 0.3941977\n18        3076             155 1.814882 1.462939 1.2449485 0.8699172 1.8078330\n              p            q Displayed\n14 4.485645e-30 3.588516e-29      TRUE\n18 2.309915e-01 2.639903e-01      TRUE\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "Rscript",
+      "plot_protein_counts.R",
+      "."
+    ],
+    "cwd": "gitprep_rerender/figure2/components/panel_A",
+    "returncode": 0,
+    "stdout": "pdf \n  2 \npdf \n  2 \npdf \n  2 \npdf \n  2 \n  Class Total_proteins Proteins_in_displayed_modules Other_or_unresolved\n1   AMG           3028                          2177                 851\n2   APG           1808                          1631                 177\n3  AReG           6889                          4171                2718\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "combine_panels.py"
+    ],
+    "cwd": "gitprep_rerender/figure2",
+    "returncode": 0,
+    "stdout": "Combined vector figure: 17.00 x 20.76 inches\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "Rscript",
+      "draw_pathway.R",
+      "."
+    ],
+    "cwd": "gitprep_rerender/figure3/editable_reconstruction",
+    "returncode": 0,
+    "stdout": "null device \n          1 \nnull device \n          1 \nnull device \n          1 \n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "Rscript",
+      "plot_AVG_trees.R"
+    ],
+    "cwd": "gitprep_rerender/figure4/trees",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "Fhs_high5_NCBI_top5_54tips: 54 tips; 6 collapsed clades; validated\nFolD: 81 tips; 5 collapsed clades; validated\nNrdG: 89 tips; 2 collapsed clades; validated\nFinished: /workspace/scratch/cc72d1477cf7/gitprep_rerender/figure4/trees/figures\n"
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "draw_vOTU1650_context.py"
+    ],
+    "cwd": "gitprep_rerender/figure4/composite/sources",
+    "returncode": 0,
+    "stdout": "Fhs panel: hallmark positions retained from the original PHROG-based source.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "draw_vOTU17468_context.py"
+    ],
+    "cwd": "gitprep_rerender/figure4/composite/sources",
+    "returncode": 0,
+    "stdout": "Saved vOTU_17468: 61 CDS, FolD ORF 9, 7 positioned VirSorter hallmarks.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "draw_vOTU8476_context.py"
+    ],
+    "cwd": "gitprep_rerender/figure4/composite/sources",
+    "returncode": 0,
+    "stdout": "Saved compact context; VirSorter hallmark ORFs: 4, 15, 18.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "combine_phylogeny_context.py"
+    ],
+    "cwd": "gitprep_rerender/figure4/composite",
+    "returncode": 0,
+    "stdout": "Created one-page vector PDF, SVG and 300-dpi PNG.\n",
+    "stderr": ""
+  }
+]

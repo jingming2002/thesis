@@ -1,0 +1,11 @@
+{
+  "tree": "IscS",
+  "section": "current",
+  "diameter_tip_1": "NCBI_WP_074717951.1_IscS_Bacillota",
+  "diameter_tip_2": "NCBI_WP_412303451.1_IscS_Bacillota",
+  "diameter": 4.9513283156,
+  "root_to_endpoint": 2.4756641578,
+  "distance_pairs_checked": 2016,
+  "maximum_distance_change": 8.881784197001252e-16,
+  "support_splits_preserved": 61
+}

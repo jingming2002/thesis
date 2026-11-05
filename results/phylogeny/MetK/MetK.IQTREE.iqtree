@@ -1,0 +1,487 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.trimmed.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261025
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 71 sequences with 190 amino-acid sites
+Number of constant sites: 22 (= 11.5789% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 22 (= 11.5789% of all sites)
+Number of parsimony informative sites: 160
+Number of distinct site patterns: 179
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+I+G4          -13060.497   26402.994 +    0.709   27237.244 -   0.0172   26860.825 +        1
+LG+G4            -13071.720   26423.440 - 2.58e-05   27229.154 +    0.983   26878.023 - 0.000184
+LG+I+R4          -13057.076   26406.153 +    0.146   27404.385 - 8.74e-39   26880.218 - 6.15e-05
+LG+R5            -13057.322   26408.645 -   0.0421   27444.645 - 1.58e-47   26885.957 - 3.49e-06
+LG+I+R5          -13055.562   26407.125 +   0.0899   27482.832 - 8.07e-56   26887.684 - 1.47e-06
+LG+R6            -13056.541   26411.082 -   0.0124   27528.582 - 9.38e-66   26894.889 - 4.01e-08
+LG+R4            -13067.850   26425.701 - 8.32e-06   27387.973 -  3.2e-35   26896.519 - 1.77e-08
+LG+I+R3          -13075.349   26438.699 - 1.25e-08   27366.699 - 1.33e-30   26906.270 - 1.35e-10
+Q.PFAM+I+G4      -13089.155   26460.310 - 2.54e-13   27294.560 - 6.16e-15   26918.141 - 3.58e-13
+LG+R3            -13120.834   26527.668 -    6e-28   27422.972 - 8.04e-43   26991.992 - 3.29e-29
+Q.YEAST+I+G4     -13170.718   26623.436 -  9.6e-49   27457.686 - 2.33e-50   27081.267 - 1.35e-48
+Q.INSECT+I+G4    -13178.157   26638.315 - 5.65e-52   27472.565 - 1.37e-53   27096.145 - 7.96e-52
+WAG+I+G4         -13193.372   26668.744 - 1.39e-58   27502.994 - 3.38e-60   27126.574 - 1.96e-58
+LG+F+I+G4        -13144.705   26609.410 - 1.07e-45   28385.962 - 6.23e-252   27128.934 - 6.04e-59
+RTREV+I+G4       -13209.965   26701.930 - 8.67e-66   27536.180 -  2.1e-67   27159.760 - 1.22e-65
+BLOSUM62+I+G4    -13213.354   26708.708 - 2.92e-67   27542.958 - 7.09e-69   27166.539 - 4.12e-67
+Q.PFAM+F+I+G4    -13169.482   26658.965 - 1.85e-56   28435.516 - 1.08e-262   27178.488 - 1.05e-69
+VT+I+G4          -13222.318   26726.636 - 3.74e-71   27560.886 - 9.07e-73   27184.466 - 5.27e-71
+PMB+I+G4         -13231.885   26745.770 - 2.62e-75   27580.020 - 6.35e-77   27203.601 - 3.69e-75
+LG+I+R2          -13233.021   26750.041 - 3.09e-76   27614.126 - 2.49e-84   27211.118 -  8.6e-77
+RTREV+F+I+G4     -13204.790   26729.580 - 8.58e-72   28506.132 - 5.01e-278   27249.104 - 4.85e-85
+CPREV+I+G4       -13301.072   26884.143 - 2.35e-105   27718.393 - 5.69e-107   27341.974 - 3.31e-105
+LG+R2            -13305.992   26893.984 - 1.71e-107   27728.234 - 4.16e-109   27351.814 - 2.41e-107
+Q.YEAST+F+I+G4   -13258.040   26836.079 - 6.42e-95   28612.631 - 3.75e-301   27355.603 - 3.63e-108
+WAG+F+I+G4       -13262.903   26845.806 - 4.96e-97   28622.358 - 2.9e-303   27365.330 - 2.81e-110
+VT+F+I+G4        -13289.172   26898.345 - 1.94e-108   28674.896 - 1.13e-314   27417.869 - 1.09e-121
+BLOSUM62+F+I+G4  -13289.235   26898.470 - 1.82e-108   28675.022 - 1.06e-314   27417.994 - 1.03e-121
+JTTDCMUT+I+G4    -13350.362   26982.724 - 9.21e-127   27816.974 - 2.23e-128   27440.555 - 1.3e-126
+PMB+F+I+G4       -13301.116   26922.232 - 1.26e-113   28698.784 - 7.35e-320   27441.756 - 7.12e-127
+JTT+I+G4         -13360.116   27002.233 - 5.34e-131   27836.483 - 1.3e-132   27460.063 - 7.53e-131
+Q.INSECT+F+I+G4  -13327.896   26975.791 - 2.95e-125   28752.343 -        0   27495.315 - 1.67e-138
+CPREV+F+I+G4     -13329.268   26978.536 - 7.48e-126   28755.087 -        0   27498.060 - 4.23e-139
+Q.PLANT+I+G4     -13410.661   27103.323 - 5.98e-153   27937.573 - 1.45e-154   27561.153 - 8.42e-153
+DCMUT+I+G4       -13459.075   27200.149 - 5.63e-174   28034.399 - 1.37e-175   27657.980 - 7.94e-174
+DAYHOFF+I+G4     -13459.178   27200.356 - 5.08e-174   28034.606 - 1.23e-175   27658.186 - 7.16e-174
+MTZOA+F+I+G4     -13409.405   27138.810 - 1.18e-160   28915.362 -        0   27658.334 - 6.65e-174
+MTINV+F+I+G4     -13468.127   27256.254 - 3.7e-186   29032.806 -        0   27775.778 - 2.09e-199
+JTTDCMUT+F+I+G4  -13479.152   27278.304 - 6.02e-191   29054.856 -        0   27797.828 - 3.41e-204
+JTT+F+I+G4       -13488.625   27297.249 - 4.63e-195   29073.801 -        0   27816.773 - 2.62e-208
+MTREV+F+I+G4     -13528.687   27377.375 - 1.85e-212   29153.926 -        0   27896.899 - 1.05e-225
+Q.PLANT+F+I+G4   -13531.954   27383.908 - 7.05e-214   29160.460 -        0   27903.432 - 3.99e-227
+MTART+F+I+G4     -13543.162   27406.323 - 9.57e-219   29182.875 -        0   27925.847 - 5.41e-232
+MTZOA+I+G4       -13616.238   27514.476 - 3.13e-242   28348.726 - 7.59e-244   27972.307 - 4.41e-242
+Q.MAMMAL+I+G4    -13618.142   27518.284 - 4.66e-243   28352.534 - 1.13e-244   27976.114 - 6.57e-243
+DCMUT+F+I+G4     -13571.287   27462.573 - 5.84e-231   29239.125 -        0   27982.097 - 3.3e-244
+DAYHOFF+F+I+G4   -13571.830   27463.659 - 3.39e-231   29240.211 -        0   27983.183 - 1.92e-244
+MTMET+F+I+G4     -13653.699   27627.399 - 9.44e-267   29403.950 -        0   28146.922 - 5.34e-280
+Q.BIRD+I+G4      -13752.464   27786.929 - 2.15e-301   28621.179 - 5.23e-303   28244.759 - 3.04e-301
+LG+I             -13780.777   27841.554 - 2.96e-313   28647.268 - 1.13e-308   28296.137 - 2.12e-312
+Q.MAMMAL+F+I+G4  -13771.995   27863.990 - 3.98e-318   29640.542 -        0   28383.514 -        0
+FLU+I+G4         -13833.166   27948.331 -        0   28782.581 -        0   28406.162 -        0
+HIVB+I+G4        -13873.887   28029.774 -        0   28864.024 -        0   28487.604 -        0
+MTART+I+G4       -13921.646   28125.291 -        0   28959.541 -        0   28583.122 -        0
+MTINV+I+G4       -13924.064   28130.128 -        0   28964.378 -        0   28587.958 -        0
+FLU+F+I+G4       -13875.554   28071.108 -        0   29847.660 -        0   28590.632 -        0
+MTMET+I+G4       -13961.342   28204.685 -        0   29038.935 -        0   28662.515 -        0
+MTVER+F+I+G4     -13936.560   28193.121 -        0   29969.672 -        0   28712.644 -        0
+Q.BIRD+F+I+G4    -13937.001   28194.002 -        0   29970.554 -        0   28713.526 -        0
+MTREV+I+G4       -13990.409   28262.818 -        0   29097.068 -        0   28720.648 -        0
+HIVB+F+I+G4      -13962.929   28245.859 -        0   30022.410 -        0   28765.382 -        0
+LG               -14058.778   28395.556 -        0   29173.956 -        0   28846.892 -        0
+MTMAM+F+I+G4     -14036.861   28393.722 -        0   30170.273 -        0   28913.245 -        0
+FLAVI+I+G4       -14205.601   28693.201 -        0   29527.451 -        0   29151.032 -        0
+MTVER+I+G4       -14238.011   28758.023 -        0   29592.273 -        0   29215.853 -        0
+FLAVI+F+I+G4     -14308.839   28937.678 -        0   30714.230 -        0   29457.202 -        0
+MTMAM+I+G4       -14405.562   29093.125 -        0   29927.375 -        0   29550.955 -        0
+HIVW+F+I+G4      -14482.980   29285.959 -        0   31062.511 -        0   29805.483 -        0
+HIVW+I+G4        -14560.429   29402.859 -        0   30237.109 -        0   29860.689 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0951
+Gamma shape alpha: 0.8632
+
+ Category  Relative_rate  Proportion
+  0         0              0.0951
+  1         0.1204         0.2262
+  2         0.4767         0.2262
+  3         1.0753         0.2262
+  4         2.7480         0.2262
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -12999.9603 (s.e. 657.2736)
+Unconstrained log-likelihood (without tree): -977.0032
+Number of free parameters (#branches + #model parameters): 141
+Akaike information criterion (AIC) score: 26281.9206
+Corrected Akaike information criterion (AICc) score: 27116.1706
+Bayesian information criterion (BIC) score: 26739.7510
+
+Total tree length (sum of branch lengths): 24.9408
+Sum of internal branch lengths: 10.2005 (40.8990% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'vOTU_32470_MetK_Casjensviridae_like' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---vOTU_32470_MetK_Casjensviridae_like
+|
+|             +--vOTU_40950_MetK_Chimalliviridae_like
+|          +--| (95.5/95)
+|          |  +--vOTU_29237_MetK_Family_unclassified
+|       +--| (84.8/89)
+|       |  +--NCBI_WP_321978364.1_MetK_Bacteroidota
++-------| (97.4/100)
+|       |  +--NCBI_WP_412208771.1_MetK_Bacillota
+|       +--| (86.1/96)
+|          +--NCBI_WP_417083792.1_MetK_Bacillota
+|
+|                                                     +-----------vOTU_650_MetK_Intestiviridae_like
+|                                                  +--| (82.8/66)
+|                                                  |  |           +--vOTU_437_MetK_Family_unclassified
+|                                                  |  |        +--| (100/100)
+|                                                  |  |        |  +---PIBAC_PIGvsB100pB20_2075_MetK_Firmicutes_A
+|                                                  |  |     +--| (79.7/67)
+|                                                  |  |     |  +--PIBAC_PIBAC_518_MetK_Firmicutes
+|                                                  |  |  +--| (40.7/51)
+|                                                  |  |  |  |  +--PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes
+|                                                  |  |  |  +--| (96.6/97)
+|                                                  |  |  |     +--PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes
+|                                                  |  +--| (96.4/99)
+|                                                  |     +--NCBI_WP_067632278.1_MetK_Bacillota
+|                                               +--| (87.2/63)
+|                                               |  |    +--vOTU_21962_MetK_Family_unclassified
+|                                               |  +----| (100/100)
+|                                               |       +--NCBI_WP_301665881.1_MetK_Bacteroidota
+|                                            +--| (92.7/73)
+|                                            |  |                +--vOTU_5043_MetK_Family_unclassified
+|                                            |  |             +--| (91.6/94)
+|                                            |  |             |  +--NCBI_WP_129604260.1_MetK_Candidatus_Saccharimonadota
+|                                            |  |        +----| (100/100)
+|                                            |  |        |    +--PIBAC_PIGvsB100pB20_2174_MetK_Firmicutes
+|                                            |  |     +--| (74.2/59)
+|                                            |  |     |  |  +--PIBAC_PIGvsB100pB20_277_MetK_Spirochaetota
+|                                            |  |     |  +--| (9.8/41)
+|                                            |  |     |     +--PIBAC_PIGvsB100pB20_717_MetK_Spirochaetota
+|                                            |  |  +--| (88.7/58)
+|                                            |  |  |  |                                   +--vOTU_16475_MetK_Family_unclassified
+|                                            |  |  |  |                                +--| (25.8/75)
+|                                            |  |  |  |                                |  +--NCBI_WP_216570080.1_MetK_Bacillota
+|                                            |  |  |  |                             +--| (79.7/45)
+|                                            |  |  |  |                             |  +--PIBAC_PIBAC_264_MetK_Synergistota
+|                                            |  |  |  |                          +--| (62.6/21)
+|                                            |  |  |  |                          |  +--PIBAC_PIBAC_164_MetK_Firmicutes_A
+|                                            |  |  |  |                       +--| (35.5/40)
+|                                            |  |  |  |                       |  +--PIBAC_PIGvsB100pB20_93_MetK_Firmicutes_A
+|                                            |  |  |  |                    +--| (87.6/15)
+|                                            |  |  |  |                    |  |  +--PIBAC_PIGvsB100pB20_1197_MetK_Firmicutes_A
+|                                            |  |  |  |                    |  +--| (64.5/26)
+|                                            |  |  |  |                    |     +--PIBAC_PIGvsB100pB20_841_MetK_Firmicutes_A
+|                                            |  |  |  |                 +--| (84.3/34)
+|                                            |  |  |  |                 |  |  +--PIBAC_PIGvsB100pB20_907_MetK_Firmicutes
+|                                            |  |  |  |                 |  +--| (90.4/75)
+|                                            |  |  |  |                 |     +--PIBAC_PIGvsB100pB20_771_MetK_Firmicutes_A
+|                                            |  |  |  |              +--| (85.2/47)
+|                                            |  |  |  |              |  |  +--PIBAC_PIGvsB100pB20_1533_MetK_Firmicutes
+|                                            |  |  |  |              |  +--| (98.1/96)
+|                                            |  |  |  |              |     +--PIBAC_PIGvsB100pB20_995_MetK_Actinobacteriota
+|                                            |  |  |  |           +--| (66.1/24)
+|                                            |  |  |  |           |  |  +---PIBAC_PIGvsB100pB20_1158_MetK_Firmicutes_A
+|                                            |  |  |  |           |  +--| (63.1/29)
+|                                            |  |  |  |           |     |     +--PIBAC_PIBAC_83_MetK_Firmicutes_A
+|                                            |  |  |  |           |     |  +--| (83.5/62)
+|                                            |  |  |  |           |     |  |  |  +--PIBAC_PIGvsB100pB20_830_MetK_Firmicutes_A
+|                                            |  |  |  |           |     |  |  +--| (92.1/88)
+|                                            |  |  |  |           |     |  |     +--PIBAC_PIGvsB100pB20_694_MetK_Firmicutes_A
+|                                            |  |  |  |           |     +--| (79.9/33)
+|                                            |  |  |  |           |        +--PIBAC_PIGvsB100pB20_1951_MetK_Firmicutes_A
+|                                            |  |  |  |        +--| (95.2/77)
+|                                            |  |  |  |        |  |               +--vOTU_12848_MetK_Family_unclassified
+|                                            |  |  |  |        |  |            +--| (94.3/100)
+|                                            |  |  |  |        |  |            |  +--NCBI_WP_490213037.1_MetK_Actinomycetota
+|                                            |  |  |  |        |  |        +---| (99.9/100)
+|                                            |  |  |  |        |  |        |   +--PIBAC_PIBAC_427_MetK_Actinobacteriota
+|                                            |  |  |  |        |  |     +--| (98.7/98)
+|                                            |  |  |  |        |  |     |  +--PIBAC_PIGvsB100pB20_154_MetK_Synergistota
+|                                            |  |  |  |        |  |  +--| (86.4/50)
+|                                            |  |  |  |        |  |  |  |        +--PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A
+|                                            |  |  |  |        |  |  |  |     +--| (99.1/99)
+|                                            |  |  |  |        |  |  |  |     |  +--PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A
+|                                            |  |  |  |        |  |  |  |  +--| (80/62)
+|                                            |  |  |  |        |  |  |  |  |  +--PIBAC_PIGvsB100pB20_811_MetK_Firmicutes_A
+|                                            |  |  |  |        |  |  |  +--| (85/41)
+|                                            |  |  |  |        |  |  |     +--PIBAC_PIGvsB100pB20_1186_MetK_Firmicutes_A
+|                                            |  |  |  |        |  +--| (15.4/18)
+|                                            |  |  |  |        |     |  +--PIBAC_PIGvsB100pB20_736_MetK_Firmicutes_A
+|                                            |  |  |  |        |     +--| (92.2/59)
+|                                            |  |  |  |        |        +--PIBAC_PIGvsB100pB20_1471_MetK_Euryarchaeota
+|                                            |  |  |  |     +--| (0/33)
+|                                            |  |  |  |     |  |              +--PIBAC_PIGvsB100pB20_444_MetK_Proteobacteria
+|                                            |  |  |  |     |  |           +--| (85.5/84)
+|                                            |  |  |  |     |  |           |  +--CUR_P0A817_metK_MetK_Pseudomonadota
+|                                            |  |  |  |     |  |        +--| (75.4/52)
+|                                            |  |  |  |     |  |        |  +--PIBAC_PIGvsB100pB20_1631_MetK_Campylobacterota
+|                                            |  |  |  |     |  |     +--| (80.4/64)
+|                                            |  |  |  |     |  |     |  +--NCBI_WP_410151277.1_MetK_Pseudomonadota
+|                                            |  |  |  |     |  |  +--| (90.2/57)
+|                                            |  |  |  |     |  |  |  +--PIBAC_PIGvsB100pB20_1196_MetK_Firmicutes
+|                                            |  |  |  |     |  +--| (93.8/70)
+|                                            |  |  |  |     |     |        +--PIBAC_PIGvsB100pB20_816_MetK_Bacteroidota
+|                                            |  |  |  |     |     |     +--| (85/81)
+|                                            |  |  |  |     |     |     |  +--PIBAC_PIGvsB100pB20_600_MetK_Bacteroidota
+|                                            |  |  |  |     |     |  +--| (74.8/77)
+|                                            |  |  |  |     |     |  |  |  +--PIBAC_PIGvsB100pB20_799_MetK_Bacteroidota
+|                                            |  |  |  |     |     |  |  +--| (84.8/82)
+|                                            |  |  |  |     |     |  |     +--PIBAC_PIGvsB100pB20_1056_MetK_Bacteroidota
+|                                            |  |  |  |     |     +--| (83.2/55)
+|                                            |  |  |  |     |        +--NCBI_WP_462576104.1_MetK_Deinococcota
+|                                            |  |  |  |  +--| (41/36)
+|                                            |  |  |  |  |  +----PIBAC_PIGvsB100pB20_1831_MetK_Proteobacteria
+|                                            |  |  |  +--| (79.3/34)
+|                                            |  |  |     |  +--PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota
+|                                            |  |  |     +--| (100/100)
+|                                            |  |  |        +--NCBI_WP_424243924.1_MetK_Elusimicrobiota
+|                                            |  +--| (57.8/45)
+|                                            |     |  +--PIBAC_PIBAC_500_MetK_Firmicutes
+|                                            |     +--| (97.2/99)
+|                                            |        +--NCBI_WP_294580853.1_MetK_Bacillota
+|                                         +--| (89.5/73)
+|                                         |  +----vOTU_2441_MetK_Kyanoviridae
+|                                      +--| (81.4/61)
+|                                      |  |   +--vOTU_48_MetK_Family_unclassified
+|                                      |  +---| (99.5/99)
+|                                      |      +---NCBI_WP_301198315.1_MetK_Bacteroidota
+|                                   +--| (76.7/43)
+|                                   |  |                   +--vOTU_15927_MetK_Suoliviridae
+|                                   |  |                +--| (92.3/100)
+|                                   |  |                |  +--NCBI_WP_304707654.1_MetK_Bacteroidota
+|                                   |  |             +--| (95.1/98)
+|                                   |  |             |  +--NCBI_WP_254015990.1_MetK_Bacteroidota
+|                                   |  |  +----------| (100/99)
+|                                   |  |  |          +----vOTU_26426_MetK_Family_unclassified
+|                                   |  +--| (87.8/58)
+|                                   |     +-----PIBAC_PIGvsB100pB20_1532_MetK_Campylobacterota
+|                            +------| (94.3/61)
+|                            |      +---------vOTU_34_MetK_Family_unclassified
++----------------------------| (100/100)
+                             +-----vOTU_27707_MetK_Family_unclassified
+
+Tree in newick format:
+
+(vOTU_32470_MetK_Casjensviridae_like:0.3085943321,(((vOTU_40950_MetK_Chimalliviridae_like:0.2416112391,vOTU_29237_MetK_Family_unclassified:0.1947042974)95.5/95:0.1821755795,NCBI_WP_321978364.1_MetK_Bacteroidota:0.1771442567)84.8/89:0.0826052006,(NCBI_WP_412208771.1_MetK_Bacillota:0.0238996758,NCBI_WP_417083792.1_MetK_Bacillota:0.0137140522)86.1/96:0.1217291076)97.4/100:0.6100976848,((((((((vOTU_650_MetK_Intestiviridae_like:0.9036760310,((((vOTU_437_MetK_Family_unclassified:0.0889461874,PIBAC_PIGvsB100pB20_2075_MetK_Firmicutes_A:0.3150735766)100/100:0.2604703552,PIBAC_PIBAC_518_MetK_Firmicutes:0.1988015462)79.7/67:0.0406967332,(PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes:0.0783004855,PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes:0.2046156445)96.6/97:0.1230745345)40.7/51:0.0156870082,NCBI_WP_067632278.1_MetK_Bacillota:0.2626253237)96.4/99:0.1706145372)82.8/66:0.0578003484,(vOTU_21962_MetK_Family_unclassified:0.1535229817,NCBI_WP_301665881.1_MetK_Bacteroidota:0.2251417245)100/100:0.4075169144)87.2/63:0.0813683140,(((((vOTU_5043_MetK_Family_unclassified:0.2920193155,NCBI_WP_129604260.1_MetK_Candidatus_Saccharimonadota:0.1458821991)91.6/94:0.1316663478,PIBAC_PIGvsB100pB20_2174_MetK_Firmicutes:0.2487655560)100/100:0.4414005983,(PIBAC_PIGvsB100pB20_277_MetK_Spirochaetota:0.2241034637,PIBAC_PIGvsB100pB20_717_MetK_Spirochaetota:0.2865955428)9.8/41:0.0426220346)74.2/59:0.0253082454,((((((((((((vOTU_16475_MetK_Family_unclassified:0.1153735869,NCBI_WP_216570080.1_MetK_Bacillota:0.0293870090)25.8/75:0.0246850501,PIBAC_PIBAC_264_MetK_Synergistota:0.2839942522)79.7/45:0.0243869729,PIBAC_PIBAC_164_MetK_Firmicutes_A:0.1016553032)62.6/21:0.0406590481,PIBAC_PIGvsB100pB20_93_MetK_Firmicutes_A:0.1065092272)35.5/40:0.0221607733,(PIBAC_PIGvsB100pB20_1197_MetK_Firmicutes_A:0.1691185465,PIBAC_PIGvsB100pB20_841_MetK_Firmicutes_A:0.1642439552)64.5/26:0.0075920261)87.6/15:0.0275871573,(PIBAC_PIGvsB100pB20_907_MetK_Firmicutes:0.1206720667,PIBAC_PIGvsB100pB20_771_MetK_Firmicutes_A:0.1155893951)90.4/75:0.0430999682)84.3/34:0.0238161442,(PIBAC_PIGvsB100pB20_1533_MetK_Firmicutes:0.1311343058,PIBAC_PIGvsB100pB20_995_MetK_Actinobacteriota:0.2459046751)98.1/96:0.1425337154)85.2/47:0.0339194749,(PIBAC_PIGvsB100pB20_1158_MetK_Firmicutes_A:0.3135627139,((PIBAC_PIBAC_83_MetK_Firmicutes_A:0.2380026740,(PIBAC_PIGvsB100pB20_830_MetK_Firmicutes_A:0.1421596038,PIBAC_PIGvsB100pB20_694_MetK_Firmicutes_A:0.0723512762)92.1/88:0.0591940948)83.5/62:0.0176842775,PIBAC_PIGvsB100pB20_1951_MetK_Firmicutes_A:0.1867829891)79.9/33:0.0154245572)63.1/29:0.0069032483)66.1/24:0.0115564370,(((((vOTU_12848_MetK_Family_unclassified:0.0089030951,NCBI_WP_490213037.1_MetK_Actinomycetota:0.0395100775)94.3/100:0.1178263505,PIBAC_PIBAC_427_MetK_Actinobacteriota:0.1706088092)99.9/100:0.3544047399,PIBAC_PIGvsB100pB20_154_MetK_Synergistota:0.2234659831)98.7/98:0.2037171423,(((PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A:0.0713579012,PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A:0.0380648462)99.1/99:0.1196731108,PIBAC_PIGvsB100pB20_811_MetK_Firmicutes_A:0.2828697484)80/62:0.0421597621,PIBAC_PIGvsB100pB20_1186_MetK_Firmicutes_A:0.2531241267)85/41:0.0325363919)86.4/50:0.0486425240,(PIBAC_PIGvsB100pB20_736_MetK_Firmicutes_A:0.1546835299,PIBAC_PIGvsB100pB20_1471_MetK_Euryarchaeota:0.2423426838)92.2/59:0.0743223386)15.4/18:0.0102531395)95.2/77:0.0468866080,(((((PIBAC_PIGvsB100pB20_444_MetK_Proteobacteria:0.1211658839,CUR_P0A817_metK_MetK_Pseudomonadota:0.0828290305)85.5/84:0.0565451086,PIBAC_PIGvsB100pB20_1631_MetK_Campylobacterota:0.2442771117)75.4/52:0.0356075249,NCBI_WP_410151277.1_MetK_Pseudomonadota:0.2710801029)80.4/64:0.0372522603,PIBAC_PIGvsB100pB20_1196_MetK_Firmicutes:0.1721180959)90.2/57:0.0617025722,(((PIBAC_PIGvsB100pB20_816_MetK_Bacteroidota:0.1539574074,PIBAC_PIGvsB100pB20_600_MetK_Bacteroidota:0.1557375033)85/81:0.0652037965,(PIBAC_PIGvsB100pB20_799_MetK_Bacteroidota:0.1651900374,PIBAC_PIGvsB100pB20_1056_MetK_Bacteroidota:0.1607436577)84.8/82:0.0669886676)74.8/77:0.0641488178,NCBI_WP_462576104.1_MetK_Deinococcota:0.2615343658)83.2/55:0.0483856125)93.8/70:0.0646046768)0/33:0.0080336251,PIBAC_PIGvsB100pB20_1831_MetK_Proteobacteria:0.4010882000)41/36:0.0191983817,(PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota:0.0745242907,NCBI_WP_424243924.1_MetK_Elusimicrobiota:0.1049151058)100/100:0.2168260341)79.3/34:0.0222022296)88.7/58:0.0397616376,(PIBAC_PIBAC_500_MetK_Firmicutes:0.1116090631,NCBI_WP_294580853.1_MetK_Bacillota:0.0633424295)97.2/99:0.0941897281)57.8/45:0.0460584991)92.7/73:0.1228396176,vOTU_2441_MetK_Kyanoviridae:0.3742009480)89.5/73:0.1115221264,(vOTU_48_MetK_Family_unclassified:0.2621149511,NCBI_WP_301198315.1_MetK_Bacteroidota:0.3659686863)99.5/99:0.3338638810)81.4/61:0.0640418016,((((vOTU_15927_MetK_Suoliviridae:0.1993361126,NCBI_WP_304707654.1_MetK_Bacteroidota:0.1206230107)92.3/100:0.0873921972,NCBI_WP_254015990.1_MetK_Bacteroidota:0.0863603165)95.1/98:0.2264704707,vOTU_26426_MetK_Family_unclassified:0.4026092488)100/99:0.8370326736,PIBAC_PIGvsB100pB20_1532_MetK_Campylobacterota:0.4572498986)87.8/58:0.1445146073)76.7/43:0.1683522961,vOTU_34_MetK_Family_unclassified:0.8147876174)94.3/61:0.5800570385,vOTU_27707_MetK_Family_unclassified:0.5038094516)100/100:2.2312898590);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13003.166627
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---vOTU_32470_MetK_Casjensviridae_like
+|
+|             +--vOTU_40950_MetK_Chimalliviridae_like
+|          +--| (95)
+|          |  +--vOTU_29237_MetK_Family_unclassified
+|       +--| (89)
+|       |  +--NCBI_WP_321978364.1_MetK_Bacteroidota
++-------| (100)
+|       |  +--NCBI_WP_412208771.1_MetK_Bacillota
+|       +--| (96)
+|          +--NCBI_WP_417083792.1_MetK_Bacillota
+|
+|                                                     +-----------vOTU_650_MetK_Intestiviridae_like
+|                                                  +--| (66)
+|                                                  |  |           +--vOTU_437_MetK_Family_unclassified
+|                                                  |  |        +--| (100)
+|                                                  |  |        |  +---PIBAC_PIGvsB100pB20_2075_MetK_Firmicutes_A
+|                                                  |  |     +--| (67)
+|                                                  |  |     |  +--PIBAC_PIBAC_518_MetK_Firmicutes
+|                                                  |  |  +--| (51)
+|                                                  |  |  |  |  +--PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes
+|                                                  |  |  |  +--| (97)
+|                                                  |  |  |     +--PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes
+|                                                  |  +--| (99)
+|                                                  |     +--NCBI_WP_067632278.1_MetK_Bacillota
+|                                               +--| (63)
+|                                               |  |    +--vOTU_21962_MetK_Family_unclassified
+|                                               |  +----| (100)
+|                                               |       +--NCBI_WP_301665881.1_MetK_Bacteroidota
+|                                            +--| (73)
+|                                            |  |                   +--vOTU_5043_MetK_Family_unclassified
+|                                            |  |                +--| (94)
+|                                            |  |                |  +--NCBI_WP_129604260.1_MetK_Candidatus_Saccharimonadota
+|                                            |  |           +----| (100)
+|                                            |  |           |    +--PIBAC_PIGvsB100pB20_2174_MetK_Firmicutes
+|                                            |  |        +--| (52)
+|                                            |  |        |  +--PIBAC_PIGvsB100pB20_277_MetK_Spirochaetota
+|                                            |  |     +--| (59)
+|                                            |  |     |  +--PIBAC_PIGvsB100pB20_717_MetK_Spirochaetota
+|                                            |  |  +--| (58)
+|                                            |  |  |  |                                      +--vOTU_16475_MetK_Family_unclassified
+|                                            |  |  |  |                                   +--| (75)
+|                                            |  |  |  |                                   |  +--NCBI_WP_216570080.1_MetK_Bacillota
+|                                            |  |  |  |                                +--| (45)
+|                                            |  |  |  |                                |  +--PIBAC_PIBAC_264_MetK_Synergistota
+|                                            |  |  |  |                             +--| (46)
+|                                            |  |  |  |                             |  +--PIBAC_PIGvsB100pB20_93_MetK_Firmicutes_A
+|                                            |  |  |  |                          +--| (40)
+|                                            |  |  |  |                          |  +--PIBAC_PIBAC_164_MetK_Firmicutes_A
+|                                            |  |  |  |                       +--| (15)
+|                                            |  |  |  |                       |  |  +--PIBAC_PIGvsB100pB20_1197_MetK_Firmicutes_A
+|                                            |  |  |  |                       |  +--| (26)
+|                                            |  |  |  |                       |     +--PIBAC_PIGvsB100pB20_841_MetK_Firmicutes_A
+|                                            |  |  |  |                    +--| (34)
+|                                            |  |  |  |                    |  |  +--PIBAC_PIGvsB100pB20_907_MetK_Firmicutes
+|                                            |  |  |  |                    |  +--| (75)
+|                                            |  |  |  |                    |     +--PIBAC_PIGvsB100pB20_771_MetK_Firmicutes_A
+|                                            |  |  |  |                 +--| (47)
+|                                            |  |  |  |                 |  |  +--PIBAC_PIGvsB100pB20_1533_MetK_Firmicutes
+|                                            |  |  |  |                 |  +--| (96)
+|                                            |  |  |  |                 |     +--PIBAC_PIGvsB100pB20_995_MetK_Actinobacteriota
+|                                            |  |  |  |              +--| (24)
+|                                            |  |  |  |              |  |  +---PIBAC_PIGvsB100pB20_1158_MetK_Firmicutes_A
+|                                            |  |  |  |              |  +--| (29)
+|                                            |  |  |  |              |     |     +--PIBAC_PIBAC_83_MetK_Firmicutes_A
+|                                            |  |  |  |              |     |  +--| (62)
+|                                            |  |  |  |              |     |  |  |  +--PIBAC_PIGvsB100pB20_830_MetK_Firmicutes_A
+|                                            |  |  |  |              |     |  |  +--| (88)
+|                                            |  |  |  |              |     |  |     +--PIBAC_PIGvsB100pB20_694_MetK_Firmicutes_A
+|                                            |  |  |  |              |     +--| (33)
+|                                            |  |  |  |              |        +--PIBAC_PIGvsB100pB20_1951_MetK_Firmicutes_A
+|                                            |  |  |  |           +--| (27)
+|                                            |  |  |  |           |  |  +--PIBAC_PIGvsB100pB20_736_MetK_Firmicutes_A
+|                                            |  |  |  |           |  +--| (59)
+|                                            |  |  |  |           |     +--PIBAC_PIGvsB100pB20_1471_MetK_Euryarchaeota
+|                                            |  |  |  |        +--| (77)
+|                                            |  |  |  |        |  |            +--vOTU_12848_MetK_Family_unclassified
+|                                            |  |  |  |        |  |         +--| (100)
+|                                            |  |  |  |        |  |         |  +--NCBI_WP_490213037.1_MetK_Actinomycetota
+|                                            |  |  |  |        |  |     +---| (100)
+|                                            |  |  |  |        |  |     |   +--PIBAC_PIBAC_427_MetK_Actinobacteriota
+|                                            |  |  |  |        |  |  +--| (98)
+|                                            |  |  |  |        |  |  |  +--PIBAC_PIGvsB100pB20_154_MetK_Synergistota
+|                                            |  |  |  |        |  +--| (50)
+|                                            |  |  |  |        |     |        +--PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A
+|                                            |  |  |  |        |     |     +--| (99)
+|                                            |  |  |  |        |     |     |  +--PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A
+|                                            |  |  |  |        |     |  +--| (62)
+|                                            |  |  |  |        |     |  |  +--PIBAC_PIGvsB100pB20_811_MetK_Firmicutes_A
+|                                            |  |  |  |        |     +--| (41)
+|                                            |  |  |  |        |        +--PIBAC_PIGvsB100pB20_1186_MetK_Firmicutes_A
+|                                            |  |  |  |     +--| (33)
+|                                            |  |  |  |     |  |              +--PIBAC_PIGvsB100pB20_444_MetK_Proteobacteria
+|                                            |  |  |  |     |  |           +--| (84)
+|                                            |  |  |  |     |  |           |  +--CUR_P0A817_metK_MetK_Pseudomonadota
+|                                            |  |  |  |     |  |        +--| (52)
+|                                            |  |  |  |     |  |        |  +--PIBAC_PIGvsB100pB20_1631_MetK_Campylobacterota
+|                                            |  |  |  |     |  |     +--| (64)
+|                                            |  |  |  |     |  |     |  +--NCBI_WP_410151277.1_MetK_Pseudomonadota
+|                                            |  |  |  |     |  |  +--| (57)
+|                                            |  |  |  |     |  |  |  +--PIBAC_PIGvsB100pB20_1196_MetK_Firmicutes
+|                                            |  |  |  |     |  +--| (70)
+|                                            |  |  |  |     |     |        +--PIBAC_PIGvsB100pB20_816_MetK_Bacteroidota
+|                                            |  |  |  |     |     |     +--| (81)
+|                                            |  |  |  |     |     |     |  +--PIBAC_PIGvsB100pB20_600_MetK_Bacteroidota
+|                                            |  |  |  |     |     |  +--| (77)
+|                                            |  |  |  |     |     |  |  |  +--PIBAC_PIGvsB100pB20_799_MetK_Bacteroidota
+|                                            |  |  |  |     |     |  |  +--| (82)
+|                                            |  |  |  |     |     |  |     +--PIBAC_PIGvsB100pB20_1056_MetK_Bacteroidota
+|                                            |  |  |  |     |     +--| (55)
+|                                            |  |  |  |     |        +--NCBI_WP_462576104.1_MetK_Deinococcota
+|                                            |  |  |  |  +--| (36)
+|                                            |  |  |  |  |  +----PIBAC_PIGvsB100pB20_1831_MetK_Proteobacteria
+|                                            |  |  |  +--| (34)
+|                                            |  |  |     |  +--PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota
+|                                            |  |  |     +--| (100)
+|                                            |  |  |        +--NCBI_WP_424243924.1_MetK_Elusimicrobiota
+|                                            |  +--| (45)
+|                                            |     |  +--PIBAC_PIBAC_500_MetK_Firmicutes
+|                                            |     +--| (99)
+|                                            |        +--NCBI_WP_294580853.1_MetK_Bacillota
+|                                         +--| (73)
+|                                         |  +---vOTU_2441_MetK_Kyanoviridae
+|                                      +--| (61)
+|                                      |  |   +--vOTU_48_MetK_Family_unclassified
+|                                      |  +---| (99)
+|                                      |      +---NCBI_WP_301198315.1_MetK_Bacteroidota
+|                                   +--| (43)
+|                                   |  |                   +--vOTU_15927_MetK_Suoliviridae
+|                                   |  |                +--| (100)
+|                                   |  |                |  +--NCBI_WP_304707654.1_MetK_Bacteroidota
+|                                   |  |             +--| (98)
+|                                   |  |             |  +--NCBI_WP_254015990.1_MetK_Bacteroidota
+|                                   |  |  +----------| (99)
+|                                   |  |  |          +----vOTU_26426_MetK_Family_unclassified
+|                                   |  +--| (58)
+|                                   |     +-----PIBAC_PIGvsB100pB20_1532_MetK_Campylobacterota
+|                            +------| (61)
+|                            |      +---------vOTU_34_MetK_Family_unclassified
++----------------------------| (100)
+                             +-----vOTU_27707_MetK_Family_unclassified
+
+
+Consensus tree in newick format: 
+
+(vOTU_32470_MetK_Casjensviridae_like:0.3089383389,(((vOTU_40950_MetK_Chimalliviridae_like:0.2415375297,vOTU_29237_MetK_Family_unclassified:0.1947737935)95:0.1821794309,NCBI_WP_321978364.1_MetK_Bacteroidota:0.1770259072)89:0.0828570436,(NCBI_WP_412208771.1_MetK_Bacillota:0.0238603366,NCBI_WP_417083792.1_MetK_Bacillota:0.0137406761)96:0.1214781774)100:0.6081607872,((((((((vOTU_650_MetK_Intestiviridae_like:0.9069062712,((((vOTU_437_MetK_Family_unclassified:0.0890886097,PIBAC_PIGvsB100pB20_2075_MetK_Firmicutes_A:0.3145397688)100:0.2602166312,PIBAC_PIBAC_518_MetK_Firmicutes:0.1987790539)67:0.0405345045,(PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes:0.0782587542,PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes:0.2044378936)97:0.1231942122)51:0.0160976815,NCBI_WP_067632278.1_MetK_Bacillota:0.2618027948)99:0.1694648202)66:0.0590381056,(vOTU_21962_MetK_Family_unclassified:0.1532571589,NCBI_WP_301665881.1_MetK_Bacteroidota:0.2250081545)100:0.4039011991)63:0.0824394949,((((((vOTU_5043_MetK_Family_unclassified:0.2924686603,NCBI_WP_129604260.1_MetK_Candidatus_Saccharimonadota:0.1453878314)94:0.1249756797,PIBAC_PIGvsB100pB20_2174_MetK_Firmicutes:0.2605243079)100:0.4166923895,PIBAC_PIGvsB100pB20_277_MetK_Spirochaetota:0.1819086824)52:0.0687836790,PIBAC_PIGvsB100pB20_717_MetK_Spirochaetota:0.2909287742)59:0.0497531952,(((((((((((((vOTU_16475_MetK_Family_unclassified:0.1497608921,NCBI_WP_216570080.1_MetK_Bacillota:0.0000026733)75:0.0471080602,PIBAC_PIBAC_264_MetK_Synergistota:0.2919848194)45:0.0264383544,PIBAC_PIGvsB100pB20_93_MetK_Firmicutes_A:0.1159797064)46:0.0243728367,PIBAC_PIBAC_164_MetK_Firmicutes_A:0.0992857654)40:0.0372298015,(PIBAC_PIGvsB100pB20_1197_MetK_Firmicutes_A:0.1625403901,PIBAC_PIGvsB100pB20_841_MetK_Firmicutes_A:0.1668183272)26:0.0168490881)15:0.0209851547,(PIBAC_PIGvsB100pB20_907_MetK_Firmicutes:0.1222729220,PIBAC_PIGvsB100pB20_771_MetK_Firmicutes_A:0.1129385035)75:0.0438671246)34:0.0261693875,(PIBAC_PIGvsB100pB20_1533_MetK_Firmicutes:0.1289366836,PIBAC_PIGvsB100pB20_995_MetK_Actinobacteriota:0.2465450650)96:0.1379616178)47:0.0349191424,(PIBAC_PIGvsB100pB20_1158_MetK_Firmicutes_A:0.3144447606,((PIBAC_PIBAC_83_MetK_Firmicutes_A:0.2373122930,(PIBAC_PIGvsB100pB20_830_MetK_Firmicutes_A:0.1400409804,PIBAC_PIGvsB100pB20_694_MetK_Firmicutes_A:0.0743432213)88:0.0585894276)62:0.0177748074,PIBAC_PIGvsB100pB20_1951_MetK_Firmicutes_A:0.1838748773)33:0.0147248404)29:0.0072546727)24:0.0057538200,(PIBAC_PIGvsB100pB20_736_MetK_Firmicutes_A:0.1521187635,PIBAC_PIGvsB100pB20_1471_MetK_Euryarchaeota:0.2444692395)59:0.0836934221)27:0.0160490863,((((vOTU_12848_MetK_Family_unclassified:0.0089027498,NCBI_WP_490213037.1_MetK_Actinomycetota:0.0394866990)100:0.1178810866,PIBAC_PIBAC_427_MetK_Actinobacteriota:0.1703594379)100:0.3517342217,PIBAC_PIGvsB100pB20_154_MetK_Synergistota:0.2254405081)98:0.2027112047,(((PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A:0.0711275634,PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A:0.0382234656)99:0.1242449550,PIBAC_PIGvsB100pB20_811_MetK_Firmicutes_A:0.2774252207)62:0.0419702610,PIBAC_PIGvsB100pB20_1186_MetK_Firmicutes_A:0.2523697084)41:0.0326687051)50:0.0520009456)77:0.0401596421,(((((PIBAC_PIGvsB100pB20_444_MetK_Proteobacteria:0.1217037144,CUR_P0A817_metK_MetK_Pseudomonadota:0.0821930378)84:0.0592016313,PIBAC_PIGvsB100pB20_1631_MetK_Campylobacterota:0.2418963770)52:0.0363430948,NCBI_WP_410151277.1_MetK_Pseudomonadota:0.2680706459)64:0.0373657477,PIBAC_PIGvsB100pB20_1196_MetK_Firmicutes:0.1709480877)57:0.0612850932,(((PIBAC_PIGvsB100pB20_816_MetK_Bacteroidota:0.1530684884,PIBAC_PIGvsB100pB20_600_MetK_Bacteroidota:0.1560270736)81:0.0640280451,(PIBAC_PIGvsB100pB20_799_MetK_Bacteroidota:0.1656444680,PIBAC_PIGvsB100pB20_1056_MetK_Bacteroidota:0.1600532933)82:0.0674798630)77:0.0638013458,NCBI_WP_462576104.1_MetK_Deinococcota:0.2617118811)55:0.0478403807)70:0.0633801808)33:0.0091741598,PIBAC_PIGvsB100pB20_1831_MetK_Proteobacteria:0.3983862806)36:0.0243001419,(PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota:0.0746484410,NCBI_WP_424243924.1_MetK_Elusimicrobiota:0.1045742011)100:0.2100972924)34:0.0172001069)58:0.0430745736,(PIBAC_PIBAC_500_MetK_Firmicutes:0.1097433929,NCBI_WP_294580853.1_MetK_Bacillota:0.0653721603)99:0.0926099359)45:0.0453560917)73:0.1260856890,vOTU_2441_MetK_Kyanoviridae:0.3704698780)73:0.1116325233,(vOTU_48_MetK_Family_unclassified:0.2591006263,NCBI_WP_301198315.1_MetK_Bacteroidota:0.3685511353)99:0.3337858388)61:0.0634666544,((((vOTU_15927_MetK_Suoliviridae:0.1990312399,NCBI_WP_304707654.1_MetK_Bacteroidota:0.1205924285)100:0.0874539559,NCBI_WP_254015990.1_MetK_Bacteroidota:0.0862849112)98:0.2285674111,vOTU_26426_MetK_Family_unclassified:0.4000852858)99:0.8364094192,PIBAC_PIGvsB100pB20_1532_MetK_Campylobacterota:0.4552659611)58:0.1434720063)43:0.1713584477,vOTU_34_MetK_Family_unclassified:0.8135826233)61:0.5745763800,vOTU_27707_MetK_Family_unclassified:0.5052208333)100:2.2271775737);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.treefile -m "LG+I{0.0951058}+G4{0.86319}" --length 190
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.trimmed.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.trimmed.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Oct 26 15:14:12 2026
+Total CPU time used: 3359.520141 seconds (0h:55m:59s)
+Total wall-clock time used: 555.2687891 seconds (0h:9m:15s)
+

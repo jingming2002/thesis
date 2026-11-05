@@ -1,0 +1,11 @@
+{
+  "tree": "GlyA",
+  "section": "current",
+  "diameter_tip_1": "PIBAC_PIGvsB100pB20_917_GlyA_Proteobacteria",
+  "diameter_tip_2": "PIBAC_PIGvsB100pB20_971_GlyA_Firmicutes_A",
+  "diameter": 6.6798630362,
+  "root_to_endpoint": 3.3399315181,
+  "distance_pairs_checked": 2485,
+  "maximum_distance_change": 8.881784197001252e-16,
+  "support_splits_preserved": 68
+}

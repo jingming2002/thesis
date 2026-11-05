@@ -1,0 +1,17 @@
+{
+  "modules_verified": 32,
+  "displayed_rows": 32,
+  "class_rows": {
+    "AMG": 12,
+    "APG": 9,
+    "AReG": 11
+  },
+  "background": 9137,
+  "all_original_statistics_unchanged": true,
+  "p_values_match_independent_scipy_tests": true,
+  "off_scale_intervals_shown_with_arrows": [
+    "Iron storage",
+    "Competence-associated regulation"
+  ],
+  "infinite_OR_labelled_Inf": true
+}

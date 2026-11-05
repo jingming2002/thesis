@@ -1,0 +1,11 @@
+{
+  "tree": "IscU_like",
+  "section": "current",
+  "diameter_tip_1": "PIBAC_PIGvsB100pB20_1733_IscU_like_Firmicutes",
+  "diameter_tip_2": "vOTU_264_IscU_like_Family_unclassified",
+  "diameter": 5.2785113205,
+  "root_to_endpoint": 2.63925566025,
+  "distance_pairs_checked": 1128,
+  "maximum_distance_change": 8.881784197001252e-16,
+  "support_splits_preserved": 45
+}

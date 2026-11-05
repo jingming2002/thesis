@@ -1,0 +1,1 @@
+Figure X. Functional composition of pig gut auxiliary viral genes. Bars show protein counts for annotated functional modules within AMGs, APGs and AReGs, ranked by count within each class. Numbers indicate exact counts from the full AVG catalogue. Horizontal axis ranges differ among panels. Other or unresolved annotations are omitted; module labels do not imply complete pathways.

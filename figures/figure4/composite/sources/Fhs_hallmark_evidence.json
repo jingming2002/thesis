@@ -1,0 +1,32 @@
+[
+  {
+    "gene_position": 67,
+    "start_position": 73416,
+    "end_position": 74054,
+    "strandedness": 1,
+    "source_hallmark_flag": "0",
+    "viral_hit": "head maturation protease",
+    "pfam_hits": "",
+    "vogdb_hits": ""
+  },
+  {
+    "gene_position": 157,
+    "start_position": 126425,
+    "end_position": 128299,
+    "strandedness": 1,
+    "source_hallmark_flag": "0",
+    "viral_hit": "terminase large subunit",
+    "pfam_hits": "",
+    "vogdb_hits": ""
+  },
+  {
+    "gene_position": 159,
+    "start_position": 128759,
+    "end_position": 130762,
+    "strandedness": 1,
+    "source_hallmark_flag": "0",
+    "viral_hit": "portal protein",
+    "pfam_hits": "",
+    "vogdb_hits": ""
+  }
+]

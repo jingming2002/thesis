@@ -1,0 +1,602 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/GlyA/GlyA.trimmed.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261025
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 71 sequences with 401 amino-acid sites
+Number of constant sites: 4 (= 0.997506% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4 (= 0.997506% of all sites)
+Number of parsimony informative sites: 360
+Number of distinct site patterns: 400
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R6            -35520.544   71339.088 +    0.556   71517.176 +    0.911   71934.189 +    0.936
+LG+I+R6          -35520.544   71341.089 +    0.205   71522.289 +   0.0707   71940.183 -   0.0467
+LG+R5            -35530.954   71355.908 - 0.000124   71527.892 -  0.00429   71943.020 -   0.0113
+LG+R7            -35519.703   71341.407 +    0.175   71525.760 -   0.0125   71944.495 -  0.00541
+LG+I+R5          -35530.956   71357.911 - 4.55e-05   71532.927 - 0.000346   71949.018 - 0.000564
+LG+I+R7          -35519.703   71343.405 +   0.0643   71530.954 - 0.000929   71950.487 -  0.00027
+LG+G4            -35562.006   71404.012 - 4.44e-15   71555.858 - 3.63e-09   71963.166 - 4.77e-07
+LG+I+G4          -35561.650   71405.301 - 2.33e-15   71559.911 - 4.79e-10   71968.449 -  3.4e-08
+LG+R4            -35553.281   71396.561 - 1.84e-13   71562.600 - 1.25e-10   71975.685 - 9.13e-10
+LG+I+R4          -35553.312   71398.624 - 6.57e-14   71567.617 - 1.02e-11   71981.743 - 4.41e-11
+Q.PFAM+R6        -35565.337   71428.674 - 1.96e-20   71606.761 - 3.21e-20   72023.774 -  3.3e-20
+Q.PFAM+I+R6      -35565.340   71430.679 - 7.19e-21   71611.879 - 2.48e-21   72029.774 - 1.64e-21
+Q.PFAM+R5        -35576.491   71446.982 - 2.07e-24   71618.966 - 7.18e-23   72034.095 - 1.89e-22
+Q.PFAM+F+R6      -35541.688   71419.376 - 2.05e-18   71664.135 - 1.12e-32   72090.361 - 1.14e-34
+LG+F+R6          -35542.974   71421.948 - 5.66e-19   71666.707 - 3.09e-33   72092.933 - 3.16e-35
+Q.PFAM+F+I+R6    -35541.691   71421.381 - 7.51e-19   71670.126 - 5.59e-34   72096.361 -  5.7e-36
+Q.PFAM+F+R5      -35551.177   71434.354 - 1.14e-21   71671.294 - 3.11e-34   72097.351 - 3.47e-36
+LG+F+R5          -35551.890   71435.780 - 5.61e-22   71672.720 - 1.53e-34   72098.778 -  1.7e-36
+LG+F+I+R6        -35542.980   71423.959 - 2.07e-19   71672.704 - 1.54e-34   72098.939 - 1.57e-36
+LG+I+R3          -35651.363   71590.727 - 1.27e-55   71753.852 - 3.68e-52   72165.857 - 4.62e-51
+RTREV+F+R6       -35581.094   71498.188 - 1.57e-35   71742.947 - 8.59e-50   72169.174 - 8.81e-52
+RTREV+F+R5       -35588.240   71508.479 - 9.18e-38   71745.419 -  2.5e-50   72171.477 - 2.78e-52
+LG+R3            -35657.949   71601.898 - 4.75e-58   71762.147 - 5.82e-54   72173.034 - 1.28e-52
+RTREV+F+I+R6     -35581.097   71500.195 - 5.78e-36   71748.939 - 4.29e-51   72175.174 - 4.38e-53
+Q.YEAST+R6       -35721.472   71740.944 - 3.05e-88   71919.031 - 4.99e-88   72336.044 - 5.12e-88
+BLOSUM62+R5      -35730.372   71754.744 - 3.07e-91   71926.728 - 1.06e-89   72341.856 -  2.8e-89
+Q.YEAST+I+R6     -35721.477   71742.954 - 1.11e-88   71924.154 - 3.85e-89   72342.048 - 2.54e-89
+Q.YEAST+R5       -35732.577   71759.154 - 3.38e-92   71931.139 - 1.17e-90   72346.267 - 3.09e-90
+BLOSUM62+R6      -35728.586   71755.171 - 2.48e-91   71933.259 - 4.06e-91   72350.272 - 4.17e-91
+BLOSUM62+I+R6    -35728.540   71757.080 - 9.54e-92   71938.280 -  3.3e-92   72356.174 - 2.18e-92
+WAG+R5           -35740.604   71775.209 -  1.1e-95   71947.193 - 3.82e-94   72362.321 - 1.01e-93
+WAG+R6           -35739.366   71776.733 - 5.15e-96   71954.820 - 8.44e-96   72371.833 - 8.67e-96
+WAG+I+R6         -35739.365   71778.730 -  1.9e-96   71959.930 - 6.56e-97   72377.824 - 4.33e-97
+VT+R5            -35757.839   71809.678 - 3.61e-103   71981.662 - 1.25e-101   72396.791 - 3.3e-101
+VT+R6            -35756.402   71810.803 - 2.06e-103   71988.891 - 3.37e-103   72405.903 - 3.46e-103
+WAG+F+R5         -35707.103   71746.205 - 2.19e-89   71983.146 - 5.97e-102   72409.203 - 6.65e-104
+VT+I+R6          -35756.400   71812.799 - 7.59e-104   71993.999 - 2.62e-104   72411.893 - 1.73e-104
+WAG+F+R6         -35705.856   71747.712 - 1.03e-89   71992.471 - 5.63e-104   72418.698 - 5.77e-106
+RTREV+R6         -35765.278   71828.555 - 2.88e-107   72006.643 - 4.71e-107   72423.656 - 4.84e-107
+WAG+F+I+R6       -35705.820   71749.640 - 3.94e-90   71998.384 - 2.93e-105   72424.619 - 2.99e-107
+RTREV+R5         -35772.290   71838.580 - 1.91e-109   72010.565 - 6.63e-108   72425.693 - 1.75e-107
+RTREV+I+R6       -35765.283   71830.566 - 1.05e-107   72011.766 - 3.64e-108   72429.660 - 2.4e-108
+Q.INSECT+R6      -35776.544   71851.088 - 3.68e-112   72029.175 - 6.03e-112   72446.188 - 6.19e-112
+Q.INSECT+I+R6    -35776.540   71853.081 - 1.36e-112   72034.281 - 4.7e-113   72452.175 - 3.1e-113
+Q.INSECT+R5      -35796.981   71887.963 - 3.62e-120   72059.947 - 1.25e-118   72475.075 - 3.3e-118
+VT+F+R5          -35752.567   71837.134 - 3.95e-109   72074.074 - 1.07e-121   72500.132 - 1.2e-123
+VT+F+R6          -35750.804   71837.609 - 3.11e-109   72082.367 - 1.7e-123   72508.594 - 1.74e-125
+VT+F+I+R6        -35750.809   71839.618 - 1.14e-109   72088.362 - 8.48e-125   72514.597 - 8.65e-127
+PMB+R5           -35831.637   71957.275 - 3.22e-135   72129.259 - 1.12e-133   72544.387 - 2.94e-133
+PMB+R6           -35829.057   71956.113 - 5.76e-135   72134.201 - 9.43e-135   72551.214 - 9.68e-135
+PMB+I+R6         -35829.073   71958.146 - 2.08e-135   72139.346 - 7.2e-136   72557.240 - 4.76e-136
+Q.YEAST+F+R6     -35784.677   71905.354 - 6.06e-124   72150.113 - 3.31e-138   72576.340 - 3.39e-140
+Q.YEAST+F+I+R6   -35784.680   71907.361 - 2.22e-124   72156.105 - 1.65e-139   72582.340 - 1.69e-141
+Q.YEAST+F+R5     -35794.742   71921.483 - 1.91e-127   72158.424 - 5.18e-140   72584.481 - 5.78e-142
+PMB+F+R5         -35794.937   71921.875 - 1.57e-127   72158.815 - 4.26e-140   72584.872 - 4.75e-142
+PMB+F+R6         -35792.075   71920.151 - 3.71e-127   72164.910 - 2.02e-141   72591.136 - 2.07e-143
+BLOSUM62+F+R5    -35798.835   71929.670 - 3.18e-129   72166.610 - 8.65e-142   72592.668 - 9.64e-144
+PMB+F+I+R6       -35792.089   71922.177 - 1.35e-127   72170.922 -   1e-142   72597.157 - 1.02e-144
+BLOSUM62+F+R6    -35796.265   71928.530 - 5.62e-129   72173.289 - 3.07e-143   72599.516 - 3.14e-145
+BLOSUM62+F+I+R6  -35796.301   71930.601 -   2e-129   72179.346 - 1.48e-144   72605.581 - 1.51e-146
+CPREV+F+R5       -35848.864   72029.727 - 5.96e-151   72266.667 - 1.62e-163   72692.725 - 1.81e-165
+CPREV+F+R6       -35847.670   72031.340 - 2.66e-151   72276.099 - 1.45e-165   72702.326 - 1.49e-167
+CPREV+F+I+R6     -35847.666   72033.332 - 9.82e-152   72282.077 - 7.3e-167   72708.312 - 7.46e-169
+CPREV+R5         -35982.802   72259.603 - 7.21e-201   72431.588 - 2.5e-199   72846.716 - 6.58e-199
+CPREV+R6         -35981.757   72261.513 - 2.78e-201   72439.601 - 4.55e-201   72856.613 - 4.67e-201
+CPREV+I+R6       -35981.757   72263.514 - 1.02e-201   72444.714 - 3.53e-202   72862.608 - 2.33e-202
+LG+I+R2          -36018.815   72321.631 - 2.45e-214   72479.042 - 1.24e-209   72888.773 - 4.85e-208
+LG+R2            -36037.534   72357.067 - 4.94e-222   72511.677 - 1.02e-216   72920.216 - 7.21e-215
+Q.INSECT+F+R6    -35963.432   72262.863 - 1.41e-201   72507.622 - 7.71e-216   72933.849 - 7.9e-218
+Q.INSECT+F+I+R6  -35963.430   72264.860 - 5.21e-202   72513.604 - 3.87e-217   72939.839 - 3.95e-219
+Q.INSECT+F+R5    -35978.178   72288.356 - 4.12e-207   72525.296 - 1.12e-219   72951.353 - 1.25e-221
+JTTDCMUT+R5      -36222.298   72738.597 - 7.01e-305   72910.581 - 2.43e-303   73325.709 - 6.4e-303
+JTTDCMUT+R6      -36220.582   72739.165 - 5.28e-305   72917.252 - 8.65e-305   73334.265 - 8.88e-305
+JTTDCMUT+I+R6    -36220.605   72741.210 - 1.9e-305   72922.410 - 6.56e-306   73340.304 - 4.34e-306
+JTT+R5           -36229.645   72753.290 - 4.52e-308   72925.274 - 1.57e-306   73340.402 - 4.13e-306
+JTT+R6           -36223.900   72745.801 - 1.91e-306   72923.889 - 3.13e-306   73340.901 - 3.22e-306
+JTT+I+R6         -36223.886   72747.771 - 7.14e-307   72928.971 - 2.47e-307   73346.866 - 1.63e-307
+JTTDCMUT+F+R6    -36220.739   72777.479 - 2.53e-313   73022.238 -        0   73448.464 -        0
+JTTDCMUT+F+R5    -36228.636   72789.271 - 6.95e-316   73026.211 -        0   73452.269 -        0
+JTTDCMUT+F+I+R6  -36220.738   72779.476 - 9.32e-314   73028.220 -        0   73454.455 -        0
+JTT+F+R6         -36227.308   72790.617 - 3.55e-316   73035.375 -        0   73461.602 -        0
+JTT+F+R5         -36235.557   72803.115 - 6.86e-319   73040.055 -        0   73466.112 -        0
+JTT+F+I+R6       -36227.313   72792.625 - 1.3e-316   73041.370 -        0   73467.605 -        0
+MTINV+F+R6       -36234.472   72804.945 - 2.75e-319   73049.703 -        0   73475.930 -        0
+MTINV+F+I+R6     -36234.472   72806.945 - 1.01e-319   73055.689 -        0   73481.924 -        0
+MTINV+F+R5       -36246.111   72824.222 - 1.98e-323   73061.162 -        0   73487.220 -        0
+MTZOA+F+R6       -36301.151   72938.301 -        0   73183.060 -        0   73609.287 -        0
+MTZOA+F+R5       -36308.128   72948.256 -        0   73185.196 -        0   73611.253 -        0
+MTZOA+F+I+R6     -36301.146   72940.292 -        0   73189.037 -        0   73615.271 -        0
+Q.PLANT+R6       -36363.698   73025.396 -        0   73203.484 -        0   73620.496 -        0
+Q.PLANT+I+R6     -36363.695   73027.389 -        0   73208.589 -        0   73626.484 -        0
+Q.PLANT+R5       -36378.461   73050.923 -        0   73222.907 -        0   73638.035 -        0
+DCMUT+R6         -36417.433   73132.866 -        0   73310.954 -        0   73727.966 -        0
+DAYHOFF+R6       -36419.010   73136.020 -        0   73314.108 -        0   73731.120 -        0
+DCMUT+I+R6       -36417.404   73134.808 -        0   73316.008 -        0   73733.902 -        0
+DAYHOFF+I+R6     -36418.973   73137.947 -        0   73319.147 -        0   73737.041 -        0
+DCMUT+R5         -36428.123   73150.247 -        0   73322.231 -        0   73737.359 -        0
+DAYHOFF+R5       -36429.681   73153.362 -        0   73325.346 -        0   73740.474 -        0
+Q.PLANT+F+R6     -36383.788   73103.576 -        0   73348.335 -        0   73774.562 -        0
+Q.PLANT+F+I+R6   -36383.790   73105.579 -        0   73354.324 -        0   73780.559 -        0
+Q.PLANT+F+R5     -36397.262   73126.525 -        0   73363.465 -        0   73789.522 -        0
+DCMUT+F+R6       -36432.407   73200.815 -        0   73445.573 -        0   73871.800 -        0
+DAYHOFF+F+R6     -36434.232   73204.464 -        0   73449.222 -        0   73875.449 -        0
+DCMUT+F+I+R6     -36432.001   73202.001 -        0   73450.746 -        0   73876.981 -        0
+DAYHOFF+F+I+R6   -36433.831   73205.662 -        0   73454.406 -        0   73880.641 -        0
+DCMUT+F+R5       -36446.000   73224.001 -        0   73460.941 -        0   73886.998 -        0
+DAYHOFF+F+R5     -36447.796   73227.593 -        0   73464.533 -        0   73890.590 -        0
+MTREV+F+R6       -36510.168   73356.336 -        0   73601.095 -        0   74027.321 -        0
+MTREV+F+R5       -36517.939   73367.879 -        0   73604.819 -        0   74030.876 -        0
+MTREV+F+I+R6     -36510.195   73358.390 -        0   73607.135 -        0   74033.370 -        0
+MTMET+F+R6       -36582.990   73501.979 -        0   73746.738 -        0   74172.965 -        0
+MTMET+F+I+R6     -36582.991   73503.982 -        0   73752.726 -        0   74178.961 -        0
+MTMET+F+R5       -36601.598   73535.196 -        0   73772.136 -        0   74198.193 -        0
+MTART+F+R5       -36672.808   73677.617 -        0   73914.557 -        0   74340.614 -        0
+MTART+F+R6       -36667.774   73671.547 -        0   73916.306 -        0   74342.533 -        0
+MTART+F+I+R6     -36667.772   73673.544 -        0   73922.289 -        0   74348.524 -        0
+Q.MAMMAL+F+R6    -36781.124   73898.248 -        0   74143.006 -        0   74569.233 -        0
+Q.MAMMAL+F+I+R6  -36781.111   73900.222 -        0   74148.967 -        0   74575.202 -        0
+Q.MAMMAL+R6      -36845.141   73988.281 -        0   74166.369 -        0   74583.382 -        0
+Q.MAMMAL+I+R6    -36845.134   73990.268 -        0   74171.468 -        0   74589.362 -        0
+Q.MAMMAL+F+R5    -36799.946   73931.892 -        0   74168.832 -        0   74594.889 -        0
+Q.MAMMAL+R5      -36868.604   74031.209 -        0   74203.193 -        0   74618.321 -        0
+FLU+F+R6         -37015.050   74366.100 -        0   74610.859 -        0   75037.086 -        0
+FLU+F+I+R6       -37014.563   74367.125 -        0   74615.870 -        0   75042.105 -        0
+FLU+F+R5         -37031.251   74394.502 -        0   74631.442 -        0   75057.500 -        0
+MTZOA+R6         -37137.073   74572.145 -        0   74750.233 -        0   75167.246 -        0
+MTZOA+I+R6       -37137.073   74574.147 -        0   74755.347 -        0   75173.241 -        0
+MTZOA+R5         -37149.998   74593.996 -        0   74765.980 -        0   75181.108 -        0
+Q.BIRD+R6        -37166.274   74630.549 -        0   74808.636 -        0   75225.649 -        0
+Q.BIRD+I+R6      -37166.248   74632.497 -        0   74813.697 -        0   75231.591 -        0
+Q.BIRD+R5        -37190.118   74674.235 -        0   74846.219 -        0   75261.347 -        0
+FLU+R6           -37203.119   74704.238 -        0   74882.325 -        0   75299.338 -        0
+FLU+I+R6         -37202.590   74705.181 -        0   74886.381 -        0   75304.275 -        0
+FLU+R5           -37215.668   74725.337 -        0   74897.321 -        0   75312.449 -        0
+Q.BIRD+F+R6      -37167.360   74670.720 -        0   74915.478 -        0   75341.705 -        0
+Q.BIRD+F+I+R6    -37167.352   74672.704 -        0   74921.448 -        0   75347.683 -        0
+Q.BIRD+F+R5      -37188.818   74709.635 -        0   74946.575 -        0   75372.633 -        0
+HIVB+F+R6        -37185.261   74706.522 -        0   74951.280 -        0   75377.507 -        0
+HIVB+F+I+R6      -37185.213   74708.426 -        0   74957.171 -        0   75383.405 -        0
+HIVB+F+R5        -37196.163   74724.325 -        0   74961.266 -        0   75387.323 -        0
+HIVB+R6          -37271.940   74841.879 -        0   75019.967 -        0   75436.979 -        0
+HIVB+R5          -37280.540   74855.080 -        0   75027.064 -        0   75442.193 -        0
+HIVB+I+R6        -37271.797   74843.594 -        0   75024.794 -        0   75442.689 -        0
+MTVER+F+R6       -37247.031   74830.062 -        0   75074.821 -        0   75501.047 -        0
+MTVER+F+I+R6     -37247.008   74832.016 -        0   75080.761 -        0   75506.996 -        0
+MTVER+F+R5       -37271.567   74875.133 -        0   75112.074 -        0   75538.131 -        0
+MTMAM+F+R6       -37558.677   75453.355 -        0   75698.113 -        0   76124.340 -        0
+MTMAM+F+I+R6     -37558.659   75455.318 -        0   75704.062 -        0   76130.297 -        0
+MTMAM+F+R5       -37583.943   75499.886 -        0   75736.826 -        0   76162.883 -        0
+MTMET+R6         -37667.377   75632.754 -        0   75810.842 -        0   76227.855 -        0
+MTMET+I+R6       -37667.378   75634.756 -        0   75815.956 -        0   76233.850 -        0
+MTMET+R5         -37687.400   75668.799 -        0   75840.784 -        0   76255.912 -        0
+MTINV+R6         -37685.302   75668.605 -        0   75846.692 -        0   76263.705 -        0
+MTINV+I+R6       -37685.304   75670.608 -        0   75851.808 -        0   76269.702 -        0
+MTINV+R5         -37699.633   75693.265 -        0   75865.249 -        0   76280.378 -        0
+MTREV+R6         -37727.194   75752.388 -        0   75930.476 -        0   76347.488 -        0
+MTREV+I+R6       -37727.197   75754.395 -        0   75935.595 -        0   76353.489 -        0
+MTREV+R5         -37747.530   75789.059 -        0   75961.043 -        0   76376.172 -        0
+LG+I             -37911.525   76103.049 -        0   76254.895 -        0   76662.204 -        0
+MTART+R6         -37923.966   76145.931 -        0   76324.019 -        0   76741.031 -        0
+MTART+I+R6       -37923.969   76147.938 -        0   76329.138 -        0   76747.032 -        0
+MTART+R5         -37942.571   76179.141 -        0   76351.125 -        0   76766.253 -        0
+LG               -37980.404   76238.808 -        0   76387.927 -        0   76793.969 -        0
+FLAVI+F+R6       -37914.922   76165.844 -        0   76410.603 -        0   76836.830 -        0
+FLAVI+F+I+R6     -37914.768   76167.536 -        0   76416.281 -        0   76842.516 -        0
+FLAVI+F+R5       -37933.943   76199.887 -        0   76436.827 -        0   76862.884 -        0
+FLAVI+R6         -38083.144   76464.289 -        0   76642.376 -        0   77059.389 -        0
+FLAVI+I+R6       -38083.702   76467.405 -        0   76648.605 -        0   77066.499 -        0
+FLAVI+R5         -38104.307   76502.613 -        0   76674.598 -        0   77089.726 -        0
+MTVER+R6         -38192.348   76682.695 -        0   76860.783 -        0   77277.796 -        0
+MTVER+I+R6       -38192.340   76684.681 -        0   76865.881 -        0   77283.775 -        0
+MTVER+R5         -38228.622   76751.245 -        0   76923.229 -        0   77338.357 -        0
+HIVW+F+R6        -38437.170   77210.339 -        0   77455.098 -        0   77881.325 -        0
+HIVW+F+I+R6      -38436.288   77210.577 -        0   77459.321 -        0   77885.556 -        0
+HIVW+F+R5        -38459.141   77250.281 -        0   77487.222 -        0   77913.279 -        0
+MTMAM+R6         -38614.833   77527.666 -        0   77705.754 -        0   78122.766 -        0
+MTMAM+I+R6       -38614.836   77529.671 -        0   77710.871 -        0   78128.765 -        0
+MTMAM+R5         -38650.762   77595.525 -        0   77767.509 -        0   78182.637 -        0
+HIVW+R6          -38857.803   78013.606 -        0   78191.694 -        0   78608.706 -        0
+HIVW+I+R6        -38855.108   78010.217 -        0   78191.417 -        0   78609.311 -        0
+HIVW+R5          -38880.383   78054.765 -        0   78226.749 -        0   78641.877 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R6
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.1344,0.0672) (0.2033,0.2480) (0.1876,0.5080) (0.2136,0.9966) (0.1491,1.8675) (0.1120,3.1594)
+
+ Category  Relative_rate  Proportion
+  1         0.0672         0.1344
+  2         0.2480         0.2033
+  3         0.5080         0.1876
+  4         0.9966         0.2136
+  5         1.8675         0.1491
+  6         3.1594         0.1120
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -35423.8080 (s.e. 1043.9194)
+Unconstrained log-likelihood (without tree): -2402.1922
+Number of free parameters (#branches + #model parameters): 149
+Akaike information criterion (AIC) score: 71145.6159
+Corrected Akaike information criterion (AICc) score: 71323.7036
+Bayesian information criterion (BIC) score: 71740.7162
+
+Total tree length (sum of branch lengths): 36.3515
+Sum of internal branch lengths: 7.5514 (20.7732% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0025) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'vOTU_421_GlyA_Chimalliviridae' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++------vOTU_421_GlyA_Chimalliviridae
+|
+|                                    +--vOTU_12671_GlyA_Genomoviridae_like
+|                                 +--| (77.4/69)
+|                                 |  |  +--vOTU_1172_GlyA_Family_unclassified
+|                                 |  +--| (100/100)
+|                                 |     +--NCBI_WP_320855855.1_GlyA_Bacillota
+|                             +---| (100/100)
+|                             |   +---vOTU_6726_GlyA_Intestiviridae_like
+|                          +--| (95.7/82)
+|                          |  +----vOTU_83_GlyA_Straboviridae
+|                       +--| (7/20)
+|                       |  |     +---vOTU_1037_GlyA_Steigviridae
+|                       |  |  +--| (99/100)
+|                       |  |  |  |  +--PIBAC_PIGvsB100pB20_300_GlyA_Bacteroidota
+|                       |  |  |  +--| (97.4/99)
+|                       |  |  |     |        +--PIBAC_PIGvsB100pB20_803_GlyA_Bacteroidota
+|                       |  |  |     |     +--| (99.8/100)
+|                       |  |  |     |     |  +--PIBAC_PIBAC_405_GlyA_Bacteroidota
+|                       |  |  |     |  +--| (40.8/49)
+|                       |  |  |     |  |  +--PIBAC_PIGvsB100pB20_647_GlyA_Bacteroidota
+|                       |  |  |     +--| (86.1/79)
+|                       |  |  |        +--NCBI_WP_445199196.1_GlyA_Bacteroidota
+|                       |  +--| (86.9/63)
+|                       |     +----CUR_P0A825_glyA_GlyA_Pseudomonadota
+|                    +--| (96.5/53)
+|                    |  |              +--vOTU_233_GlyA_Kyanoviridae
+|                    |  |           +--| (96.5/99)
+|                    |  |           |  +-------vOTU_264_GlyA_Family_unclassified
+|                    |  |        +--| (92.5/95)
+|                    |  |        |  +------------vOTU_223_GlyA_Family_unclassified
+|                    |  |     +--| (98.7/97)
+|                    |  |     |  +----vOTU_306_GlyA_Family_unclassified
+|                    |  |  +--| (96.5/63)
+|                    |  |  |  |     +--------vOTU_3346_GlyA_Family_unclassified
+|                    |  |  |  |  +--| (71.7/90)
+|                    |  |  |  |  |  +---------vOTU_531_GlyA_Family_unclassified
+|                    |  |  |  +--| (59.2/59)
+|                    |  |  |     +-------------------------------------------------PIBAC_PIGvsB100pB20_971_GlyA_Firmicutes_A
+|                    |  +--| (94/50)
+|                    |     |  +---NCBI_WP_060778122.1_GlyA_Bacillota
+|                    |     +--| (89.6/65)
+|                    |        |  +--NCBI_WP_071408597.1_GlyA_Bacillota
+|                    |        +--| (100/100)
+|                    |           +--NCBI_WP_446453706.1_GlyA_Bacillota
+|                 +--| (68.7/38)
+|                 |  |  +--PIBAC_PIGvsB100pB20_640_GlyA_Firmicutes_A
+|                 |  +--| (67.6/41)
+|                 |     +----PIBAC_PIGvsB100pB20_968_GlyA_Verrucomicrobiota
+|              +--| (89.9/29)
+|              |  |              +-----vOTU_493_GlyA_Family_unclassified
+|              |  |           +--| (6.7/52)
+|              |  |           |  +--NCBI_WP_407928952.1_GlyA_Bacillota
+|              |  |        +--| (36.6/51)
+|              |  |        |  +--PIBAC_PIGvsB100pB20_1080_GlyA_Firmicutes_A
+|              |  |     +--| (78.2/56)
+|              |  |     |  |           +--PIBAC_PIGvsB100pB20_1551_GlyA_Firmicutes
+|              |  |     |  |        +--| (47.3/53)
+|              |  |     |  |        |  |  +--PIBAC_PIGvsB100pB20_2075_GlyA_Firmicutes_A
+|              |  |     |  |        |  +--| (80.8/69)
+|              |  |     |  |        |     +--PIBAC_PIGvsB100pB20_745_GlyA_Firmicutes_A
+|              |  |     |  |     +--| (94/74)
+|              |  |     |  |     |  |     +--PIBAC_PIGvsB100pB20_402_GlyA_Firmicutes_A
+|              |  |     |  |     |  |  +--| (84.2/79)
+|              |  |     |  |     |  |  |  +--PIBAC_PIGvsB100pB20_445_GlyA_Firmicutes_A
+|              |  |     |  |     |  +--| (99.1/99)
+|              |  |     |  |     |     +--NCBI_WP_412255206.1_GlyA_Bacillota
+|              |  |     |  |  +--| (87.7/75)
+|              |  |     |  |  |  |           +--PIBAC_PIGvsB100pB20_1265_GlyA_Firmicutes_A
+|              |  |     |  |  |  |        +--| (59.8/69)
+|              |  |     |  |  |  |        |  +---PIBAC_PIGvsB100pB20_957_GlyA_Firmicutes_A
+|              |  |     |  |  |  |     +--| (72.7/45)
+|              |  |     |  |  |  |     |  |  +--PIBAC_PIGvsB100pB20_308_GlyA_Firmicutes_A
+|              |  |     |  |  |  |     |  +--| (91.6/68)
+|              |  |     |  |  |  |     |     +--PIBAC_PIGvsB100pB20_723_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  +--| (41.9/63)
+|              |  |     |  |  |  |  |  |     +--PIBAC_PIGvsB100pB20_710_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |  |  +--| (12.7/47)
+|              |  |     |  |  |  |  |  |  |  |  +--PIBAC_PIGvsB100pB20_1206_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |  |  |  +--| (29.2/57)
+|              |  |     |  |  |  |  |  |  |     +--PIBAC_PIGvsB100pB20_822_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |  +--| (96.2/87)
+|              |  |     |  |  |  |  |     +----PIBAC_PIGvsB100pB20_830_GlyA_Firmicutes_A
+|              |  |     |  |  |  +--| (96.5/81)
+|              |  |     |  |  |     +--PIBAC_PIGvsB100pB20_1552_GlyA_Firmicutes_A
+|              |  |     |  +--| (75.9/52)
+|              |  |     |     +--NCBI_WP_042833749.1_GlyA_Bacillota
+|              |  |  +--| (92.5/41)
+|              |  |  |  |              +--PIBAC_PIBAC_500_GlyA_Firmicutes
+|              |  |  |  |           +--| (100/100)
+|              |  |  |  |           |  +--NCBI_WP_125120718.1_GlyA_Bacillota
+|              |  |  |  |        +--| (64.1/47)
+|              |  |  |  |        |  +---NCBI_WP_282709418.1_GlyA_Bacillota
+|              |  |  |  |     +--| (86.8/55)
+|              |  |  |  |     |  +--PIBAC_PIGvsB100pB20_770_GlyA_Firmicutes_C
+|              |  |  |  |  +--| (90.8/57)
+|              |  |  |  |  |  +--PIBAC_PIBAC_489_GlyA_Firmicutes_C
+|              |  |  |  +--| (91.1/48)
+|              |  |  |     |     +---PIBAC_PIBAC_414_GlyA_Firmicutes_A
+|              |  |  |     |  +--| (53.5/58)
+|              |  |  |     |  |  +----PIBAC_PIGvsB100pB20_760_GlyA_Firmicutes_A
+|              |  |  |     +**| (0/30)
+|              |  |  |        |              +---------PIBAC_PIGvsB100pB20_917_GlyA_Proteobacteria
+|              |  |  |        |  +-----------| (100/100)
+|              |  |  |        |  |           +------PIBAC_PIGvsB100pB20_667_GlyA_Firmicutes_C
+|              |  |  |        +--| (98.2/73)
+|              |  |  |           +---------------PIBAC_PIGvsB100pB20_692_GlyA_Firmicutes_A
+|              |  +--| (76.1/31)
+|              |     |  +----PIBAC_PIGvsB100pB20_741_GlyA_Bdellovibrionota_B
+|              |     +--| (96.6/52)
+|              |        +---PIBAC_PIGvsB100pB20_1847_GlyA_Elusimicrobiota
+|           +--| (91.2/39)
+|           |  |     +-------vOTU_676_GlyA_Family_unclassified
+|           |  |  +--| (98.3/63)
+|           |  |  |  +--NCBI_WP_303851431.1_GlyA_Deferribacterota
+|           |  +--| (91.6/29)
+|           |     |  +------vOTU_1513_GlyA_Family_unclassified
+|           |     +--| (91.7/54)
+|           |        +--NCBI_WP_028842390.1_GlyA_Nitrospirota
+|        +--| (34/33)
+|        |  +-----PIBAC_PIGvsB100pB20_1329_GlyA_Proteobacteria
+|     +--| (94.1/53)
+|     |  +--NCBI_WP_291259305.1_GlyA_Fusobacteriota
+|  +--| (94.9/59)
+|  |  |           +-----vOTU_2357_GlyA_Family_unclassified
+|  |  |     +-----| (100/100)
+|  |  |     |     +---NCBI_WP_320626192.1_GlyA_Bacillota
+|  |  |  +--| (81.1/61)
+|  |  |  |  +--PIBAC_PIGvsB100pB20_1648_GlyA_Firmicutes
+|  |  +--| (74.2/49)
+|  |     +--PIBAC_PIGvsB100pB20_1332_GlyA_Firmicutes
++--| (89/63)
+|  |     +----PIBAC_PIGvsB100pB20_1277_GlyA_Firmicutes
+|  |  +--| (13/25)
+|  |  |  +----PIBAC_PIGvsB100pB20_2045_GlyA_Firmicutes
+|  +--| (91.5/43)
+|     +---PIBAC_PIGvsB100pB20_2198_GlyA_Firmicutes
+|
+|  +--PIBAC_PIGvsB100pB20_2366_GlyA_Firmicutes
++--| (92.9/96)
+   +--PIBAC_PIGvsB100pB20_1910_GlyA_Firmicutes
+
+Tree in newick format:
+
+(vOTU_421_GlyA_Chimalliviridae:0.6079676681,((((((((((((vOTU_12671_GlyA_Genomoviridae_like:0.3075838202,(vOTU_1172_GlyA_Family_unclassified:0.0725293645,NCBI_WP_320855855.1_GlyA_Bacillota:0.0433383993)100/100:0.3000807959)77.4/69:0.0985516370,vOTU_6726_GlyA_Intestiviridae_like:0.3364939307)100/100:0.3709440816,vOTU_83_GlyA_Straboviridae:0.4383654726)95.7/82:0.1004412702,((vOTU_1037_GlyA_Steigviridae:0.3606103875,(PIBAC_PIGvsB100pB20_300_GlyA_Bacteroidota:0.2530548966,(((PIBAC_PIGvsB100pB20_803_GlyA_Bacteroidota:0.1024647400,PIBAC_PIBAC_405_GlyA_Bacteroidota:0.1603135338)99.8/100:0.1064648418,PIBAC_PIGvsB100pB20_647_GlyA_Bacteroidota:0.2497563888)40.8/49:0.0369892388,NCBI_WP_445199196.1_GlyA_Bacteroidota:0.1276021942)86.1/79:0.0913267061)97.4/99:0.1249660365)99/100:0.1463350846,CUR_P0A825_glyA_GlyA_Pseudomonadota:0.4487149832)86.9/63:0.0407508853)7/20:0.0243580093,(((((vOTU_233_GlyA_Kyanoviridae:0.1954677389,vOTU_264_GlyA_Family_unclassified:0.7055570777)96.5/99:0.2479384991,vOTU_223_GlyA_Family_unclassified:1.0456748846)92.5/95:0.1725403061,vOTU_306_GlyA_Family_unclassified:0.4086733006)98.7/97:0.1754599939,((vOTU_3346_GlyA_Family_unclassified:0.7407578182,vOTU_531_GlyA_Family_unclassified:0.8513173805)71.7/90:0.1795347240,PIBAC_PIGvsB100pB20_971_GlyA_Firmicutes_A:4.0399463536)59.2/59:0.1737992048)96.5/63:0.1005573470,(NCBI_WP_060778122.1_GlyA_Bacillota:0.3977028327,(NCBI_WP_071408597.1_GlyA_Bacillota:0.1670856245,NCBI_WP_446453706.1_GlyA_Bacillota:0.0619121802)100/100:0.2979421072)89.6/65:0.0667790893)94/50:0.0734710484)96.5/53:0.0626959724,(PIBAC_PIGvsB100pB20_640_GlyA_Firmicutes_A:0.2498291466,PIBAC_PIGvsB100pB20_968_GlyA_Verrucomicrobiota:0.4330934669)67.6/41:0.0265642359)68.7/38:0.0356164036,(((((vOTU_493_GlyA_Family_unclassified:0.5559318406,NCBI_WP_407928952.1_GlyA_Bacillota:0.1786740102)6.7/52:0.0691576353,PIBAC_PIGvsB100pB20_1080_GlyA_Firmicutes_A:0.2208849664)36.6/51:0.0441642094,((((PIBAC_PIGvsB100pB20_1551_GlyA_Firmicutes:0.2569951153,(PIBAC_PIGvsB100pB20_2075_GlyA_Firmicutes_A:0.3133526124,PIBAC_PIGvsB100pB20_745_GlyA_Firmicutes_A:0.2974296687)80.8/69:0.0664726225)47.3/53:0.0620903494,((PIBAC_PIGvsB100pB20_402_GlyA_Firmicutes_A:0.1602388718,PIBAC_PIGvsB100pB20_445_GlyA_Firmicutes_A:0.2230228656)84.2/79:0.0596554865,NCBI_WP_412255206.1_GlyA_Bacillota:0.1925254700)99.1/99:0.1363361805)94/74:0.0529389231,((((PIBAC_PIGvsB100pB20_1265_GlyA_Firmicutes_A:0.2195839021,PIBAC_PIGvsB100pB20_957_GlyA_Firmicutes_A:0.3337071827)59.8/69:0.0429123126,(PIBAC_PIGvsB100pB20_308_GlyA_Firmicutes_A:0.2618485734,PIBAC_PIGvsB100pB20_723_GlyA_Firmicutes_A:0.2290076725)91.6/68:0.0597273543)72.7/45:0.0268700814,((PIBAC_PIGvsB100pB20_710_GlyA_Firmicutes_A:0.2369626643,(PIBAC_PIGvsB100pB20_1206_GlyA_Firmicutes_A:0.2793694977,PIBAC_PIGvsB100pB20_822_GlyA_Firmicutes_A:0.2872436125)29.2/57:0.0598306239)12.7/47:0.0576129149,PIBAC_PIGvsB100pB20_830_GlyA_Firmicutes_A:0.4169395322)96.2/87:0.0832662832)41.9/63:0.0198814310,PIBAC_PIGvsB100pB20_1552_GlyA_Firmicutes_A:0.3115332506)96.5/81:0.0608753170)87.7/75:0.0367304623,NCBI_WP_042833749.1_GlyA_Bacillota:0.2067804772)75.9/52:0.0190408363)78.2/56:0.0364558583,(((((PIBAC_PIBAC_500_GlyA_Firmicutes:0.0386535268,NCBI_WP_125120718.1_GlyA_Bacillota:0.0803528359)100/100:0.2759091462,NCBI_WP_282709418.1_GlyA_Bacillota:0.3899999898)64.1/47:0.0643877499,PIBAC_PIGvsB100pB20_770_GlyA_Firmicutes_C:0.2599434728)86.8/55:0.0586600646,PIBAC_PIBAC_489_GlyA_Firmicutes_C:0.2352807301)90.8/57:0.0454008244,((PIBAC_PIBAC_414_GlyA_Firmicutes_A:0.3431711197,PIBAC_PIGvsB100pB20_760_GlyA_Firmicutes_A:0.4455799667)53.5/58:0.0532009334,((PIBAC_PIGvsB100pB20_917_GlyA_Proteobacteria:0.8046144136,PIBAC_PIGvsB100pB20_667_GlyA_Firmicutes_C:0.5979525718)100/100:0.9688807339,PIBAC_PIGvsB100pB20_692_GlyA_Firmicutes_A:1.2953132812)98.2/73:0.2857419840)0/30:0.0000021914)91.1/48:0.0506559000)92.5/41:0.0472708909,(PIBAC_PIGvsB100pB20_741_GlyA_Bdellovibrionota_B:0.4589272832,PIBAC_PIGvsB100pB20_1847_GlyA_Elusimicrobiota:0.3212377829)96.6/52:0.0993969907)76.1/31:0.0366105926)89.9/29:0.0522327874,((vOTU_676_GlyA_Family_unclassified:0.6590544397,NCBI_WP_303851431.1_GlyA_Deferribacterota:0.3004461805)98.3/63:0.2039220947,(vOTU_1513_GlyA_Family_unclassified:0.6388448289,NCBI_WP_028842390.1_GlyA_Nitrospirota:0.2082967228)91.7/54:0.0606659644)91.6/29:0.0680749302)91.2/39:0.0464447579,PIBAC_PIGvsB100pB20_1329_GlyA_Proteobacteria:0.4882989655)34/33:0.0287301440,NCBI_WP_291259305.1_GlyA_Fusobacteriota:0.2995204637)94.1/53:0.0643857315,(((vOTU_2357_GlyA_Family_unclassified:0.4901609992,NCBI_WP_320626192.1_GlyA_Bacillota:0.3625328751)100/100:0.5085929741,PIBAC_PIGvsB100pB20_1648_GlyA_Firmicutes:0.2048671183)81.1/61:0.1015412072,PIBAC_PIGvsB100pB20_1332_GlyA_Firmicutes:0.2771308276)74.2/49:0.0520845067)94.9/59:0.0609504918,((PIBAC_PIGvsB100pB20_1277_GlyA_Firmicutes:0.4385575498,PIBAC_PIGvsB100pB20_2045_GlyA_Firmicutes:0.4665152983)13/25:0.0536385373,PIBAC_PIGvsB100pB20_2198_GlyA_Firmicutes:0.3439829724)91.5/43:0.0625350327)89/63:0.0625768673,(PIBAC_PIGvsB100pB20_2366_GlyA_Firmicutes:0.1964618396,PIBAC_PIGvsB100pB20_1910_GlyA_Firmicutes:0.1665941314)92.9/96:0.0907563231);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -35424.270820
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++------vOTU_421_GlyA_Chimalliviridae
+|
+|                                    +--vOTU_12671_GlyA_Genomoviridae_like
+|                                 +--| (69)
+|                                 |  |  +--vOTU_1172_GlyA_Family_unclassified
+|                                 |  +--| (100)
+|                                 |     +--NCBI_WP_320855855.1_GlyA_Bacillota
+|                             +---| (100)
+|                             |   +---vOTU_6726_GlyA_Intestiviridae_like
+|                          +--| (82)
+|                          |  +----vOTU_83_GlyA_Straboviridae
+|                       +--| (20)
+|                       |  |     +---vOTU_1037_GlyA_Steigviridae
+|                       |  |  +--| (100)
+|                       |  |  |  |  +--PIBAC_PIGvsB100pB20_300_GlyA_Bacteroidota
+|                       |  |  |  +--| (99)
+|                       |  |  |     |        +--PIBAC_PIGvsB100pB20_803_GlyA_Bacteroidota
+|                       |  |  |     |     +--| (100)
+|                       |  |  |     |     |  +--PIBAC_PIBAC_405_GlyA_Bacteroidota
+|                       |  |  |     |  +--| (49)
+|                       |  |  |     |  |  +--PIBAC_PIGvsB100pB20_647_GlyA_Bacteroidota
+|                       |  |  |     +--| (79)
+|                       |  |  |        +--NCBI_WP_445199196.1_GlyA_Bacteroidota
+|                       |  +--| (63)
+|                       |     +----CUR_P0A825_glyA_GlyA_Pseudomonadota
+|                    +--| (53)
+|                    |  |              +--vOTU_233_GlyA_Kyanoviridae
+|                    |  |           +--| (99)
+|                    |  |           |  +-------vOTU_264_GlyA_Family_unclassified
+|                    |  |        +--| (95)
+|                    |  |        |  +------------vOTU_223_GlyA_Family_unclassified
+|                    |  |     +--| (97)
+|                    |  |     |  +----vOTU_306_GlyA_Family_unclassified
+|                    |  |  +--| (63)
+|                    |  |  |  |     +--------vOTU_3346_GlyA_Family_unclassified
+|                    |  |  |  |  +--| (90)
+|                    |  |  |  |  |  +---------vOTU_531_GlyA_Family_unclassified
+|                    |  |  |  +--| (59)
+|                    |  |  |     +-------------------------------------------------PIBAC_PIGvsB100pB20_971_GlyA_Firmicutes_A
+|                    |  +--| (50)
+|                    |     |  +---NCBI_WP_060778122.1_GlyA_Bacillota
+|                    |     +--| (65)
+|                    |        |  +--NCBI_WP_071408597.1_GlyA_Bacillota
+|                    |        +--| (100)
+|                    |           +--NCBI_WP_446453706.1_GlyA_Bacillota
+|                 +--| (38)
+|                 |  |  +--PIBAC_PIGvsB100pB20_640_GlyA_Firmicutes_A
+|                 |  +--| (41)
+|                 |     +----PIBAC_PIGvsB100pB20_968_GlyA_Verrucomicrobiota
+|              +--| (29)
+|              |  |              +-----vOTU_493_GlyA_Family_unclassified
+|              |  |           +--| (52)
+|              |  |           |  +--NCBI_WP_407928952.1_GlyA_Bacillota
+|              |  |        +--| (51)
+|              |  |        |  +--PIBAC_PIGvsB100pB20_1080_GlyA_Firmicutes_A
+|              |  |     +--| (56)
+|              |  |     |  |           +--PIBAC_PIGvsB100pB20_1551_GlyA_Firmicutes
+|              |  |     |  |        +--| (53)
+|              |  |     |  |        |  |  +--PIBAC_PIGvsB100pB20_2075_GlyA_Firmicutes_A
+|              |  |     |  |        |  +--| (69)
+|              |  |     |  |        |     +--PIBAC_PIGvsB100pB20_745_GlyA_Firmicutes_A
+|              |  |     |  |     +--| (74)
+|              |  |     |  |     |  |     +--PIBAC_PIGvsB100pB20_402_GlyA_Firmicutes_A
+|              |  |     |  |     |  |  +--| (79)
+|              |  |     |  |     |  |  |  +--PIBAC_PIGvsB100pB20_445_GlyA_Firmicutes_A
+|              |  |     |  |     |  +--| (99)
+|              |  |     |  |     |     +--NCBI_WP_412255206.1_GlyA_Bacillota
+|              |  |     |  |  +--| (75)
+|              |  |     |  |  |  |           +--PIBAC_PIGvsB100pB20_1265_GlyA_Firmicutes_A
+|              |  |     |  |  |  |        +--| (69)
+|              |  |     |  |  |  |        |  +---PIBAC_PIGvsB100pB20_957_GlyA_Firmicutes_A
+|              |  |     |  |  |  |     +--| (45)
+|              |  |     |  |  |  |     |  |  +--PIBAC_PIGvsB100pB20_308_GlyA_Firmicutes_A
+|              |  |     |  |  |  |     |  +--| (68)
+|              |  |     |  |  |  |     |     +--PIBAC_PIGvsB100pB20_723_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  +--| (63)
+|              |  |     |  |  |  |  |  |     +--PIBAC_PIGvsB100pB20_710_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |  |  +--| (49)
+|              |  |     |  |  |  |  |  |  |  +---PIBAC_PIGvsB100pB20_830_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |  +--| (87)
+|              |  |     |  |  |  |  |     |  +--PIBAC_PIGvsB100pB20_1206_GlyA_Firmicutes_A
+|              |  |     |  |  |  |  |     +--| (57)
+|              |  |     |  |  |  |  |        +--PIBAC_PIGvsB100pB20_822_GlyA_Firmicutes_A
+|              |  |     |  |  |  +--| (81)
+|              |  |     |  |  |     +--PIBAC_PIGvsB100pB20_1552_GlyA_Firmicutes_A
+|              |  |     |  +--| (52)
+|              |  |     |     +--NCBI_WP_042833749.1_GlyA_Bacillota
+|              |  |  +--| (41)
+|              |  |  |  |              +--PIBAC_PIBAC_500_GlyA_Firmicutes
+|              |  |  |  |           +--| (100)
+|              |  |  |  |           |  +--NCBI_WP_125120718.1_GlyA_Bacillota
+|              |  |  |  |        +--| (47)
+|              |  |  |  |        |  +---NCBI_WP_282709418.1_GlyA_Bacillota
+|              |  |  |  |     +--| (55)
+|              |  |  |  |     |  +--PIBAC_PIGvsB100pB20_770_GlyA_Firmicutes_C
+|              |  |  |  |  +--| (57)
+|              |  |  |  |  |  +--PIBAC_PIBAC_489_GlyA_Firmicutes_C
+|              |  |  |  +--| (48)
+|              |  |  |     |     +---PIBAC_PIBAC_414_GlyA_Firmicutes_A
+|              |  |  |     |  +--| (58)
+|              |  |  |     |  |  +----PIBAC_PIGvsB100pB20_760_GlyA_Firmicutes_A
+|              |  |  |     +--| (30)
+|              |  |  |        |              +---------PIBAC_PIGvsB100pB20_917_GlyA_Proteobacteria
+|              |  |  |        |  +-----------| (100)
+|              |  |  |        |  |           +------PIBAC_PIGvsB100pB20_667_GlyA_Firmicutes_C
+|              |  |  |        +--| (73)
+|              |  |  |           +---------------PIBAC_PIGvsB100pB20_692_GlyA_Firmicutes_A
+|              |  +--| (31)
+|              |     |  +----PIBAC_PIGvsB100pB20_741_GlyA_Bdellovibrionota_B
+|              |     +--| (52)
+|              |        +---PIBAC_PIGvsB100pB20_1847_GlyA_Elusimicrobiota
+|           +--| (39)
+|           |  |     +-------vOTU_676_GlyA_Family_unclassified
+|           |  |  +--| (63)
+|           |  |  |  +--NCBI_WP_303851431.1_GlyA_Deferribacterota
+|           |  +--| (29)
+|           |     |  +------vOTU_1513_GlyA_Family_unclassified
+|           |     +--| (54)
+|           |        +--NCBI_WP_028842390.1_GlyA_Nitrospirota
+|        +--| (33)
+|        |  +-----PIBAC_PIGvsB100pB20_1329_GlyA_Proteobacteria
+|     +--| (53)
+|     |  +--NCBI_WP_291259305.1_GlyA_Fusobacteriota
+|  +--| (59)
+|  |  |           +-----vOTU_2357_GlyA_Family_unclassified
+|  |  |     +-----| (100)
+|  |  |     |     +---NCBI_WP_320626192.1_GlyA_Bacillota
+|  |  |  +--| (61)
+|  |  |  |  +--PIBAC_PIGvsB100pB20_1648_GlyA_Firmicutes
+|  |  +--| (49)
+|  |     +--PIBAC_PIGvsB100pB20_1332_GlyA_Firmicutes
++--| (63)
+|  |     +----PIBAC_PIGvsB100pB20_1277_GlyA_Firmicutes
+|  |  +--| (25)
+|  |  |  +----PIBAC_PIGvsB100pB20_2045_GlyA_Firmicutes
+|  +--| (43)
+|     +---PIBAC_PIGvsB100pB20_2198_GlyA_Firmicutes
+|
+|  +--PIBAC_PIGvsB100pB20_2366_GlyA_Firmicutes
++--| (96)
+   +--PIBAC_PIGvsB100pB20_1910_GlyA_Firmicutes
+
+
+Consensus tree in newick format: 
+
+(vOTU_421_GlyA_Chimalliviridae:0.6046791864,((((((((((((vOTU_12671_GlyA_Genomoviridae_like:0.3058895753,(vOTU_1172_GlyA_Family_unclassified:0.0721977316,NCBI_WP_320855855.1_GlyA_Bacillota:0.0431437510)100:0.2987314264)69:0.0980995281,vOTU_6726_GlyA_Intestiviridae_like:0.3352792466)100:0.3695830771,vOTU_83_GlyA_Straboviridae:0.4366575227)82:0.0996190958,((vOTU_1037_GlyA_Steigviridae:0.3591373393,(PIBAC_PIGvsB100pB20_300_GlyA_Bacteroidota:0.2520445543,(((PIBAC_PIGvsB100pB20_803_GlyA_Bacteroidota:0.1020991800,PIBAC_PIBAC_405_GlyA_Bacteroidota:0.1597681931)100:0.1060558987,PIBAC_PIGvsB100pB20_647_GlyA_Bacteroidota:0.2487932521)49:0.0366968222,NCBI_WP_445199196.1_GlyA_Bacteroidota:0.1273281443)79:0.0909515195)99:0.1246985056)100:0.1459957817,CUR_P0A825_glyA_GlyA_Pseudomonadota:0.4465679477)63:0.0407572643)20:0.0244877932,(((((vOTU_233_GlyA_Kyanoviridae:0.1947086905,vOTU_264_GlyA_Family_unclassified:0.7021204539)99:0.2464085520,vOTU_223_GlyA_Family_unclassified:1.0392074769)95:0.1715658768,vOTU_306_GlyA_Family_unclassified:0.4064333118)97:0.1747906323,((vOTU_3346_GlyA_Family_unclassified:0.7377496120,vOTU_531_GlyA_Family_unclassified:0.8487497079)90:0.1768571819,PIBAC_PIGvsB100pB20_971_GlyA_Firmicutes_A:4.0214426662)59:0.1746448247)63:0.1003792380,(NCBI_WP_060778122.1_GlyA_Bacillota:0.3959749773,(NCBI_WP_071408597.1_GlyA_Bacillota:0.1664807343,NCBI_WP_446453706.1_GlyA_Bacillota:0.0617576719)100:0.2968020238)65:0.0666547377)50:0.0730672987)53:0.0621651980,(PIBAC_PIGvsB100pB20_640_GlyA_Firmicutes_A:0.2484506727,PIBAC_PIGvsB100pB20_968_GlyA_Verrucomicrobiota:0.4312344122)41:0.0264665712)38:0.0354004245,(((((vOTU_493_GlyA_Family_unclassified:0.5540926094,NCBI_WP_407928952.1_GlyA_Bacillota:0.1773207433)52:0.0689419856,PIBAC_PIGvsB100pB20_1080_GlyA_Firmicutes_A:0.2199658710)51:0.0436794830,((((PIBAC_PIGvsB100pB20_1551_GlyA_Firmicutes:0.2563805826,(PIBAC_PIGvsB100pB20_2075_GlyA_Firmicutes_A:0.3115359372,PIBAC_PIGvsB100pB20_745_GlyA_Firmicutes_A:0.2964875121)69:0.0655810553)53:0.0614373683,((PIBAC_PIGvsB100pB20_402_GlyA_Firmicutes_A:0.1596371352,PIBAC_PIGvsB100pB20_445_GlyA_Firmicutes_A:0.2217997492)79:0.0598914211,NCBI_WP_412255206.1_GlyA_Bacillota:0.1909302355)99:0.1363245137)74:0.0519434084,((((PIBAC_PIGvsB100pB20_1265_GlyA_Firmicutes_A:0.2160015965,PIBAC_PIGvsB100pB20_957_GlyA_Firmicutes_A:0.3344641041)69:0.0446061292,(PIBAC_PIGvsB100pB20_308_GlyA_Firmicutes_A:0.2606220354,PIBAC_PIGvsB100pB20_723_GlyA_Firmicutes_A:0.2287613642)68:0.0576426005)45:0.0252098268,((PIBAC_PIGvsB100pB20_710_GlyA_Firmicutes_A:0.2129058014,PIBAC_PIGvsB100pB20_830_GlyA_Firmicutes_A:0.3962190246)49:0.0640425136,(PIBAC_PIGvsB100pB20_1206_GlyA_Firmicutes_A:0.2761386841,PIBAC_PIGvsB100pB20_822_GlyA_Firmicutes_A:0.2888084578)57:0.0640078195)87:0.1019223490)63:0.0213438854,PIBAC_PIGvsB100pB20_1552_GlyA_Firmicutes_A:0.3124992215)81:0.0605037293)75:0.0363380092,NCBI_WP_042833749.1_GlyA_Bacillota:0.2068016521)52:0.0191481510)56:0.0364892518,(((((PIBAC_PIBAC_500_GlyA_Firmicutes:0.0384757167,NCBI_WP_125120718.1_GlyA_Bacillota:0.0801533998)100:0.2742202599,NCBI_WP_282709418.1_GlyA_Bacillota:0.3878535432)47:0.0640832629,PIBAC_PIGvsB100pB20_770_GlyA_Firmicutes_C:0.2587013284)55:0.0588703624,PIBAC_PIBAC_489_GlyA_Firmicutes_C:0.2338528345)57:0.0454139239,((PIBAC_PIBAC_414_GlyA_Firmicutes_A:0.3415822479,PIBAC_PIGvsB100pB20_760_GlyA_Firmicutes_A:0.4437373154)58:0.0529642195,((PIBAC_PIGvsB100pB20_917_GlyA_Proteobacteria:0.8010203616,PIBAC_PIGvsB100pB20_667_GlyA_Firmicutes_C:0.5944009211)100:0.9687616598,PIBAC_PIGvsB100pB20_692_GlyA_Firmicutes_A:1.2935673926)73:0.2804201320)30:0.0000023307)48:0.0503971201)41:0.0470635710,(PIBAC_PIGvsB100pB20_741_GlyA_Bdellovibrionota_B:0.4564591079,PIBAC_PIGvsB100pB20_1847_GlyA_Elusimicrobiota:0.3200424769)52:0.0987710259)31:0.0363457430)29:0.0518331561,((vOTU_676_GlyA_Family_unclassified:0.6561941726,NCBI_WP_303851431.1_GlyA_Deferribacterota:0.2982348049)63:0.2030227125,(vOTU_1513_GlyA_Family_unclassified:0.6359661284,NCBI_WP_028842390.1_GlyA_Nitrospirota:0.2074696334)54:0.0603269986)29:0.0680381986)39:0.0461177426,PIBAC_PIGvsB100pB20_1329_GlyA_Proteobacteria:0.4861046181)33:0.0285040130,NCBI_WP_291259305.1_GlyA_Fusobacteriota:0.2979396082)53:0.0643215168,(((vOTU_2357_GlyA_Family_unclassified:0.4888752804,NCBI_WP_320626192.1_GlyA_Bacillota:0.3600257973)100:0.5064985734,PIBAC_PIGvsB100pB20_1648_GlyA_Firmicutes:0.2042279502)61:0.1009695759,PIBAC_PIGvsB100pB20_1332_GlyA_Firmicutes:0.2757611298)49:0.0518245934)59:0.0604686801,((PIBAC_PIGvsB100pB20_1277_GlyA_Firmicutes:0.4368734439,PIBAC_PIGvsB100pB20_2045_GlyA_Firmicutes:0.4646150501)25:0.0533268997,PIBAC_PIGvsB100pB20_2198_GlyA_Firmicutes:0.3424865419)43:0.0621776164)63:0.0625156660,(PIBAC_PIGvsB100pB20_2366_GlyA_Firmicutes:0.1955684073,PIBAC_PIGvsB100pB20_1910_GlyA_Firmicutes:0.1659259864)96:0.0904127140);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/GlyA/GlyA.IQTREE.treefile -m "LG+R6{0.134394,0.067236,0.203327,0.248009,0.187569,0.507994,0.213599,0.996607,0.149066,1.86749,0.112046,3.15941}" --length 401
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/GlyA/GlyA.trimmed.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/GlyA/GlyA.trimmed.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Oct 26 14:35:38 2026
+Total CPU time used: 7883.87354 seconds (2h:11m:23s)
+Total wall-clock time used: 1419.207939 seconds (0h:23m:39s)
+

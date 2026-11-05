@@ -1,0 +1,590 @@
+IQ-TREE 3.1.2 built May 17 2026
+
+Input file name: results/amg_family_representative_trees_20261025/NrdG.trimmed.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 20261025
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 89 sequences with 124 amino-acid sites
+Number of constant sites: 12 (= 9.67742% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 12 (= 9.67742% of all sites)
+Number of parsimony informative sites: 108
+Number of distinct site patterns: 120
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+I+G4          -13979.218   28312.437 +   0.0533   91324.437 - 2.4e-146   28811.626 +    0.998
+LG+R5            -13971.396   28308.793 +    0.329   95652.793 -        0   28824.904 -  0.00131
+LG+I+R4          -13974.764   28313.529 -   0.0308   94925.529 -        0   28826.820 - 0.000501
+LG+R6            -13968.958   28307.916 +    0.511   97127.916 -        0   28829.668 - 0.000121
+LG+I+R5          -13971.863   28311.726 +    0.076   96391.726 -        0   28830.657 - 7.36e-05
+LG+I+R3          -13986.926   28333.852 - 1.19e-06   93493.852 -        0   28841.503 - 3.25e-07
+LG+G4            -13998.917   28349.834 - 4.03e-10   90653.834 +        1   28846.203 -  3.1e-08
+Q.PFAM+I+G4      -14003.644   28361.288 - 1.31e-12   91373.288 - 5.92e-157   28860.478 - 2.46e-11
+LG+R4            -14000.268   28362.535 - 7.04e-13   94246.535 -        0   28873.006 - 4.69e-14
+LG+R3            -14033.554   28425.109 - 1.82e-26   92865.109 -        0   28929.939 - 2.03e-26
+RTREV+I+G4       -14042.955   28439.910 - 1.11e-29   91451.910 - 5.01e-174   28939.100 - 2.08e-28
+Q.YEAST+I+G4     -14044.577   28443.153 -  2.2e-30   91455.153 - 9.9e-175   28942.343 - 4.11e-29
+BLOSUM62+I+G4    -14054.131   28462.262 - 1.56e-34   91474.262 - 7.02e-179   28961.452 - 2.92e-33
+WAG+I+G4         -14062.415   28478.830 - 3.93e-38   91490.830 - 1.77e-182   28978.020 - 7.36e-37
+VT+I+G4          -14067.667   28489.334 - 2.06e-40   91501.334 - 9.28e-185   28988.524 - 3.86e-39
+LG+F+I+G4        -14038.301   28468.602 - 6.54e-36  105692.602 -        0   29021.377 - 2.83e-46
+WAG+F+I+G4       -14045.608   28483.215 - 4.39e-39  105707.215 -        0   29035.990 -  1.9e-49
+LG+I+R2          -14098.056   28552.112 -  4.8e-54   92276.112 -        0   29054.122 -  2.2e-53
+Q.PFAM+F+I+G4    -14056.232   28504.464 - 1.07e-43  105728.464 -        0   29057.239 - 4.62e-54
+PMB+I+G4         -14105.565   28565.129 - 7.16e-57   91577.129 - 3.23e-201   29064.319 - 1.34e-55
+BLOSUM62+F+I+G4  -14071.993   28535.985 - 1.53e-50  105759.985 -        0   29088.761 - 6.61e-61
+Q.INSECT+I+G4    -14123.729   28601.459 - 9.25e-65   91613.459 - 4.17e-209   29100.649 - 1.73e-63
+RTREV+F+I+G4     -14084.971   28561.942 - 3.52e-56  105785.942 -        0   29114.717 - 1.53e-66
+VT+F+I+G4        -14104.515   28601.031 - 1.15e-64  105825.031 -        0   29153.806 - 4.96e-75
+PMB+F+I+G4       -14121.236   28634.471 - 6.27e-72  105858.471 -        0   29187.246 - 2.72e-82
+CPREV+I+G4       -14181.787   28717.575 - 5.65e-90   91729.575 - 2.55e-234   29216.764 - 1.06e-88
+LG+R2            -14204.724   28763.448 - 6.17e-100   91775.448 - 2.78e-244   29262.637 - 1.16e-98
+Q.YEAST+F+I+G4   -14159.531   28711.063 - 1.47e-88  105935.063 -        0   29263.838 - 6.35e-99
+CPREV+F+I+G4     -14227.408   28846.816 - 4.87e-118  106070.816 -        0   29399.591 - 2.11e-128
+Q.INSECT+F+I+G4  -14263.713   28919.426 - 8.32e-134  106143.426 -        0   29472.201 - 3.61e-144
+JTTDCMUT+I+G4    -14319.735   28993.471 - 6.94e-150   92005.471 - 3.13e-294   29492.661 - 1.3e-148
+JTT+I+G4         -14329.466   29012.933 - 4.13e-154   92024.933 - 1.86e-298   29512.122 - 7.73e-153
+DCMUT+F+I+G4     -14321.073   29034.146 - 1.02e-158  106258.146 -        0   29586.921 - 4.43e-169
+DAYHOFF+F+I+G4   -14321.963   29035.926 - 4.2e-159  106259.925 -        0   29588.701 - 1.82e-169
+DCMUT+I+G4       -14377.116   29108.232 - 8.35e-175   92120.232 - 3.76e-319   29607.422 - 1.56e-173
+DAYHOFF+I+G4     -14378.089   29110.178 - 3.16e-175   92122.178 - 1.42e-319   29609.368 - 5.91e-174
+JTTDCMUT+F+I+G4  -14335.385   29062.770 - 6.22e-165  106286.770 -        0   29615.545 - 2.69e-175
+JTT+F+I+G4       -14347.707   29087.415 - 2.77e-170  106311.415 -        0   29640.190 - 1.2e-180
+Q.PLANT+I+G4     -14402.196   29158.393 - 1.07e-185   92170.393 -        0   29657.583 -   2e-184
+MTINV+F+I+G4     -14429.095   29250.190 - 1.25e-205  106474.190 -        0   29802.965 - 5.4e-216
+MTZOA+F+I+G4     -14446.118   29284.236 - 5.05e-213  106508.236 -        0   29837.011 - 2.19e-223
+FLU+I+G4         -14503.461   29360.921 - 1.12e-229   92372.921 -        0   29860.111 - 2.11e-228
+MTREV+F+I+G4     -14459.486   29310.972 - 7.89e-219  106534.972 -        0   29863.747 - 3.42e-229
+Q.PLANT+F+I+G4   -14470.713   29333.425 - 1.05e-223  106557.425 -        0   29886.200 - 4.55e-234
+FLU+F+I+G4       -14483.220   29358.440 - 3.89e-229  106582.440 -        0   29911.215 - 1.68e-239
+LG+I             -14554.794   29461.588 - 1.55e-251   91765.588 - 3.85e-242   29957.957 - 1.19e-249
+Q.MAMMAL+I+G4    -14575.107   29504.213 - 8.62e-261   92516.213 -        0   30003.403 - 1.61e-259
+MTMET+F+I+G4     -14546.201   29484.402 - 1.73e-256  106708.402 -        0   30037.178 - 7.48e-267
+HIVB+I+G4        -14628.695   29611.390 - 4.59e-284   92623.390 -        0   30110.580 - 8.61e-283
+Q.MAMMAL+F+I+G4  -14609.070   29610.140 - 8.59e-284  106834.140 -        0   30162.915 - 3.72e-294
+MTART+F+I+G4     -14652.215   29696.431 - 1.57e-302  106920.431 -        0   30249.206 - 6.8e-313
+Q.BIRD+I+G4      -14717.836   29789.671 - 8.89e-323   92801.671 -        0   30288.861 - 1.67e-321
+HIVB+F+I+G4      -14712.304   29816.609 -        0  107040.609 -        0   30369.384 -        0
+LG               -14779.019   29908.038 -        0   91508.038 - 3.25e-186   30401.587 -        0
+Q.BIRD+F+I+G4    -14761.426   29914.852 -        0  107138.852 -        0   30467.627 -        0
+MTZOA+I+G4       -14834.434   30022.867 -        0   93034.867 -        0   30522.057 -        0
+MTVER+F+I+G4     -14809.102   30010.204 -        0  107234.204 -        0   30562.979 -        0
+MTMAM+F+I+G4     -14899.545   30191.091 -        0  107415.091 -        0   30743.866 -        0
+MTMET+I+G4       -14969.007   30292.013 -        0   93304.013 -        0   30791.203 -        0
+MTINV+I+G4       -14971.689   30297.378 -        0   93309.378 -        0   30796.568 -        0
+MTREV+I+G4       -15011.077   30376.154 -        0   93388.154 -        0   30875.344 -        0
+FLAVI+F+I+G4     -15079.288   30550.576 -        0  107774.576 -        0   31103.351 -        0
+FLAVI+I+G4       -15145.043   30644.085 -        0   93656.085 -        0   31143.275 -        0
+MTART+I+G4       -15171.758   30697.516 -        0   93709.516 -        0   31196.706 -        0
+MTVER+I+G4       -15227.756   30809.513 -        0   93821.513 -        0   31308.703 -        0
+HIVW+F+I+G4      -15211.446   30814.892 -        0  108038.892 -        0   31367.667 -        0
+HIVW+I+G4        -15345.865   31045.730 -        0   94057.730 -        0   31544.920 -        0
+MTMAM+I+G4       -15442.623   31239.246 -        0   94251.246 -        0   31738.436 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0672
+Gamma shape alpha: 1.4613
+
+ Category  Relative_rate  Proportion
+  0         0              0.0672
+  1         0.2351         0.2332
+  2         0.6239         0.2332
+  3         1.1235         0.2332
+  4         2.3055         0.2332
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13872.6121 (s.e. 695.8018)
+Unconstrained log-likelihood (without tree): -591.1232
+Number of free parameters (#branches + #model parameters): 177
+Akaike information criterion (AIC) score: 28099.2242
+Corrected Akaike information criterion (AICc) score: 91111.2242
+Bayesian information criterion (BIC) score: 28598.4141
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 177
+Sample size (n, alignment length): 124
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 48.9311
+Sum of internal branch lengths: 14.8226 (30.2928% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'vOTU_10050_NrdG_Solemoviridae_like' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--------vOTU_10050_NrdG_Solemoviridae_like
+|
+|                                              +**vOTU_10069_NrdG_Family_unclassified
+|                                         +----| (99.9/100)
+|                                         |    +**NCBI_WP_195565479_NrdG_Bacillota
+|                                      +--| (79.5/63)
+|                                      |  +----CUR_REF_NrdG_002_NrdG_Phylum_unresolved
+|                                   +--| (79.7/61)
+|                                   |  +--NCBI_WP_090545478_NrdG_Bacillota
+|                                +--| (75.7/56)
+|                                |  +-----NCBI_WP_007575649_NrdG_Bacteroidota
+|                             +--| (85.6/70)
+|                             |  |  +--PIBAC_PIGvsB100pB20_238_NrdG_Firmicutes_A
+|                             |  +--| (88.1/84)
+|                             |     |  +--NCBI_WP_412220476_NrdG_Bacillota
+|                             |     +--| (58.1/67)
+|                             |        +--CUR_REF_NrdG_003_NrdG_Phylum_unresolved
+|                          +--| (89.1/77)
+|                          |  +------vOTU_174_NrdG_Kyanoviridae
+|                       +--| (81.4/60)
+|                       |  |  +----PIBAC_PIGvsB100pB20_2219_NrdG_Firmicutes
+|                       |  +--| (81.7/59)
+|                       |     |  +----------PIBAC_PIGvsB100pB20_1350_NrdG_Firmicutes
+|                       |     +--| (67.7/59)
+|                       |        +----NCBI_WP_101773555_NrdG_Bacillota
+|                    +--| (87.1/79)
+|                    |  |  +--------vOTU_270_NrdG_Suoliviridae
+|                    |  +--| (85.6/75)
+|                    |     +----------vOTU_497_NrdG_Family_unclassified
+|                 +--| (79.8/65)
+|                 |  +------vOTU_2035_NrdG_Herelleviridae
+|              +--| (83.3/74)
+|              |  +----------vOTU_104_NrdG_Intestiviridae
+|           +--| (92.8/57)
+|           |  |                    +-------vOTU_1026_NrdG_Steigviridae
+|           |  |                 +--| (71.3/75)
+|           |  |                 |  +--NCBI_WP_203126639_NrdG_Bacillota
+|           |  |              +--| (92.4/77)
+|           |  |              |  +-----CUR_REF_NrdG_004_NrdG_Phylum_unresolved
+|           |  |           +--| (79/44)
+|           |  |           |  |          +--vOTU_11384_NrdG_Family_unclassified
+|           |  |           |  |  +-------| (100/100)
+|           |  |           |  |  |       +**NCBI_WP_405308475_NrdG_Methanobacteriota
+|           |  |           |  +--| (43.5/53)
+|           |  |           |     +-----PIBAC_PIGvsB100pB20_1279_NrdG_Firmicutes_A
+|           |  |        +--| (91.9/47)
+|           |  |        |  |                 +**vOTU_1717_NrdG_Family_unclassified
+|           |  |        |  |  +--------------| (100/100)
+|           |  |        |  |  |              +**NCBI_WP_444880746_NrdG_Pseudomonadota
+|           |  |        |  +--| (82.9/38)
+|           |  |        |     +----------vOTU_39_NrdG_Fiersviridae
+|           |  |     +--| (72.9/22)
+|           |  |     |  |     +-----------vOTU_107_NrdG_Straboviridae
+|           |  |     |  |  +--| (82/79)
+|           |  |     |  |  |  |      +--------vOTU_20589_NrdG_Autographiviridae
+|           |  |     |  |  |  |   +--| (75.5/63)
+|           |  |     |  |  |  |   |  +-----NCBI_WP_120176838_NrdG_Pseudomonadota
+|           |  |     |  |  |  +---| (94.3/95)
+|           |  |     |  |  |      +--NCBI_WP_249092695_NrdG_Pseudomonadota
+|           |  |     |  +--| (72.2/48)
+|           |  |     |     |            +----vOTU_1126_NrdG_Family_unclassified
+|           |  |     |     |        +---| (96.9/100)
+|           |  |     |     |        |   +-----NCBI_WP_320806099_NrdG_Bacillota
+|           |  |     |     |     +--| (95.8/96)
+|           |  |     |     |     |  +---CUR_REF_NrdG_001_NrdG_Phylum_unresolved
+|           |  |     |     |  +--| (75.5/67)
+|           |  |     |     |  |  +---PIBAC_PIGvsB100pB20_1733_NrdG_Firmicutes
+|           |  |     |     +--| (87.1/55)
+|           |  |     |        |      +--vOTU_8476_NrdG_Schitoviridae
+|           |  |     |        |  +---| (96.4/100)
+|           |  |     |        |  |   +----NCBI_WP_428587116_NrdG_Pseudomonadota
+|           |  |     |        +--| (77.4/53)
+|           |  |     |           +-------NCBI_WP_429191640_NrdG_Fusobacteriota
+|           |  |  +--| (62.9/20)
+|           |  |  |  |  +------PIBAC_PIBAC_CP009302_1_NrdG_Actinobacteriota
+|           |  |  |  +--| (89.5/74)
+|           |  |  |     +----PIBAC_PIGvsB100pB20_1491_NrdG_Actinobacteriota
+|           |  +--| (92.1/54)
+|           |     |           +--PIBAC_PIGvsB100pB20_700_NrdG_Firmicutes_A
+|           |     |        +--| (82.8/53)
+|           |     |        |  |  +---PIBAC_PIGvsB100pB20_770_NrdG_Firmicutes_C
+|           |     |        |  +--| (47.4/34)
+|           |     |        |     |  +--PIBAC_PIGvsB100pB20_561_NrdG_Firmicutes_A
+|           |     |        |     +--| (74.2/46)
+|           |     |        |        |  +--PIBAC_PIGvsB100pB20_260_NrdG_Firmicutes_A
+|           |     |        |        +--| (92.4/86)
+|           |     |        |           +--PIBAC_PIBAC_527_NrdG_Firmicutes_A
+|           |     |     +--| (47.4/40)
+|           |     |     |  |  +--PIBAC_PIGvsB100pB20_450_NrdG_Firmicutes_A
+|           |     |     |  +--| (92.3/79)
+|           |     |     |     +--PIBAC_PIGvsB100pB20_334_NrdG_Firmicutes_A
+|           |     |  +--| (83.2/28)
+|           |     |  |  |     +---PIBAC_PIGvsB100pB20_200_NrdG_Firmicutes_A
+|           |     |  |  |  +--| (81.9/23)
+|           |     |  |  |  |  |  +--PIBAC_PIGvsB100pB20_254_NrdG_Firmicutes_A
+|           |     |  |  |  |  +--| (35.2/56)
+|           |     |  |  |  |     +---PIBAC_PIGvsB100pB20_707_NrdG_Firmicutes_A
+|           |     |  |  +--| (88.7/39)
+|           |     |  |     |           +--PIBAC_PIGvsB100pB20_1294_NrdG_Firmicutes_A
+|           |     |  |     |        +--| (87.8/75)
+|           |     |  |     |        |  +--PIBAC_PIGvsB100pB20_1186_NrdG_Firmicutes_A
+|           |     |  |     |     +--| (90.6/73)
+|           |     |  |     |     |  +--PIBAC_PIGvsB100pB20_957_NrdG_Firmicutes_A
+|           |     |  |     |  +--| (80.2/52)
+|           |     |  |     |  |  |  +------PIBAC_PIGvsB100pB20_1736_NrdG_Firmicutes_A
+|           |     |  |     |  |  +--| (80/62)
+|           |     |  |     |  |     |  +---PIBAC_PIGvsB100pB20_646_NrdG_Firmicutes_A
+|           |     |  |     |  |     +--| (12.6/45)
+|           |     |  |     |  |        +----PIBAC_PIGvsB100pB20_912_NrdG_Firmicutes_A
+|           |     |  |     +--| (75.6/19)
+|           |     |  |        |  +--NCBI_WP_227066737_NrdG_Bacillota
+|           |     |  |        +--| (93.7/69)
+|           |     |  |           +---CUR_REF_NrdG_005_NrdG_Phylum_unresolved
+|           |     +--| (86.2/57)
+|           |        |     +---PIBAC_PIGvsB100pB20_537_NrdG_Firmicutes_A
+|           |        |  +--| (67.6/29)
+|           |        |  |  |     +--PIBAC_PIGvsB100pB20_780_NrdG_Firmicutes_A
+|           |        |  |  |  +--| (86.6/82)
+|           |        |  |  |  |  +----PIBAC_PIGvsB100pB20_705_NrdG_Firmicutes_A
+|           |        |  |  +--| (90/62)
+|           |        |  |     |  +----PIBAC_PIGvsB100pB20_1581_NrdG_Firmicutes_A
+|           |        |  |     +--| (69.6/65)
+|           |        |  |        +--PIBAC_PIGvsB100pB20_595_NrdG_Firmicutes_A
+|           |        +--| (81.7/32)
+|           |           |        +--PIBAC_PIGvsB100pB20_1076_NrdG_Firmicutes_A
+|           |           |     +--| (90.6/93)
+|           |           |     |  +---PIBAC_PIGvsB100pB20_1470_NrdG_Firmicutes_A
+|           |           |  +--| (81.3/68)
+|           |           |  |  +----PIBAC_PIGvsB100pB20_694_NrdG_Firmicutes_A
+|           |           +--| (89.7/76)
+|           |              |  +----PIBAC_PIGvsB100pB20_126_NrdG_Firmicutes_A
+|           |              +--| (97.1/92)
+|           |                 +--PIBAC_PIGvsB100pB20_565_NrdG_Firmicutes_A
+|        +--| (68.2/31)
+|        |  |           +---vOTU_1723_NrdG_Family_unclassified
+|        |  |  +--------| (99.5/99)
+|        |  |  |        +--NCBI_WP_103241463_NrdG_Bacillota
+|        |  +--| (19.5/53)
+|        |     +----------vOTU_201_NrdG_Chimalliviridae
+|     +--| (92.3/41)
+|     |  |                                  +---------vOTU_186_NrdG_Family_unclassified
+|     |  |                          +-------| (96/95)
+|     |  |                          |       |         +--NCBI_WP_165797685_NrdG_Bacillota
+|     |  |                          |       +---------| (99.1/100)
+|     |  |                          |                 +**NCBI_WP_498838947_NrdG_Bacillota
+|     |  |             +------------| (94.7/100)
+|     |  |             |            +---vOTU_328_NrdG_Family_unclassified
+|     |  |     +-------| (86.6/47)
+|     |  |     |       |                             +-----------vOTU_3832_NrdG_Family_unclassified
+|     |  |     |       +-----------------------------| (100/100)
+|     |  |     |                                     +---NCBI_WP_007859493_NrdG_Bacillota
+|     |  |  +--| (34.9/26)
+|     |  |  |  +---PIBAC_PIGvsB100pB20_210_NrdG_Bacteroidota
+|     |  +--| (91.8/43)
+|     |     +-------PIBAC_PIGvsB100pB20_70_NrdG_Bacteroidota
+|  +--| (83/39)
+|  |  |  +--PIBAC_PIGvsB100pB20_710_NrdG_Firmicutes_A
+|  |  +--| (97.6/97)
+|  |     +--NCBI_WP_439721439_NrdG_Bacillota
++--| (73.2/41)
+|  |                        +---------------------------------vOTU_10447_NrdG_Intestiviridae_like
+|  |     +------------------| (99.4/82)
+|  |     |                  +--NCBI_WP_341479116_NrdG_Bacillota
+|  |  +--| (84.1/42)
+|  |  |  +-------PIBAC_PIGvsB100pB20_964_NrdG_Firmicutes_C
+|  +--| (85.2/31)
+|     |     +-------vOTU_967_NrdG_Family_unclassified
+|     |  +--| (90.7/84)
+|     |  |  +--PIBAC_PIGvsB100pB20_754_NrdG_Firmicutes_A
+|     +--| (74/43)
+|        |  +---NCBI_WP_312091246_NrdG_Bacillota
+|        +--| (75.9/49)
+|           +-----NCBI_WP_413780131_NrdG_Bacillota
+|
+|  +----PIBAC_PIGvsB100pB20_1059_NrdG_Firmicutes_C
++--| (87.8/95)
+   +---PIBAC_PIGvsB100pB20_470_NrdG_Firmicutes_C
+
+Tree in newick format:
+
+(vOTU_10050_NrdG_Solemoviridae_like:0.6160471339,(((((((((((((((vOTU_10069_NrdG_Family_unclassified:0.0000010000,NCBI_WP_195565479_NrdG_Bacillota:0.0000010000)99.9/100:0.3447281807,CUR_REF_NrdG_002_NrdG_Phylum_unresolved:0.4064368272)79.5/63:0.0552284756,NCBI_WP_090545478_NrdG_Bacillota:0.2598068291)79.7/61:0.0453951044,NCBI_WP_007575649_NrdG_Bacteroidota:0.4440543971)75.7/56:0.0212497899,(PIBAC_PIGvsB100pB20_238_NrdG_Firmicutes_A:0.2324638394,(NCBI_WP_412220476_NrdG_Bacillota:0.2051100198,CUR_REF_NrdG_003_NrdG_Phylum_unresolved:0.1332437668)58.1/67:0.0654978208)88.1/84:0.0613763715)85.6/70:0.0593390747,vOTU_174_NrdG_Kyanoviridae:0.5020634003)89.1/77:0.0935108478,(PIBAC_PIGvsB100pB20_2219_NrdG_Firmicutes:0.3566839038,(PIBAC_PIGvsB100pB20_1350_NrdG_Firmicutes:0.7812222646,NCBI_WP_101773555_NrdG_Bacillota:0.3499234993)67.7/59:0.1514664125)81.7/59:0.0687650577)81.4/60:0.0632447859,(vOTU_270_NrdG_Suoliviridae:0.6280096873,vOTU_497_NrdG_Family_unclassified:0.7899108885)85.6/75:0.1762598935)87.1/79:0.1044288224,vOTU_2035_NrdG_Herelleviridae:0.5383616056)79.8/65:0.0602357412,vOTU_104_NrdG_Intestiviridae:0.7842374647)83.3/74:0.0830897571,(((((((vOTU_1026_NrdG_Steigviridae:0.5738599168,NCBI_WP_203126639_NrdG_Bacillota:0.2367012065)71.3/75:0.1664395280,CUR_REF_NrdG_004_NrdG_Phylum_unresolved:0.4292610331)92.4/77:0.1250853400,((vOTU_11384_NrdG_Family_unclassified:0.0084491450,NCBI_WP_405308475_NrdG_Methanobacteriota:0.0000028497)100/100:0.6113311552,PIBAC_PIGvsB100pB20_1279_NrdG_Firmicutes_A:0.4566901059)43.5/53:0.0470462106)79/44:0.0379127951,((vOTU_1717_NrdG_Family_unclassified:0.0000024582,NCBI_WP_444880746_NrdG_Pseudomonadota:0.0000020471)100/100:1.0513275990,vOTU_39_NrdG_Fiersviridae:0.7670358468)82.9/38:0.1646351295)91.9/47:0.1025557109,((vOTU_107_NrdG_Straboviridae:0.8534448131,((vOTU_20589_NrdG_Autographiviridae:0.6203684185,NCBI_WP_120176838_NrdG_Pseudomonadota:0.4452441726)75.5/63:0.1004572110,NCBI_WP_249092695_NrdG_Pseudomonadota:0.2496836817)94.3/95:0.3002848111)82/79:0.0836228009,((((vOTU_1126_NrdG_Family_unclassified:0.3607076168,NCBI_WP_320806099_NrdG_Bacillota:0.4514467167)96.9/100:0.3245788743,CUR_REF_NrdG_001_NrdG_Phylum_unresolved:0.3266985881)95.8/96:0.2359899429,PIBAC_PIGvsB100pB20_1733_NrdG_Firmicutes:0.3218913063)75.5/67:0.0374201770,((vOTU_8476_NrdG_Schitoviridae:0.1888358187,NCBI_WP_428587116_NrdG_Pseudomonadota:0.3739092187)96.4/100:0.2963548792,NCBI_WP_429191640_NrdG_Fusobacteriota:0.6082750009)77.4/53:0.1528970341)87.1/55:0.0627262940)72.2/48:0.0366454168)72.9/22:0.0236859196,(PIBAC_PIBAC_CP009302_1_NrdG_Actinobacteriota:0.5092543556,PIBAC_PIGvsB100pB20_1491_NrdG_Actinobacteriota:0.3682681117)89.5/74:0.1972461893)62.9/20:0.0126167460,((((PIBAC_PIGvsB100pB20_700_NrdG_Firmicutes_A:0.2342809023,(PIBAC_PIGvsB100pB20_770_NrdG_Firmicutes_C:0.3277620091,(PIBAC_PIGvsB100pB20_561_NrdG_Firmicutes_A:0.1978630171,(PIBAC_PIGvsB100pB20_260_NrdG_Firmicutes_A:0.1394838869,PIBAC_PIBAC_527_NrdG_Firmicutes_A:0.1943130837)92.4/86:0.0995687952)74.2/46:0.0242592198)47.4/34:0.0264377882)82.8/53:0.0321238537,(PIBAC_PIGvsB100pB20_450_NrdG_Firmicutes_A:0.1419655007,PIBAC_PIGvsB100pB20_334_NrdG_Firmicutes_A:0.1528775422)92.3/79:0.1099582310)47.4/40:0.0395478753,((PIBAC_PIGvsB100pB20_200_NrdG_Firmicutes_A:0.3318297602,(PIBAC_PIGvsB100pB20_254_NrdG_Firmicutes_A:0.2606762218,PIBAC_PIGvsB100pB20_707_NrdG_Firmicutes_A:0.3099393227)35.2/56:0.0418779928)81.9/23:0.0966886862,((((PIBAC_PIGvsB100pB20_1294_NrdG_Firmicutes_A:0.1500798987,PIBAC_PIGvsB100pB20_1186_NrdG_Firmicutes_A:0.2369168591)87.8/75:0.0683776313,PIBAC_PIGvsB100pB20_957_NrdG_Firmicutes_A:0.2332862508)90.6/73:0.1049436906,(PIBAC_PIGvsB100pB20_1736_NrdG_Firmicutes_A:0.4808647184,(PIBAC_PIGvsB100pB20_646_NrdG_Firmicutes_A:0.2908428200,PIBAC_PIGvsB100pB20_912_NrdG_Firmicutes_A:0.3718663002)12.6/45:0.0111487234)80/62:0.0287926219)80.2/52:0.0453964045,(NCBI_WP_227066737_NrdG_Bacillota:0.2403195475,CUR_REF_NrdG_005_NrdG_Phylum_unresolved:0.2740548843)93.7/69:0.1423182288)75.6/19:0.0259882301)88.7/39:0.0523518851)83.2/28:0.0574748660,((PIBAC_PIGvsB100pB20_537_NrdG_Firmicutes_A:0.3029930609,((PIBAC_PIGvsB100pB20_780_NrdG_Firmicutes_A:0.1973032311,PIBAC_PIGvsB100pB20_705_NrdG_Firmicutes_A:0.3826862074)86.6/82:0.0613908466,(PIBAC_PIGvsB100pB20_1581_NrdG_Firmicutes_A:0.3543643677,PIBAC_PIGvsB100pB20_595_NrdG_Firmicutes_A:0.2582237102)69.6/65:0.0376998856)90/62:0.0629894786)67.6/29:0.0154097498,(((PIBAC_PIGvsB100pB20_1076_NrdG_Firmicutes_A:0.1686683449,PIBAC_PIGvsB100pB20_1470_NrdG_Firmicutes_A:0.2984742538)90.6/93:0.1062735961,PIBAC_PIGvsB100pB20_694_NrdG_Firmicutes_A:0.3524966634)81.3/68:0.0497712800,(PIBAC_PIGvsB100pB20_126_NrdG_Firmicutes_A:0.4041093110,PIBAC_PIGvsB100pB20_565_NrdG_Firmicutes_A:0.1024715731)97.1/92:0.1732333299)89.7/76:0.0800758348)81.7/32:0.0319751616)86.2/57:0.0540108911)92.1/54:0.1222206433)92.8/57:0.1300257226,((vOTU_1723_NrdG_Family_unclassified:0.2969042753,NCBI_WP_103241463_NrdG_Bacillota:0.2448371740)99.5/99:0.6524445815,vOTU_201_NrdG_Chimalliviridae:0.8001052005)19.5/53:0.1106161806)68.2/31:0.1207481483,(((((vOTU_186_NrdG_Family_unclassified:0.6987729344,(NCBI_WP_165797685_NrdG_Bacillota:0.0180093290,NCBI_WP_498838947_NrdG_Bacillota:0.0000027324)99.1/100:0.7457244721)96/95:0.6056054649,vOTU_328_NrdG_Family_unclassified:0.3110804621)94.7/100:0.9187482914,(vOTU_3832_NrdG_Family_unclassified:0.8478650427,NCBI_WP_007859493_NrdG_Bacillota:0.3266942999)100/100:2.0928551570)86.6/47:0.5988845720,PIBAC_PIGvsB100pB20_210_NrdG_Bacteroidota:0.2786616071)34.9/26:0.1159426087,PIBAC_PIGvsB100pB20_70_NrdG_Bacteroidota:0.5469892687)91.8/43:0.1733575920)92.3/41:0.1323660152,(PIBAC_PIGvsB100pB20_710_NrdG_Firmicutes_A:0.1301672279,NCBI_WP_439721439_NrdG_Bacillota:0.1360962777)97.6/97:0.2071114258)83/39:0.0640603946,(((vOTU_10447_NrdG_Intestiviridae_like:2.3487235904,NCBI_WP_341479116_NrdG_Bacillota:0.2566121451)99.4/82:1.3506639020,PIBAC_PIGvsB100pB20_964_NrdG_Firmicutes_C:0.6089518253)84.1/42:0.2396651130,((vOTU_967_NrdG_Family_unclassified:0.5951678649,PIBAC_PIGvsB100pB20_754_NrdG_Firmicutes_A:0.2660216584)90.7/84:0.1275797403,(NCBI_WP_312091246_NrdG_Bacillota:0.3136272028,NCBI_WP_413780131_NrdG_Bacillota:0.4455428256)75.9/49:0.0394688589)74/43:0.0327107482)85.2/31:0.0831941349)73.2/41:0.0708769079,(PIBAC_PIGvsB100pB20_1059_NrdG_Firmicutes_C:0.3538530840,PIBAC_PIGvsB100pB20_470_NrdG_Firmicutes_C:0.3191431044)87.8/95:0.1790555637);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13882.211973
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------vOTU_10050_NrdG_Solemoviridae_like
+|
+|                                                 +--vOTU_10069_NrdG_Family_unclassified
+|                                            +----| (100)
+|                                            |    +--NCBI_WP_195565479_NrdG_Bacillota
+|                                         +--| (63)
+|                                         |  +-----CUR_REF_NrdG_002_NrdG_Phylum_unresolved
+|                                      +--| (61)
+|                                      |  +--NCBI_WP_090545478_NrdG_Bacillota
+|                                   +--| (56)
+|                                   |  +-----NCBI_WP_007575649_NrdG_Bacteroidota
+|                                +--| (70)
+|                                |  |  +--PIBAC_PIGvsB100pB20_238_NrdG_Firmicutes_A
+|                                |  +--| (84)
+|                                |     |  +--NCBI_WP_412220476_NrdG_Bacillota
+|                                |     +--| (67)
+|                                |        +--CUR_REF_NrdG_003_NrdG_Phylum_unresolved
+|                             +--| (77)
+|                             |  +------vOTU_174_NrdG_Kyanoviridae
+|                          +--| (60)
+|                          |  |  +----PIBAC_PIGvsB100pB20_2219_NrdG_Firmicutes
+|                          |  +--| (59)
+|                          |     |  +----------PIBAC_PIGvsB100pB20_1350_NrdG_Firmicutes
+|                          |     +--| (59)
+|                          |        +----NCBI_WP_101773555_NrdG_Bacillota
+|                       +--| (79)
+|                       |  |  +--------vOTU_270_NrdG_Suoliviridae
+|                       |  +--| (75)
+|                       |     +----------vOTU_497_NrdG_Family_unclassified
+|                    +--| (65)
+|                    |  +------vOTU_2035_NrdG_Herelleviridae
+|                 +--| (74)
+|                 |  +----------vOTU_104_NrdG_Intestiviridae
+|              +--| (57)
+|              |  |                    +-------vOTU_1026_NrdG_Steigviridae
+|              |  |                 +--| (75)
+|              |  |                 |  +--NCBI_WP_203126639_NrdG_Bacillota
+|              |  |              +--| (77)
+|              |  |              |  +-----CUR_REF_NrdG_004_NrdG_Phylum_unresolved
+|              |  |           +--| (44)
+|              |  |           |  |          +--vOTU_11384_NrdG_Family_unclassified
+|              |  |           |  |  +-------| (100)
+|              |  |           |  |  |       +--NCBI_WP_405308475_NrdG_Methanobacteriota
+|              |  |           |  +--| (53)
+|              |  |           |     +-----PIBAC_PIGvsB100pB20_1279_NrdG_Firmicutes_A
+|              |  |        +--| (47)
+|              |  |        |  |                 +--vOTU_1717_NrdG_Family_unclassified
+|              |  |        |  |  +--------------| (100)
+|              |  |        |  |  |              +--NCBI_WP_444880746_NrdG_Pseudomonadota
+|              |  |        |  +--| (38)
+|              |  |        |     +----------vOTU_39_NrdG_Fiersviridae
+|              |  |     +--| (22)
+|              |  |     |  |     +-----------vOTU_107_NrdG_Straboviridae
+|              |  |     |  |  +--| (79)
+|              |  |     |  |  |  |      +--------vOTU_20589_NrdG_Autographiviridae
+|              |  |     |  |  |  |   +--| (63)
+|              |  |     |  |  |  |   |  +-----NCBI_WP_120176838_NrdG_Pseudomonadota
+|              |  |     |  |  |  +---| (95)
+|              |  |     |  |  |      +--NCBI_WP_249092695_NrdG_Pseudomonadota
+|              |  |     |  +--| (48)
+|              |  |     |     |            +----vOTU_1126_NrdG_Family_unclassified
+|              |  |     |     |        +---| (100)
+|              |  |     |     |        |   +-----NCBI_WP_320806099_NrdG_Bacillota
+|              |  |     |     |     +--| (96)
+|              |  |     |     |     |  +---CUR_REF_NrdG_001_NrdG_Phylum_unresolved
+|              |  |     |     |  +--| (67)
+|              |  |     |     |  |  +---PIBAC_PIGvsB100pB20_1733_NrdG_Firmicutes
+|              |  |     |     +--| (55)
+|              |  |     |        |      +--vOTU_8476_NrdG_Schitoviridae
+|              |  |     |        |  +---| (100)
+|              |  |     |        |  |   +----NCBI_WP_428587116_NrdG_Pseudomonadota
+|              |  |     |        +--| (53)
+|              |  |     |           +-------NCBI_WP_429191640_NrdG_Fusobacteriota
+|              |  |  +--| (20)
+|              |  |  |  |  +------PIBAC_PIBAC_CP009302_1_NrdG_Actinobacteriota
+|              |  |  |  +--| (74)
+|              |  |  |     +----PIBAC_PIGvsB100pB20_1491_NrdG_Actinobacteriota
+|              |  +--| (54)
+|              |     |           +--PIBAC_PIGvsB100pB20_700_NrdG_Firmicutes_A
+|              |     |        +--| (53)
+|              |     |        |  |  +---PIBAC_PIGvsB100pB20_770_NrdG_Firmicutes_C
+|              |     |        |  +--| (34)
+|              |     |        |     |  +--PIBAC_PIGvsB100pB20_561_NrdG_Firmicutes_A
+|              |     |        |     +--| (46)
+|              |     |        |        |  +--PIBAC_PIGvsB100pB20_260_NrdG_Firmicutes_A
+|              |     |        |        +--| (86)
+|              |     |        |           +--PIBAC_PIBAC_527_NrdG_Firmicutes_A
+|              |     |     +--| (40)
+|              |     |     |  |  +--PIBAC_PIGvsB100pB20_450_NrdG_Firmicutes_A
+|              |     |     |  +--| (79)
+|              |     |     |     +--PIBAC_PIGvsB100pB20_334_NrdG_Firmicutes_A
+|              |     |  +--| (28)
+|              |     |  |  |        +---PIBAC_PIGvsB100pB20_200_NrdG_Firmicutes_A
+|              |     |  |  |     +--| (49)
+|              |     |  |  |     |  |  +--NCBI_WP_227066737_NrdG_Bacillota
+|              |     |  |  |     |  +--| (69)
+|              |     |  |  |     |     +---CUR_REF_NrdG_005_NrdG_Phylum_unresolved
+|              |     |  |  |  +--| (41)
+|              |     |  |  |  |  |        +--PIBAC_PIGvsB100pB20_1294_NrdG_Firmicutes_A
+|              |     |  |  |  |  |     +--| (75)
+|              |     |  |  |  |  |     |  +--PIBAC_PIGvsB100pB20_1186_NrdG_Firmicutes_A
+|              |     |  |  |  |  |  +--| (73)
+|              |     |  |  |  |  |  |  +--PIBAC_PIGvsB100pB20_957_NrdG_Firmicutes_A
+|              |     |  |  |  |  +--| (52)
+|              |     |  |  |  |     |  +------PIBAC_PIGvsB100pB20_1736_NrdG_Firmicutes_A
+|              |     |  |  |  |     +--| (62)
+|              |     |  |  |  |        |  +---PIBAC_PIGvsB100pB20_646_NrdG_Firmicutes_A
+|              |     |  |  |  |        +--| (45)
+|              |     |  |  |  |           +----PIBAC_PIGvsB100pB20_912_NrdG_Firmicutes_A
+|              |     |  |  +--| (39)
+|              |     |  |     |  +--PIBAC_PIGvsB100pB20_254_NrdG_Firmicutes_A
+|              |     |  |     +--| (56)
+|              |     |  |        +---PIBAC_PIGvsB100pB20_707_NrdG_Firmicutes_A
+|              |     +--| (57)
+|              |        |     +---PIBAC_PIGvsB100pB20_537_NrdG_Firmicutes_A
+|              |        |  +--| (29)
+|              |        |  |  |     +--PIBAC_PIGvsB100pB20_780_NrdG_Firmicutes_A
+|              |        |  |  |  +--| (82)
+|              |        |  |  |  |  +----PIBAC_PIGvsB100pB20_705_NrdG_Firmicutes_A
+|              |        |  |  +--| (62)
+|              |        |  |     |  +----PIBAC_PIGvsB100pB20_1581_NrdG_Firmicutes_A
+|              |        |  |     +--| (65)
+|              |        |  |        +--PIBAC_PIGvsB100pB20_595_NrdG_Firmicutes_A
+|              |        +--| (32)
+|              |           |        +--PIBAC_PIGvsB100pB20_1076_NrdG_Firmicutes_A
+|              |           |     +--| (93)
+|              |           |     |  +---PIBAC_PIGvsB100pB20_1470_NrdG_Firmicutes_A
+|              |           |  +--| (68)
+|              |           |  |  +----PIBAC_PIGvsB100pB20_694_NrdG_Firmicutes_A
+|              |           +--| (76)
+|              |              |  +----PIBAC_PIGvsB100pB20_126_NrdG_Firmicutes_A
+|              |              +--| (92)
+|              |                 +--PIBAC_PIGvsB100pB20_565_NrdG_Firmicutes_A
+|           +--| (31)
+|           |  |           +---vOTU_1723_NrdG_Family_unclassified
+|           |  |  +--------| (99)
+|           |  |  |        +--NCBI_WP_103241463_NrdG_Bacillota
+|           |  +--| (53)
+|           |     +----------vOTU_201_NrdG_Chimalliviridae
+|        +--| (41)
+|        |  |                                  +---------vOTU_186_NrdG_Family_unclassified
+|        |  |                         +--------| (95)
+|        |  |                         |        |         +--NCBI_WP_165797685_NrdG_Bacillota
+|        |  |                         |        +---------| (100)
+|        |  |                         |                  +--NCBI_WP_498838947_NrdG_Bacillota
+|        |  |           +-------------| (100)
+|        |  |           |             +---vOTU_328_NrdG_Family_unclassified
+|        |  |  +--------| (47)
+|        |  |  |        |                            +-----------vOTU_3832_NrdG_Family_unclassified
+|        |  |  |        +----------------------------| (100)
+|        |  |  |                                     +---NCBI_WP_007859493_NrdG_Bacillota
+|        |  +--| (43)
+|        |     |  +----PIBAC_PIGvsB100pB20_210_NrdG_Bacteroidota
+|        |     +--| (39)
+|        |        +-------PIBAC_PIGvsB100pB20_70_NrdG_Bacteroidota
+|     +--| (44)
+|     |  |                      +---------------------------------vOTU_10447_NrdG_Intestiviridae_like
+|     |  +----------------------| (82)
+|     |                         +---NCBI_WP_341479116_NrdG_Bacillota
+|  +--| (33)
+|  |  |  +--PIBAC_PIGvsB100pB20_710_NrdG_Firmicutes_A
+|  |  +--| (97)
+|  |     +--NCBI_WP_439721439_NrdG_Bacillota
++--| (41)
+|  |        +-------vOTU_967_NrdG_Family_unclassified
+|  |     +--| (84)
+|  |     |  +--PIBAC_PIGvsB100pB20_754_NrdG_Firmicutes_A
+|  |  +--| (43)
+|  |  |  |  +---NCBI_WP_312091246_NrdG_Bacillota
+|  |  |  +--| (49)
+|  |  |     +-----NCBI_WP_413780131_NrdG_Bacillota
+|  +--| (12)
+|     +-----------PIBAC_PIGvsB100pB20_964_NrdG_Firmicutes_C
+|
+|  +----PIBAC_PIGvsB100pB20_1059_NrdG_Firmicutes_C
++--| (95)
+   +---PIBAC_PIGvsB100pB20_470_NrdG_Firmicutes_C
+
+
+Consensus tree in newick format: 
+
+(vOTU_10050_NrdG_Solemoviridae_like:0.6191142294,((((((((((((((((vOTU_10069_NrdG_Family_unclassified:0.0000029830,NCBI_WP_195565479_NrdG_Bacillota:0.0000029830)100:0.3455616733,CUR_REF_NrdG_002_NrdG_Phylum_unresolved:0.4080085357)63:0.0551152443,NCBI_WP_090545478_NrdG_Bacillota:0.2602850822)61:0.0454758680,NCBI_WP_007575649_NrdG_Bacteroidota:0.4450706684)56:0.0217811830,(PIBAC_PIGvsB100pB20_238_NrdG_Firmicutes_A:0.2330612857,(NCBI_WP_412220476_NrdG_Bacillota:0.2054362746,CUR_REF_NrdG_003_NrdG_Phylum_unresolved:0.1335431057)67:0.0655040490)84:0.0610900668)70:0.0592840704,vOTU_174_NrdG_Kyanoviridae:0.5028436768)77:0.0948233738,(PIBAC_PIGvsB100pB20_2219_NrdG_Firmicutes:0.3586908301,(PIBAC_PIGvsB100pB20_1350_NrdG_Firmicutes:0.7848454476,NCBI_WP_101773555_NrdG_Bacillota:0.3508712076)59:0.1513773087)59:0.0677020406)60:0.0638981730,(vOTU_270_NrdG_Suoliviridae:0.6302204580,vOTU_497_NrdG_Family_unclassified:0.7937734788)75:0.1738082116)79:0.1045328834,vOTU_2035_NrdG_Herelleviridae:0.5417214871)65:0.0602122713,vOTU_104_NrdG_Intestiviridae:0.7876012216)74:0.0836370759,(((((((vOTU_1026_NrdG_Steigviridae:0.5750577837,NCBI_WP_203126639_NrdG_Bacillota:0.2366422039)75:0.1676590366,CUR_REF_NrdG_004_NrdG_Phylum_unresolved:0.4308979180)77:0.1255200983,((vOTU_11384_NrdG_Family_unclassified:0.0084890960,NCBI_WP_405308475_NrdG_Methanobacteriota:0.0000029830)100:0.6102597289,PIBAC_PIGvsB100pB20_1279_NrdG_Firmicutes_A:0.4592673015)53:0.0470899749)44:0.0371496284,((vOTU_1717_NrdG_Family_unclassified:0.0000029830,NCBI_WP_444880746_NrdG_Pseudomonadota:0.0000029830)100:1.0508612846,vOTU_39_NrdG_Fiersviridae:0.7659843600)38:0.1676407736)47:0.1017586379,((vOTU_107_NrdG_Straboviridae:0.8512575196,((vOTU_20589_NrdG_Autographiviridae:0.6221967173,NCBI_WP_120176838_NrdG_Pseudomonadota:0.4456557429)63:0.1016345072,NCBI_WP_249092695_NrdG_Pseudomonadota:0.2502763295)95:0.3030988369)79:0.0833203033,((((vOTU_1126_NrdG_Family_unclassified:0.3601399635,NCBI_WP_320806099_NrdG_Bacillota:0.4512094797)100:0.3263001495,CUR_REF_NrdG_001_NrdG_Phylum_unresolved:0.3267865465)96:0.2370052326,PIBAC_PIGvsB100pB20_1733_NrdG_Firmicutes:0.3229440463)67:0.0380194496,((vOTU_8476_NrdG_Schitoviridae:0.1888805857,NCBI_WP_428587116_NrdG_Pseudomonadota:0.3758074290)100:0.2957063658,NCBI_WP_429191640_NrdG_Fusobacteriota:0.6098514817)53:0.1526935468)55:0.0630330631)48:0.0368717687)22:0.0236782443,(PIBAC_PIBAC_CP009302_1_NrdG_Actinobacteriota:0.5115165567,PIBAC_PIGvsB100pB20_1491_NrdG_Actinobacteriota:0.3683776258)74:0.1991177787)20:0.0127674932,((((PIBAC_PIGvsB100pB20_700_NrdG_Firmicutes_A:0.2379260785,(PIBAC_PIGvsB100pB20_770_NrdG_Firmicutes_C:0.3318582165,(PIBAC_PIGvsB100pB20_561_NrdG_Firmicutes_A:0.1971556546,(PIBAC_PIGvsB100pB20_260_NrdG_Firmicutes_A:0.1396791259,PIBAC_PIBAC_527_NrdG_Firmicutes_A:0.1952121109)86:0.0995820253)46:0.0239347721)34:0.0259851699)53:0.0436085481,(PIBAC_PIGvsB100pB20_450_NrdG_Firmicutes_A:0.1442349745,PIBAC_PIGvsB100pB20_334_NrdG_Firmicutes_A:0.1518712082)79:0.0994684124)40:0.0427245687,(((PIBAC_PIGvsB100pB20_200_NrdG_Firmicutes_A:0.3173174522,(NCBI_WP_227066737_NrdG_Bacillota:0.2051812756,CUR_REF_NrdG_005_NrdG_Phylum_unresolved:0.3079200886)69:0.0834363668)49:0.0905066890,(((PIBAC_PIGvsB100pB20_1294_NrdG_Firmicutes_A:0.1613655339,PIBAC_PIGvsB100pB20_1186_NrdG_Firmicutes_A:0.2249682916)75:0.0622860298,PIBAC_PIGvsB100pB20_957_NrdG_Firmicutes_A:0.2417821188)73:0.1014374134,(PIBAC_PIGvsB100pB20_1736_NrdG_Firmicutes_A:0.4766271504,(PIBAC_PIGvsB100pB20_646_NrdG_Firmicutes_A:0.2989513165,PIBAC_PIGvsB100pB20_912_NrdG_Firmicutes_A:0.3635097978)45:0.0102731656)62:0.0243390621)52:0.0331823325)41:0.0610968028,(PIBAC_PIGvsB100pB20_254_NrdG_Firmicutes_A:0.2508567098,PIBAC_PIGvsB100pB20_707_NrdG_Firmicutes_A:0.3373110388)56:0.1057522967)39:0.0474676182)28:0.0449337972,((PIBAC_PIGvsB100pB20_537_NrdG_Firmicutes_A:0.3018100186,((PIBAC_PIGvsB100pB20_780_NrdG_Firmicutes_A:0.1987769107,PIBAC_PIGvsB100pB20_705_NrdG_Firmicutes_A:0.3831439221)82:0.0622255774,(PIBAC_PIGvsB100pB20_1581_NrdG_Firmicutes_A:0.3566219084,PIBAC_PIGvsB100pB20_595_NrdG_Firmicutes_A:0.2595674511)65:0.0379566691)62:0.0642630953)29:0.0170161184,(((PIBAC_PIGvsB100pB20_1076_NrdG_Firmicutes_A:0.1691064503,PIBAC_PIGvsB100pB20_1470_NrdG_Firmicutes_A:0.2986719539)93:0.1065262715,PIBAC_PIGvsB100pB20_694_NrdG_Firmicutes_A:0.3509410205)68:0.0488381486,(PIBAC_PIGvsB100pB20_126_NrdG_Firmicutes_A:0.4055846661,PIBAC_PIGvsB100pB20_565_NrdG_Firmicutes_A:0.1035220642)92:0.1751646247)76:0.0785018934)32:0.0363403765)57:0.0489786835)54:0.1200670267)57:0.1335321269,((vOTU_1723_NrdG_Family_unclassified:0.2989705759,NCBI_WP_103241463_NrdG_Bacillota:0.2437971950)99:0.6592072115,vOTU_201_NrdG_Chimalliviridae:0.8020362135)53:0.1044250521)31:0.1158940177,((((vOTU_186_NrdG_Family_unclassified:0.6965905156,(NCBI_WP_165797685_NrdG_Bacillota:0.0181006611,NCBI_WP_498838947_NrdG_Bacillota:0.0000024522)100:0.7449939890)95:0.6206544271,vOTU_328_NrdG_Family_unclassified:0.3003645599)100:0.9926801266,(vOTU_3832_NrdG_Family_unclassified:0.8440365420,NCBI_WP_007859493_NrdG_Bacillota:0.3306638452)100:1.9798955581)47:0.6179542306,(PIBAC_PIGvsB100pB20_210_NrdG_Bacteroidota:0.3811234147,PIBAC_PIGvsB100pB20_70_NrdG_Bacteroidota:0.5546377300)39:0.0000024076)43:0.1854481659)41:0.0945857934,(vOTU_10447_NrdG_Intestiviridae_like:2.3314390041,NCBI_WP_341479116_NrdG_Bacillota:0.2868677777)82:1.5736022013)44:0.0383042762,(PIBAC_PIGvsB100pB20_710_NrdG_Firmicutes_A:0.1333352465,NCBI_WP_439721439_NrdG_Bacillota:0.1337317114)97:0.2157149090)33:0.0636138481,(((vOTU_967_NrdG_Family_unclassified:0.5981399832,PIBAC_PIGvsB100pB20_754_NrdG_Firmicutes_A:0.2634864243)84:0.1237665123,(NCBI_WP_312091246_NrdG_Bacillota:0.3158791604,NCBI_WP_413780131_NrdG_Bacillota:0.4476849062)49:0.0405355283)43:0.0374402263,PIBAC_PIGvsB100pB20_964_NrdG_Firmicutes_C:0.8577900075)12:0.0782965554)41:0.0722478156,(PIBAC_PIGvsB100pB20_1059_NrdG_Firmicutes_C:0.3551759723,PIBAC_PIGvsB100pB20_470_NrdG_Firmicutes_C:0.3198263168)95:0.1773636404);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/amg_family_representative_trees_20261025/NrdG.IQTREE.treefile -m "LG+I{0.067151}+G4{1.46131}" --length 124
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/amg_family_representative_trees_20261025/NrdG.trimmed.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/amg_family_representative_trees_20261025/NrdG.trimmed.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct 25 02:51:11 2026
+Total CPU time used: 8279.637064 seconds (2h:17m:59s)
+Total wall-clock time used: 582.009414 seconds (0h:9m:42s)
+

@@ -1,0 +1,69 @@
+{
+  "checkamg_source_rows": 819843,
+  "checkamg_source_unique_contigs": 11118,
+  "checkamg_duplicate_proteins": 0,
+  "checkamg_classes": {
+    "metabolic": 3755,
+    "physiological": 2154,
+    "regulatory": 8019,
+    "unclassified": 805915
+  },
+  "checkamg_confidence_all_records": {
+    "high": 776247,
+    "medium": 31554,
+    "low": 12042
+  },
+  "final_rows": 11725,
+  "final_unique_contigs": 5384,
+  "final_classes": {
+    "AMG": 3028,
+    "APG": 1808,
+    "AReG": 6889
+  },
+  "final_not_in_strict_source_protein_ids": 0,
+  "final_filter_formula_mismatches": 0,
+  "final_near_edge_within_100bp": 38,
+  "phatyp_rows": 9927,
+  "phatyp_predictions": {
+    "temperate": 3491,
+    "virulent": 6436
+  },
+  "phagcn_rows": 5982,
+  "phagcn_csv_row_widths": {
+    "9": 5214,
+    "10": 762,
+    "11": 6
+  },
+  "phagcn_family_reported": 1569,
+  "quality_host_rows": 48299,
+  "lifestyle_eligible_n": 9137,
+  "eligible_lifestyles": {
+    "temperate": 3076,
+    "virulent": 6061
+  },
+  "lifestyle_protein_records": 10690,
+  "lifestyle_positive_contigs": 4880,
+  "lifestyle_classes": {
+    "AMG": 2811,
+    "APG": 1649,
+    "AReG": 6230
+  },
+  "lifestyle_audit_proteins_not_in_final": 86,
+  "final_proteins_absent_from_lifestyle": 1121,
+  "final_contigs_missing_phatyp": 2,
+  "final_contigs_missing_phagcn": 85,
+  "taxonomy_nonempty_rank_disagreements": 0,
+  "master_index_rows": 48299,
+  "short_labels_are_unique": true,
+  "reconciled_final_lifestyle_protein_records": 10604,
+  "reconciled_final_lifestyle_positive_contigs": 4860,
+  "reconciled_classes": {
+    "AMG": 2779,
+    "APG": 1634,
+    "AReG": 6191
+  },
+  "extra_lifestyle_ORF_statuses": {
+    "predicted_partial": 71,
+    "review": 15
+  }
+}

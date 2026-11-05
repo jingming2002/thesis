@@ -1,0 +1,10 @@
+Field	Matches	Max_absolute_difference
+Virulent_k	True	0.0
+Virulent_n	True	0.0
+Temperate_k	True	0.0
+Temperate_n	True	0.0
+OR	True	0.0
+CI_lower	True	0.0
+CI_upper	True	0.0
+p	True	0.0
+q	True	0.0

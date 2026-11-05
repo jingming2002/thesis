@@ -1,0 +1,4 @@
+tree	tips	distance_pairs	max_distance_change	diameter	root_to_endpoint	topology_preserved	support_splits_preserved
+Fhs_high5_NCBI_top5_54tips	54	1431	8.88178419700125e-16	2.8106637538	1.4053318769	TRUE	51
+FolD	81	3240	1.77635683940025e-15	6.4724480069	3.23622400345	TRUE	78
+NrdG	89	3916	8.88178419700125e-16	8.0475781225	4.02378906125	TRUE	86

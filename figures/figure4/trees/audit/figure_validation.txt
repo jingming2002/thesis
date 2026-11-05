@@ -1,0 +1,4 @@
+10 one-page PDFs validated; no text outside page boundaries.
+The three individual tree PNGs are byte-identical to the preceding version.
+The combined figure contains only Fhs, FolD and NrdG.
+Rooting, topology, support-split and collapse-member checks passed for all three trees.

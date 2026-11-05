@@ -1,0 +1,11 @@
+{
+  "tree": "FolE",
+  "section": "current",
+  "diameter_tip_1": "PIBAC_PIGvsB100pB20_1813_FolE_Firmicutes",
+  "diameter_tip_2": "vOTU_1750_FolE_Family_unclassified",
+  "diameter": 4.0802292726,
+  "root_to_endpoint": 2.0401146363,
+  "distance_pairs_checked": 2346,
+  "maximum_distance_change": 8.881784197001252e-16,
+  "support_splits_preserved": 66
+}

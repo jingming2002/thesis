@@ -1,0 +1,26 @@
+请在服务器上补齐本项目终稿归档所需的以下材料，不要重新分析，也不要用旧版本替代。
+
+优先级 1：当前 Fhs high5（54 tips，LG+R5）分析。
+目录以 Table_S4 的 Final_tree_file 为准：
+/lustre/BIF/nobackup/wang500/thesis1/results/fhs_ncbi_top5_20261103/high5/
+请导出 full-length/tree_input FASTA、MAFFT alignment、trimAl alignment、IQ-TREE .iqtree/.log/.treefile，以及查询 FASTA、BLAST 实际命令和命中筛选表。请核对 54 tips、5 viral +25 pig-gut +23 NCBI +1 other。不要导出旧 199-tip 树作为替代。
+
+优先级 2：初始筛选与主目录来源。
+1. 输入 CheckAMG 的 18,220 vOTU 完整 ID 列表和筛选脚本/命令。
+2. 产生 40,314 初始候选（18,527 AMG、4,912 APG、16,875 AReG）的原始逐蛋白表及置信度字段。
+3. 核酸代表序列 FASTA、CheckAMG/pyrodigal-GV 蛋白 FASTA、GFF 或 gene_index；若很大，提供文件清单、SHA256、持久下载链接即可。
+4. 从初筛到 13,640 严格候选、再到 11,725 最终蛋白的完整筛选脚本及排除记录。当前目录已有最终表和部分 ORF 审计脚本，但不具备全部上游输入。
+
+优先级 3：各工具的原生输出和实际运行信息。
+1. CheckV 原始 completeness/quality_summary 结果与命令，说明 contamination 模块是否成功。
+2. geNomad virus_summary、genes/marker 注释及对应数据库版本。
+3. PhaTYP 和 PhaGCN3 命令、版本/commit、输入 ID 和日志（原始主预测结果已经有）。
+4. DRAM-v 命令、版本、数据库版本与 run log（annotations.tsv 和 amg_summary.tsv 已经有）。
+5. 八个基因家族的 CD-HIT .clstr、BLAST 命中表、HMMER .domtblout/.tblout、参考序列筛选脚本和参考数据库日期；不要重新生成或猜测未记录参数。
+
+请同时核实三个口径：
+- 5,411 是否为 6,074 个候选基因载体病毒中通过四项质量条件的数量。
+- 18,220 输入是依据 AAI completeness 还是合并 completeness，以及阈值 >=90 或 >90。
+- Fhs/五个重建家族 BLAST 搜索 E-value=0.001、FolD/NrdG=1e-5，是否与实际日志一致；Fhs 是否为每 query top5、其他家族为 best1。
+
+输出为 server_export/，每类一个目录，附 manifest.tsv（相对路径、字节数、SHA256、来源路径、分析版本）和简短 README。无法找回的文件明确标为 missing，不创建占位数据、不用历史结果填补。

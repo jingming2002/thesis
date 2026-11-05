@@ -1,0 +1,319 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    dayhoff (AVX512, FMA3, 3022 GB RAM)
+Command: /home/wang500/miniconda3/envs/checkamg/bin/iqtree3 -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.trimmed.faa -m MFP -B 1000 -alrt 1000 --bnni -T AUTO --threads-max 64 -seed 20261025 -pre /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE
+Seed:    20261025 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 26 14:04:15 2026
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading alignment file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.trimmed.faa ... Fasta format detected
+Reading fasta file: done in 0.00283384 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00201201 secs using 2534% CPU
+Alignment has 69 sequences with 135 columns, 130 distinct patterns
+116 parsimony-informative, 5 singleton sites, 14 constant sites
+                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00126505 secs using 3366% CPU
+   1  vOTU_13939_FolE_Intestiviridae_like               2.96%    passed     92.62%
+   2  vOTU_1029_FolE_Kyanoviridae                       2.96%    passed     18.69%
+   3  vOTU_13034_FolE_Solemoviridae_like                2.96%    passed     97.80%
+   4  vOTU_5770_FolE_Steigviridae                       3.70%    passed     82.19%
+   5  vOTU_83_FolE_Straboviridae                        3.70%    passed     99.19%
+   6  vOTU_1750_FolE_Family_unclassified                3.70%    passed     65.20%
+   7  vOTU_3433_FolE_Family_unclassified                5.19%    passed     97.84%
+   8  vOTU_6487_FolE_Family_unclassified                2.22%    passed     51.17%
+   9  vOTU_5183_FolE_Family_unclassified                2.96%    passed      8.51%
+  10  vOTU_6459_FolE_Family_unclassified                3.70%    passed     12.25%
+  11  vOTU_3723_FolE_Family_unclassified                1.48%    passed     72.43%
+  12  vOTU_10286_FolE_Family_unclassified               3.70%    passed     98.89%
+  13  vOTU_5321_FolE_Family_unclassified                4.44%    passed     91.05%
+  14  vOTU_10815_FolE_Family_unclassified               4.44%    passed     98.73%
+  15  vOTU_1654_FolE_Family_unclassified                2.96%    passed     68.28%
+  16  PIBAC_PIGvsB100pB20_458_FolE_Firmicutes_A         4.44%    passed     73.77%
+  17  PIBAC_PIGvsB100pB20_1117_FolE_Firmicutes_A        3.70%    passed     87.27%
+  18  PIBAC_PIGvsB100pB20_1433_FolE_Firmicutes_A        3.70%    passed     90.65%
+  19  PIBAC_PIGvsB100pB20_127_FolE_Proteobacteria       3.70%    passed     32.95%
+  20  PIBAC_PIGvsB100pB20_1527_FolE_Bacteroidota        2.96%    passed     53.04%
+  21  PIBAC_PIGvsB100pB20_450_FolE_Firmicutes_A         3.70%    passed     97.38%
+  22  PIBAC_PIGvsB100pB20_367_FolE_Firmicutes_A         3.70%    passed     96.87%
+  23  PIBAC_PIGvsB100pB20_1277_FolE_Firmicutes          3.70%    passed     94.74%
+  24  PIBAC_PIBAC_392_FolE_Firmicutes_A                 3.70%    passed     99.84%
+  25  PIBAC_PIBAC_501_FolE_Firmicutes_A                 4.44%    passed     92.77%
+  26  PIBAC_PIGvsB100pB20_210_FolE_Bacteroidota         2.96%    passed     86.32%
+  27  PIBAC_PIGvsB100pB20_539_FolE_Bacteroidota         2.96%    passed     24.72%
+  28  PIBAC_PIGvsB100pB20_67_FolE_Proteobacteria        3.70%    passed     51.75%
+  29  PIBAC_PIGvsB100pB20_917_FolE_Proteobacteria       3.70%    passed     83.05%
+  30  PIBAC_PIGvsB100pB20_148_FolE_Riflebacteria        3.70%    passed     98.23%
+  31  PIBAC_PIGvsB100pB20_1951_FolE_Firmicutes_A        4.44%    passed     94.68%
+  32  PIBAC_PIGvsB100pB20_446_FolE_Firmicutes_A         4.44%    passed     99.41%
+  33  PIBAC_PIBAC_486_FolE_Firmicutes_A                 3.70%    passed     99.14%
+  34  PIBAC_PIGvsB100pB20_1564_FolE_Actinobacteriota    2.96%    passed     98.37%
+  35  PIBAC_PIGvsB100pB20_745_FolE_Firmicutes_A         3.70%    passed     82.95%
+  36  PIBAC_PIGvsB100pB20_1813_FolE_Firmicutes          2.22%    passed     33.32%
+  37  PIBAC_PIGvsB100pB20_622_FolE_Proteobacteria       2.96%    passed     10.76%
+  38  PIBAC_PIGvsB100pB20_483_FolE_Firmicutes_A         3.70%    passed     95.10%
+  39  PIBAC_PIGvsB100pB20_475_FolE_Proteobacteria       2.96%    passed     29.46%
+  40  PIBAC_PIGvsB100pB20_763_FolE_Firmicutes_A         4.44%    passed     93.87%
+  41  PIBAC_PIGvsB100pB20_506_FolE_Firmicutes_A         4.44%    passed     62.92%
+  42  PIBAC_PIBAC_266_FolE_Firmicutes_A                 4.44%    passed     94.26%
+  43  PIBAC_PIGvsB100pB20_565_FolE_Firmicutes_A         3.70%    passed     93.06%
+  44  PIBAC_PIGvsB100pB20_1124_FolE_Bacteroidota        4.44%    passed     99.96%
+  45  PIBAC_PIGvsB100pB20_647_FolE_Bacteroidota         4.44%    passed     96.60%
+  46  PIBAC_PIGvsB100pB20_496_FolE_Firmicutes_C         3.70%    passed     88.75%
+  47  PIBAC_PIGvsB100pB20_568_FolE_Firmicutes_A         3.70%    passed     99.00%
+  48  PIBAC_PIGvsB100pB20_378_FolE_Firmicutes_A         3.70%    passed     96.38%
+  49  PIBAC_PIGvsB100pB20_1056_FolE_Bacteroidota        4.44%    passed     99.35%
+  50  PIBAC_PIGvsB100pB20_1402_FolE_Actinobacteriota    3.70%    passed     25.55%
+  51  PIBAC_PIBAC_524_FolE_Actinobacteriota             3.70%    passed     65.98%
+  52  PIBAC_PIBAC_ASM279767v1_FolE_Fibrobacterota       4.44%    passed     63.21%
+  53  PIBAC_PIGvsB100pB20_1193_FolE_Firmicutes          3.70%    passed     97.38%
+  54  PIBAC_PIGvsB100pB20_912_FolE_Firmicutes_A         4.44%    passed     98.55%
+  55  PIBAC_PIGvsB100pB20_746_FolE_Bacteroidota         4.44%    passed     99.50%
+  56  NCBI_WP_026651810.1_FolE_Bacillota                3.70%    passed     91.04%
+  57  NCBI_WP_028257341.1_FolE_Bacillota                3.70%    passed     85.28%
+  58  NCBI_WP_107638985.1_FolE_Bacillota                4.44%    passed     96.60%
+  59  NCBI_WP_234740013.1_FolE_Pseudomonadota           4.44%    passed     85.99%
+  60  NCBI_WP_244892377.1_FolE_Cyanobacteriota          2.96%    passed     38.91%
+  61  NCBI_WP_278984552.1_FolE_Bacteroidota             4.44%    passed     95.36%
+  62  NCBI_WP_301745945.1_FolE_Bacteroidota             2.96%    passed     80.07%
+  63  NCBI_WP_302406718.1_FolE_Bacteroidota             2.96%    passed     49.16%
+  64  NCBI_WP_412615103.1_FolE_Bacillota                3.70%    passed     86.70%
+  65  NCBI_WP_418448728.1_FolE_Bacteroidota             1.48%    passed     72.43%
+  66  NCBI_WP_448518623.1_FolE_Bacteroidota             3.70%    passed     90.79%
+  67  NCBI_WP_453993239.1_FolE_Bacillota                4.44%    passed     76.33%
+  68  NCBI_WP_483208897.1_FolE_Bacteroidota             3.70%    passed     78.39%
+  69  CUR_P0A6T5_folE_FolE_Pseudomonadota               3.70%    passed     51.75%
+****  TOTAL                                             3.67%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: NCBI_WP_418448728.1_FolE_Bacteroidota is identical to vOTU_3723_FolE_Family_unclassified but kept for subsequent analysis
+NOTE: CUR_P0A6T5_folE_FolE_Pseudomonadota is identical to PIBAC_PIGvsB100pB20_67_FolE_Proteobacteria but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00369883 secs using 4727% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.017 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+133 trees examined
+Threads: 1 / Time: 64.244 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -14197
+Threads: 2 / Time: 36.874 sec / Speedup: 1.742 / Efficiency: 87% / LogL: -14197
+Threads: 3 / Time: 21.057 sec / Speedup: 3.051 / Efficiency: 102% / LogL: -14197
+Threads: 4 / Time: 22.378 sec / Speedup: 2.871 / Efficiency: 72% / LogL: -14197
+Threads: 5 / Time: 19.669 sec / Speedup: 3.266 / Efficiency: 65% / LogL: -14197
+Threads: 6 / Time: 19.484 sec / Speedup: 3.297 / Efficiency: 55% / LogL: -14197
+Threads: 7 / Time: 19.877 sec / Speedup: 3.232 / Efficiency: 46% / LogL: -14197
+Determining AUTO threadcount: done in 203.593 secs using 320.5% CPU
+BEST NUMBER OF THREADS: 5
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -10247.378
+Optimal log-likelihood: -10247.195
+Proportion of invariable sites: 0.095
+Gamma shape alpha: 1.212
+Parameters optimization took 1 rounds (0.066 sec)
+Time for fast ML tree search: 0.650 seconds
+
+NOTE: ModelFinder requires 16 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 135 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            10899.501    135 22069.003    58789.003    22461.215
+  2  LG+I          10656.600    136 21585.199    58849.199    21980.317
+  3  LG+G4         10272.653    136 20817.306    58081.306    21212.423
+  4  LG+I+G4       10247.196    137 20768.391    58580.391    21166.414
+  5  LG+R2         10417.132    137 21108.263    58920.263    21506.286
+  6  LG+R3         10304.680    139 20887.361    59807.361    21291.194
+  7  LG+R4         10260.381    141 20802.761    60846.761    21212.405
+  8  LG+R5         10256.259    143 20798.518    61982.518    21213.972
+ 14  LG+I+R2       10326.282    138 20928.564    59292.564    21329.492
+ 15  LG+I+R3       10262.939    140 20805.879    60285.879    21212.617
+ 16  LG+I+R4       10242.622    142 20769.243    61381.243    21181.792
+ 17  LG+I+R5       10239.679    144 20767.357    62527.357    21185.717
+ 26  LG+F+I+G4     10247.418    156 20806.835    69790.835    21260.058
+ 48  WAG+I+G4      10363.447    137 21000.894    58812.894    21398.917
+ 70  WAG+F+I+G4    10335.397    156 20982.794    69966.794    21436.017
+ 92  JTT+I+G4      10455.978    137 21185.956    58997.956    21583.979
+114  JTT+F+I+G4    10457.042    156 21226.084    70210.084    21679.307
+136  Q.PFAM+I+G4   10273.411    137 20820.821    58632.821    21218.844
+158  Q.PFAM+F+I+G4 10265.829    156 20843.658    69827.658    21296.881
+180  Q.BIRD+I+G4   10686.090    137 21646.181    59458.181    22044.204
+202  Q.BIRD+F+I+G4 10762.263    156 21836.527    70820.527    22289.749
+224  Q.MAMMAL+I+G4 10591.606    137 21457.213    59269.213    21855.235
+246  Q.MAMMAL+F+I+G4 10642.332    156 21596.663    70580.663    22049.886
+268  Q.INSECT+I+G4 10291.621    137 20857.243    58669.243    21255.265
+290  Q.INSECT+F+I+G4 10337.106    156 20986.213    69970.213    21439.436
+312  Q.PLANT+I+G4  10435.479    137 21144.958    58956.958    21542.981
+334  Q.PLANT+F+I+G4 10462.159    156 21236.318    70220.318    21689.541
+356  Q.YEAST+I+G4  10294.965    137 20863.930    58675.930    21261.953
+378  Q.YEAST+F+I+G4 10293.629    156 20899.259    69883.259    21352.481
+400  JTTDCMUT+I+G4 10454.417    137 21182.834    58994.834    21580.856
+422  JTTDCMUT+F+I+G4 10453.477    156 21218.955    70202.955    21672.178
+444  DCMUT+I+G4    10537.850    137 21349.700    59161.700    21747.722
+466  DCMUT+F+I+G4  10482.582    156 21277.164    70261.164    21730.386
+488  VT+I+G4       10380.685    137 21035.369    58847.369    21433.392
+510  VT+F+I+G4     10356.089    156 21024.178    70008.178    21477.401
+532  PMB+I+G4      10392.816    137 21059.633    58871.633    21457.655
+554  PMB+F+I+G4    10384.645    156 21081.291    70065.291    21534.514
+576  BLOSUM62+I+G4 10368.864    137 21011.728    58823.728    21409.751
+598  BLOSUM62+F+I+G4 10389.211    156 21090.422    70074.422    21543.645
+620  DAYHOFF+I+G4  10537.256    137 21348.512    59160.512    21746.535
+642  DAYHOFF+F+I+G4 10482.359    156 21276.719    70260.719    21729.942
+664  MTREV+I+G4    10973.777    137 22221.554    60033.554    22619.577
+686  MTREV+F+I+G4  10553.678    156 21419.357    70403.357    21872.580
+708  MTART+I+G4    10908.455    137 22090.911    59902.911    22488.933
+730  MTART+F+I+G4  10530.251    156 21372.503    70356.503    21825.726
+752  MTZOA+I+G4    10684.847    137 21643.695    59455.695    22041.717
+774  MTZOA+F+I+G4  10437.385    156 21186.769    70170.769    21639.992
+796  MTMET+I+G4    10881.260    137 22036.520    59848.520    22434.543
+818  MTMET+F+I+G4  10571.832    156 21455.665    70439.665    21908.888
+840  MTVER+I+G4    11128.279    137 22530.558    60342.558    22928.580
+862  MTVER+F+I+G4  10809.059    156 21930.118    70914.118    22383.340
+884  MTINV+I+G4    10845.967    137 21965.934    59777.934    22363.956
+906  MTINV+F+I+G4  10440.377    156 21192.754    70176.754    21645.977
+928  MTMAM+I+G4    11285.015    137 22844.030    60656.030    23242.052
+950  MTMAM+F+I+G4  10933.688    156 22179.376    71163.376    22632.599
+972  FLAVI+I+G4    10978.735    137 22231.470    60043.470    22629.493
+994  FLAVI+F+I+G4  11008.613    156 22329.226    71313.226    22782.449
+1016  HIVB+I+G4     10730.951    137 21735.901    59547.901    22133.924
+1038  HIVB+F+I+G4   10737.980    156 21787.961    70771.961    22241.184
+1060  HIVW+I+G4     11232.673    137 22739.346    60551.346    23137.369
+1082  HIVW+F+I+G4   11121.352    156 22554.704    71538.704    23007.927
+1104  FLU+I+G4      10688.232    137 21650.463    59462.463    22048.486
+1126  FLU+F+I+G4    10700.539    156 21713.078    70697.078    22166.301
+1148  RTREV+I+G4    10350.149    137 20974.298    58786.298    21372.320
+1170  RTREV+F+I+G4  10300.729    156 20913.458    69897.458    21366.681
+1192  CPREV+I+G4    10418.501    137 21111.003    58923.003    21509.025
+1214  CPREV+F+I+G4  10354.037    156 21020.074    70004.074    21473.297
+Akaike Information Criterion:           LG+I+R5
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+I+G4
+Best-fit model: LG+I+G4 chosen according to BIC
+
+All model information printed to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.model.gz
+CPU time for ModelFinder: 753.870 seconds (0h:12m:33s)
+Wall-clock time for ModelFinder: 222.967 seconds (0h:3m:42s)
+Generating 1000 samples for ultrafast bootstrap (seed: 20261025)...
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.195
+Init pinv, alpha: 0.012, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.197
+Init pinv, alpha: 0.023, 1.321 / Estimate: 0.095, 1.211 / LogL: -10247.196
+Init pinv, alpha: 0.035, 1.321 / Estimate: 0.095, 1.211 / LogL: -10247.198
+Init pinv, alpha: 0.046, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.201
+Init pinv, alpha: 0.058, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.198
+Init pinv, alpha: 0.069, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.196
+Init pinv, alpha: 0.081, 1.321 / Estimate: 0.095, 1.211 / LogL: -10247.195
+Init pinv, alpha: 0.092, 1.321 / Estimate: 0.095, 1.210 / LogL: -10247.195
+Init pinv, alpha: 0.104, 1.321 / Estimate: 0.095, 1.209 / LogL: -10247.196
+Optimal pinv,alpha: 0.095, 1.210 / LogL: -10247.195
+
+Parameters optimization took 2.042 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.171617 secs using 500% CPU
+Computing ML distances took 0.171866 sec (of wall-clock time) 0.859439 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000544071 secs using 180.5% CPU
+Constructing RapidNJ tree: done in 0.00231481 secs
+Computing RapidNJ tree took 0.003006 sec (of wall-clock time) 0.001345 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10294.197
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.193 second
+Computing log-likelihood of 98 initial trees ... 1.731 seconds
+Current best score: -10247.195
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10247.195
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -10236.872
+Iteration 10 / LogL: -10261.909 / Time: 0h:3m:52s
+Iteration 20 / LogL: -10266.196 / Time: 0h:3m:56s
+Finish initializing candidate tree set (20)
+Current best tree score: -10236.872 / CPU time: 11.198
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -10236.796
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -10236.000
+Iteration 30 / LogL: -10236.199 / Time: 0h:4m:0s (0h:0m:57s left)
+Iteration 40 / LogL: -10237.889 / Time: 0h:4m:4s (0h:0m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -10235.900
+Iteration 50 / LogL: -10236.798 / Time: 0h:4m:9s (0h:0m:50s left)
+Iteration 60 / LogL: -10235.905 / Time: 0h:4m:12s (0h:0m:42s left)
+Iteration 70 / LogL: -10236.800 / Time: 0h:4m:17s (0h:0m:37s left)
+Iteration 80 / LogL: -10235.900 / Time: 0h:4m:22s (0h:0m:31s left)
+Iteration 90 / LogL: -10235.900 / Time: 0h:4m:26s (0h:0m:26s left)
+Iteration 100 / LogL: -10236.798 / Time: 0h:4m:30s (0h:0m:21s left)
+Iteration 110 / LogL: -10239.958 / Time: 0h:4m:35s (0h:0m:16s left)
+Iteration 120 / LogL: -10236.163 / Time: 0h:4m:40s (0h:0m:11s left)
+Iteration 130 / LogL: -10240.753 / Time: 0h:4m:45s (0h:0m:6s left)
+Iteration 140 / LogL: -10250.394 / Time: 0h:4m:49s (0h:0m:1s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 145 ITERATIONS / Time: 0h:6m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10235.900
+Optimal log-likelihood: -10235.900
+Proportion of invariable sites: 0.095
+Gamma shape alpha: 1.246
+Parameters optimization took 1 rounds (0.047 sec)
+BEST SCORE FOUND : -10235.900
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.136 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.splits.nex
+Total tree length: 27.184
+
+Total number of iterations: 145
+CPU time used for tree search: 888.411 sec (0h:14m:48s)
+Wall-clock time used for tree search: 179.279 sec (0h:2m:59s)
+Total CPU time used: 1656.143 sec (0h:27m:36s)
+Total wall-clock time used: 405.093 sec (0h:6m:45s)
+UFBoot trees printed to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.splits.nex...
+69 taxa and 1591 splits.
+Consensus tree written to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.contree
+Reading input trees file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.contree
+Log-likelihood of consensus tree: -10238.137
+
+Analysis results written to: 
+  IQ-TREE report:                /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.iqtree
+  Maximum-likelihood tree:       /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.treefile
+  Likelihood distances:          /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.splits.nex
+  Consensus tree:                /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.contree
+  UFBoot trees:                  /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.ufboot
+  Screen log file:               /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/FolE/FolE.IQTREE.log
+
+Date and Time: Mon Oct 26 14:11:01 2026

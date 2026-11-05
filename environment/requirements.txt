@@ -1,0 +1,6 @@
+pandas
+numpy
+scipy
+biopython
+matplotlib
+PyMuPDF

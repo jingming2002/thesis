@@ -1,0 +1,33 @@
+Class	Module	Proteins	vOTUs	Label
+AMG	Anaerobic RNR activation	648	642	Anaerobic RNR activation (NrdG)
+AMG	Folate-mediated one-carbon metabolism	299	281	Folate-mediated one-carbon metabolism
+AMG	S-adenosylmethionine synthesis	226	226	S-adenosylmethionine synthesis
+AMG	Cobalamin biosynthesis	197	185	Cobalamin biosynthesis-related
+AMG	Sulfur mobilization / Fe-S assembly	171	170	Sulfur mobilization / Fe-S assembly
+AMG	NAD biosynthesis / salvage	161	108	NAD biosynthesis / salvage
+AMG	PhoH-family functions	158	158	PhoH-family functions
+AMG	Folate biosynthesis	106	106	Folate biosynthesis
+AMG	Amino-acid transamination	79	79	Amino-acid transamination
+AMG	Nucleobase transport	55	55	Nucleobase transport
+AMG	Shikimate-pathway reactions	49	48	Shikimate-pathway reactions
+AMG	Iron storage	28	28	Iron storage
+APG	Toxin-antitoxin-associated functions	543	492	Toxin-antitoxin-associated candidates
+APG	Other anti-defense functions	331	318	Other anti-defense functions
+APG	Anti-restriction	229	229	Anti-restriction
+APG	CRISPR-Cas-associated functions	178	177	CRISPR-Cas-associated functions
+APG	Sporulation-associated functions	175	168	Sporulation-associated functions
+APG	Anti-CRISPR	79	78	Anti-CRISPR
+APG	Secretion-associated functions	52	51	Secretion-associated functions
+APG	Abi-associated defense candidates	30	30	Abi-associated defense candidates
+APG	Stress-response functions	14	14	Stress-response functions
+AReG	Transcription regulation (unspecified)	1266	1128	Transcription regulation (unspecified)
+AReG	Anti-repression	1212	1061	Anti-repression
+AReG	Transcriptional repression	584	572	Transcriptional repression
+AReG	RNA-binding-associated functions	443	442	RNA-binding-associated functions
+AReG	Transcription initiation / sigma factors	220	214	Transcription initiation / sigma factors
+AReG	Transcriptional activation	141	138	Transcriptional activation
+AReG	SOS-associated regulation	93	93	SOS-associated regulation
+AReG	Cell-division regulation	82	82	Cell-division regulation
+AReG	Biofilm / matrix regulation	52	52	Biofilm / matrix regulation
+AReG	Competence-associated regulation	42	42	Competence-associated regulation
+AReG	Transcription antitermination	36	35	Transcription antitermination

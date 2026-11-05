@@ -1,0 +1,9 @@
+reproduced/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+.ipynb_checkpoints/
+*.tmp
+*.log.tmp

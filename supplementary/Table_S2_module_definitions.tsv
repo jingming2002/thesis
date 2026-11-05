@@ -1,0 +1,33 @@
+AVG_class	Module	Proteins	vOTUs	Distinct_Function_annotations	Recorded_assignment_basis
+AMG	Anaerobic RNR activation	648	642	1	NrdG activation function; no inference of a complete nucleotide module
+AMG	Folate-mediated one-carbon metabolism	299	281	5	K00600/K01491/K01938 or explicit GlyA/FolD/Fhs annotation; domain-level calls retained as candidates
+AMG	S-adenosylmethionine synthesis	226	226	1	K00789 or explicit metK annotation
+AMG	Cobalamin biosynthesis	197	185	4	CobS/CobT/corrinoid adenosyltransferase annotations
+AMG	Sulfur mobilization / Fe-S assembly	171	170	1	IscS/IscU annotations; does not imply a complete Fe-S pathway
+AMG	NAD biosynthesis / salvage	161	108	4	NadE/PncB/NadM/PncC; excludes transport-only annotations
+AMG	PhoH-family functions	158	158	2	PhoH/PhoH2 family annotation; no phosphate-acquisition activity assumed
+AMG	Folate biosynthesis	106	106	1	Folate-biosynthesis KO or explicit folE annotation
+AMG	Amino-acid transamination	79	79	1	Explicit amino-acid aminotransferase annotations
+AMG	Nucleobase transport	55	55	1	Uracil permease annotation
+AMG	Shikimate-pathway reactions	49	48	1	Explicit shikimate-pathway enzyme annotation
+AMG	Iron storage	28	28	2	Ferritin/bacterioferritin annotation
+APG	Toxin-antitoxin-associated functions	543	492	31	Toxin/antitoxin annotations excluding explicit exoenzyme toxins
+APG	Other anti-defense functions	331	318	6	Anti-defense, anti-CBASS, abortive-infection resistance or TA-inhibitor annotation
+APG	Anti-restriction	229	229	5	Explicit anti-restriction annotation
+APG	CRISPR-Cas-associated functions	178	177	10	CRISPR/Cas-associated annotation; not evidence of a complete system
+APG	Sporulation-associated functions	175	168	12	Sporulation-related protein/domain annotation; not complete sporulation capacity
+APG	Anti-CRISPR	79	78	2	Explicit anti-CRISPR annotation
+APG	Secretion-associated functions	52	51	4	Secretion-related annotation; not a complete secretion system
+APG	Abi-associated defense candidates	30	30	5	Abi annotation excluding resistance/anti-defense proteins assigned above
+APG	Stress-response functions	14	14	3	Explicit stress/chaperone annotation
+AReG	Transcription regulation (unspecified)	1266	1128	28	Explicit transcription regulation without an assigned target; ParB/NadR excluded
+AReG	Anti-repression	1212	1061	5	Anti-repressor is assigned before repressor
+AReG	Transcriptional repression	584	572	7	Explicit repressor annotation after anti-repressor/LexA/DicA exclusions
+AReG	RNA-binding-associated functions	443	442	2	RNA-binding function only; regulatory role is not experimentally established
+AReG	Transcription initiation / sigma factors	220	214	9	Sigma/promoter-specificity annotation
+AReG	Transcriptional activation	141	138	7	Explicit activator annotation
+AReG	SOS-associated regulation	93	93	2	Explicit LexA annotation; excludes nonspecific K01356 repressor calls
+AReG	Cell-division regulation	82	82	1	Explicit DicA/cell-division regulator annotation
+AReG	Biofilm / matrix regulation	52	52	3	SinR/RemA or explicit biofilm/matrix regulation annotation
+AReG	Competence-associated regulation	42	42	1	Explicit competence regulator annotation
+AReG	Transcription antitermination	36	35	4	Explicit transcription antitermination; excludes phage neck terminators

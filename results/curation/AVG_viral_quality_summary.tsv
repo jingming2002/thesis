@@ -1,0 +1,6 @@
+criterion	passing_vOTUs	total_vOTUs	percent
+passes_checkv_completeness_ge90	5411	6074	89.085
+passes_length_gt10kb	6074	6074	100.000
+passes_virus_score_gt0.90	6074	6074	100.000
+passes_n_hallmarks_ge1	6074	6074	100.000
+passes_all_four_quality_checks	5411	6074	89.085

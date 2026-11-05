@@ -1,0 +1,20 @@
+#!/usr/bin/env Rscript
+# Recalculate the statistics directly from final module assignments and eligible vOTUs.
+argv <- commandArgs(FALSE)
+script <- sub('^--file=', '', argv[grepl('^--file=', argv)])
+root <- normalizePath(file.path(dirname(script[1]), '..'))
+args <- commandArgs(TRUE)
+dest <- if(length(args)) args[1] else file.path(root, 'reproduced', 'module_lifestyle_tests.tsv')
+d <- read.delim(file.path(root,'supplementary/Table_S2_protein_assignments.tsv'),check.names=FALSE)
+b <- read.delim(file.path(root,'supplementary/Table_S1_lifestyle_background.tsv'),check.names=FALSE)
+m <- read.delim(file.path(root,'supplementary/Table_S2_module_definitions.tsv'),check.names=FALSE)
+res <- lapply(seq_len(nrow(m)), function(i) {
+ ids <- unique(d$Contig[!is.na(d$Display_module) & d$AVG_category==m$AVG_class[i] & d$Display_module==m$Module[i]])
+ vn <- sum(tolower(b$PhaTYP_Pred)=='virulent');tn <- sum(tolower(b$PhaTYP_Pred)=='temperate')
+ v <- sum(b$Contig %in% ids & tolower(b$PhaTYP_Pred)=='virulent');t <- sum(b$Contig %in% ids & tolower(b$PhaTYP_Pred)=='temperate')
+ fit <- fisher.test(matrix(c(v,vn-v,t,tn-t),nrow=2,byrow=TRUE),alternative='two.sided',conf.level=.95)
+ data.frame(Class=m$AVG_class[i],Module=m$Module[i],Virulent_k=v,Virulent_n=vn,Temperate_k=t,Temperate_n=tn,OR=unname(fit$estimate),CI_lower=fit$conf.int[1],CI_upper=fit$conf.int[2],p=fit$p.value)
+})
+res <- do.call(rbind,res);res$q <- p.adjust(res$p,method='BH')
+dir.create(dirname(dest),recursive=TRUE,showWarnings=FALSE)
+write.table(res,dest,sep='\t',quote=FALSE,row.names=FALSE)

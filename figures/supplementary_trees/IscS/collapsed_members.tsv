@@ -1,0 +1,5 @@
+tree	clade_id	tree_id	source	phylum	SH_aLRT	UFBoot
+IscS	C01	PIBAC_PIBAC_68_1_5_IscS_Firmicutes_A	PIBAC	Bacillota_A	99.3	100.0
+IscS	C01	PIBAC_PIGvsB100pB20_984_IscS_Firmicutes_A	PIBAC	Bacillota_A	99.3	100.0
+IscS	C02	PIBAC_PIGvsB100pB20_919_IscS_Firmicutes_A	PIBAC	Bacillota_A	99.3	100.0
+IscS	C02	PIBAC_PIGvsB100pB20_930_IscS_Firmicutes_A	PIBAC	Bacillota_A	99.3	100.0

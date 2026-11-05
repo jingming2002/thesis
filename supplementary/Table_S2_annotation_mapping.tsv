@@ -1,0 +1,172 @@
+AVG_class	Module	Function	Proteins	vOTUs	Observed_KEGG_IDs
+AMG	Anaerobic RNR activation	nrdG; anaerobic ribonucleoside-triphosphate reductase activating protein [EC:1.97.1.4]	648	642	K04068
+AMG	Folate-mediated one-carbon metabolism	MTHFD; methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase / formyltetrahydrofolate synthetase [EC:1.5.1.5] [EC:3.5.4.9] [EC:6.3.4.3]; fhs; formate--tetrahydrofolate ligase [EC:6.3.4.3]; MTHFD1L; monofunctional C1-tetrahydrofolate synthase, mitochondrial [EC:6.3.4.3]; folD; methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5] [EC:3.5.4.9]; MTHFD2; methylenetetrahydrofolate dehydrogenase(NAD+) / 5,10-methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.15] [EC:3.5.4.9]	7	7	K01938
+AMG	Folate-mediated one-carbon metabolism	Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain	63	63	K01491
+AMG	Folate-mediated one-carbon metabolism	Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain	1	1	K01491
+AMG	Folate-mediated one-carbon metabolism	folD; methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5] [EC:3.5.4.9]	77	77	K01491
+AMG	Folate-mediated one-carbon metabolism	glyA, SHMT; glycine hydroxymethyltransferase [EC:2.1.2.1]	151	149	K00600
+AMG	S-adenosylmethionine synthesis	metK; S-adenosylmethionine synthetase [EC:2.5.1.6]	226	226	K00789
+AMG	Cobalamin biosynthesis	ATP:corrinoid adenosyltransferase BtuR/CobO/CobP	12	12	K19221
+AMG	Cobalamin biosynthesis	cobA, btuR; cob(I)alamin adenosyltransferase [EC:2.5.1.17]	3	3	K19221
+AMG	Cobalamin biosynthesis	cobS; cobaltochelatase CobS [EC:6.6.1.2]	168	168	K09882
+AMG	Cobalamin biosynthesis	cobT; cobaltochelatase CobT [EC:6.6.1.2]	14	14	K09883
+AMG	Sulfur mobilization / Fe-S assembly	iscS, NFS1; cysteine desulfurase [EC:2.8.1.7]	171	170	K04487 | K18913
+AMG	NAD biosynthesis / salvage	nadE; NAD+ synthase [EC:6.3.1.5]	89	89	K01916
+AMG	NAD biosynthesis / salvage	nadM; nicotinamide-nucleotide adenylyltransferase [EC:2.7.7.1]	21	21	K00952
+AMG	NAD biosynthesis / salvage	pncB, NAPRT1; nicotinate phosphoribosyltransferase [EC:6.3.4.21]	42	42	K00763
+AMG	NAD biosynthesis / salvage	pncC; nicotinamide-nucleotide amidase [EC:3.5.1.42]	9	9	K03743
+AMG	PhoH-family functions	phoH, phoL; phosphate starvation-inducible protein PhoH and related proteins	17	17	K06217
+AMG	PhoH-family functions	phoH2; PhoH-like ATPase	141	141	K07175
+AMG	Folate biosynthesis	GCH1, folE; GTP cyclohydrolase IA [EC:3.5.4.16]	106	106	K01495
+AMG	Amino-acid transamination	alaA; alanine-synthesizing transaminase [EC:2.6.1.66] [EC:2.6.1.2]; K10907; aminotransferase [EC:2.6.1.-]	79	79	
+AMG	Nucleobase transport	uraA, pyrP; uracil permease	55	55	K02824
+AMG	Shikimate-pathway reactions	aroK, aroL; shikimate kinase [EC:2.7.1.71]	49	48	
+AMG	Iron storage	bfr; bacterioferritin [EC:1.16.3.1]	15	15	K03594
+AMG	Iron storage	ftnA, ftn; ferritin [EC:1.16.3.2]	13	13	K02217
+APG	Toxin-antitoxin-associated functions	AAA domain, putative AbiEii toxin, Type IV TA system	5	5	K06926
+APG	Toxin-antitoxin-associated functions	Antitoxin Phd_YefM, type II toxin-antitoxin system	6	6	
+APG	Toxin-antitoxin-associated functions	Antitoxin SocA-like, Panacea domain	15	15	K28191
+APG	Toxin-antitoxin-associated functions	Antitoxin of toxin-antitoxin, RelE / RelB, TA system	1	1	
+APG	Toxin-antitoxin-associated functions	Antitoxin to bacterial toxin RNase LS or RnlA	4	4	
+APG	Toxin-antitoxin-associated functions	Bacterial toxin of type II toxin-antitoxin system, YafQ	4	4	K19157
+APG	Toxin-antitoxin-associated functions	Doc-like toxin	6	6	K07341
+APG	Toxin-antitoxin-associated functions	HicA toxin of bacterial toxin-antitoxin,	10	10	
+APG	Toxin-antitoxin-associated functions	HicB-like antitoxin	14	14	
+APG	Toxin-antitoxin-associated functions	HicB_like antitoxin of bacterial toxin-antitoxin system	10	10	
+APG	Toxin-antitoxin-associated functions	HigB_toxin, RelE-like toxic component of a toxin-antitoxin system	2	2	K19166
+APG	Toxin-antitoxin-associated functions	Nucleotidyl transferase AbiEii toxin, Type IV TA system	6	6	K28188
+APG	Toxin-antitoxin-associated functions	ParE toxin of type II toxin-antitoxin system, parDE	1	1	
+APG	Toxin-antitoxin-associated functions	ParE-like toxin of type II bacterial toxin-antitoxin system	1	1	
+APG	Toxin-antitoxin-associated functions	PemK-like, MazF-like toxin of type II toxin-antitoxin system	232	230	K07171 | K18841
+APG	Toxin-antitoxin-associated functions	Putative abortive phage resistance protein AbiGi, antitoxin	1	1	
+APG	Toxin-antitoxin-associated functions	RelB antitoxin	1	1	
+APG	Toxin-antitoxin-associated functions	RelE-like toxin	20	20	K06218 | K19157
+APG	Toxin-antitoxin-associated functions	Toxin ToxN, type III toxin-antitoxin system	1	1	K19167
+APG	Toxin-antitoxin-associated functions	Toxin YafO, type II toxin-antitoxin system	1	1	K19160
+APG	Toxin-antitoxin-associated functions	Zeta toxin	11	11	
+APG	Toxin-antitoxin-associated functions	antitoxin from a toxin-antitoxin system	82	82	K04769 | K06284 | K18923
+APG	Toxin-antitoxin-associated functions	antitoxin mazE-like	13	13	
+APG	Toxin-antitoxin-associated functions	hicB; antitoxin HicB	12	12	K18843
+APG	Toxin-antitoxin-associated functions	higA-1; antitoxin HigA-1	8	8	K21498
+APG	Toxin-antitoxin-associated functions	higB-1; toxin HigB-1	1	1	K07334
+APG	Toxin-antitoxin-associated functions	mazE, chpAI; antitoxin MazE	6	6	K07172
+APG	Toxin-antitoxin-associated functions	socA; antitoxin SocA	38	38	K28191
+APG	Toxin-antitoxin-associated functions	stbD; antitoxin StbD	1	1	K18923
+APG	Toxin-antitoxin-associated functions	toxin-antitoxin system HicB-like	6	6	
+APG	Toxin-antitoxin-associated functions	yoeB; toxin YoeB [EC:3.1.-.-]	24	20	K19158
+APG	Other anti-defense functions	Anti-CBASS protein Acb1	8	8	
+APG	Other anti-defense functions	Gabija anti-defense 1	3	3	
+APG	Other anti-defense functions	Gabija anti-defense 2 family protein	17	17	
+APG	Other anti-defense functions	Inhibitor of toxin/antitoxin system (Gp4.5)	17	17	
+APG	Other anti-defense functions	Thoeris anti-defense 2-like domain	245	240	
+APG	Other anti-defense functions	abortive infection resistance protein	41	41	
+APG	Anti-restriction	Antirestriction protein (ArdA)	30	30	
+APG	Anti-restriction	Antirestriction protein Ral	4	4	
+APG	Anti-restriction	DarB-like antirestriction	65	65	
+APG	Anti-restriction	anti-restriction protein	101	101	
+APG	Anti-restriction	ocr-like anti-restriction	29	29	
+APG	CRISPR-Cas-associated functions	CRISPR associated protein Cas1	1	1	K15342
+APG	CRISPR-Cas-associated functions	CRISPR type IV associated protein Csf3	3	3	
+APG	CRISPR-Cas-associated functions	CRISPR-associated protein Csf1	1	1	
+APG	CRISPR-Cas-associated functions	CRISPR/Cas system associated	158	158	
+APG	CRISPR-Cas-associated functions	Putative CRISPR-associated protein (Cas_VVA1548)	1	1	
+APG	CRISPR-Cas-associated functions	Type I-Fv CRISPR-associated protein Cas7fv-like	2	2	
+APG	CRISPR-Cas-associated functions	cas5t; CRISPR-associated protein Cas5t	3	3	K19090
+APG	CRISPR-Cas-associated functions	casA, cse1; CRISPR system Cascade subunit CasA	2	2	K19123
+APG	CRISPR-Cas-associated functions	csd2, cas7; CRISPR-associated protein Csd2	6	6	K19118
+APG	CRISPR-Cas-associated functions	csn2; CRISPR-associated protein Csn2	1	1	K19137
+APG	Sporulation-associated functions	SpoVAC/SpoVAEB sporulation membrane protein	1	1	K06407
+APG	Sporulation-associated functions	Sporulation initiation factor Spo0A C terminal	63	63	K07699
+APG	Sporulation-associated functions	Sporulation protein Cse60	3	3	
+APG	Sporulation-associated functions	Stage III sporulation protein D	5	5	K06283
+APG	Sporulation-associated functions	Stage V sporulation protein S (SpoVS)	12	12	K06416
+APG	Sporulation-associated functions	spoIID; stage II sporulation protein D (peptidoglycan lytic transglycosylase) [EC:4.2.2.29]	1	1	K06381
+APG	Sporulation-associated functions	spoIVB; stage IV sporulation protein B [EC:3.4.21.116]	1	1	K06399
+APG	Sporulation-associated functions	spoVAD; stage V sporulation protein AD	1	1	K06406
+APG	Sporulation-associated functions	spoVG; stage V sporulation protein G	35	35	K06412
+APG	Sporulation-associated functions	spoVK; stage V sporulation protein K	2	2	K06413
+APG	Sporulation-associated functions	spoVS; stage V sporulation protein S	29	29	K06416
+APG	Sporulation-associated functions	sporulation protein	22	22	K06416
+APG	Anti-CRISPR	Anti-CRISPR protein AcrIC5	46	46	
+APG	Anti-CRISPR	Anti-CRISPR type V subtype A2 family	33	33	
+APG	Secretion-associated functions	Type II/IV secretion system protein	4	4	K02243 | K02283
+APG	Secretion-associated functions	Type VI secretion system spike protein VgrG3-like, C-terminal	41	41	
+APG	Secretion-associated functions	vasI; type VI secretion system protein VasI	1	1	K11909
+APG	Secretion-associated functions	virD4, lvhD4; type IV secretion system protein VirD4 [EC:7.4.2.8]	6	5	K03205
+APG	Abi-associated defense candidates	Abi alpha-like abortive infection mechanism	3	3	
+APG	Abi-associated defense candidates	Abortive infection alpha	7	7	
+APG	Abi-associated defense candidates	Bacteriophage abortive infection AbiH	1	1	
+APG	Abi-associated defense candidates	BstA abortive infection system, replication inhibitor	2	2	
+APG	Abi-associated defense candidates	abiQ; protein AbiQ	17	17	K19167
+APG	Stress-response functions	HSPA1_6_8; heat shock 70kDa protein 1/6/8	1	1	K03283
+APG	Stress-response functions	Hsp20 heat shock protein	8	8	K13993
+APG	Stress-response functions	cspA; cold shock protein	5	5	K03704
+AReG	Transcription regulation (unspecified)	FmdB-like transcriptional regulator	1	1	
+AReG	Transcription regulation (unspecified)	Iron-dependent Transcriptional regulator	2	2	K19587
+AReG	Transcription regulation (unspecified)	K07726; putative transcriptional regulator	1	1	K07726
+AReG	Transcription regulation (unspecified)	K07727; putative transcriptional regulator	6	6	K07727
+AReG	Transcription regulation (unspecified)	K07729; putative transcriptional regulator	2	2	K07729
+AReG	Transcription regulation (unspecified)	MarR family transcrition regulator	34	34	
+AReG	Transcription regulation (unspecified)	MotB-like transcriptional regulator	5	3	
+AReG	Transcription regulation (unspecified)	Phage regulatory protein Rha (Phage_pRha)	23	23	
+AReG	Transcription regulation (unspecified)	Rha-like transcriptional regulator	17	17	
+AReG	Transcription regulation (unspecified)	Transcriptional regulator, AbiEi antitoxin, Type IV TA system	2	2	
+AReG	Transcription regulation (unspecified)	Transcriptional regulatory protein, C terminal	26	26	
+AReG	Transcription regulation (unspecified)	abrB, abh; AbrB family transcriptional regulator, transcriptional pleiotropic regulator of transition state genes	7	7	K06284
+AReG	Transcription regulation (unspecified)	bsdA; LysR family transcriptional regulator, salicylic acid-responsive activator of bsdBCD	3	3	K21755
+AReG	Transcription regulation (unspecified)	cueR; MerR family transcriptional regulator, copper efflux regulator	1	1	K19591
+AReG	Transcription regulation (unspecified)	excisionase and transcriptional regulator	1	1	
+AReG	Transcription regulation (unspecified)	fur, zur, furB; Fur family transcriptional regulator, ferric uptake regulator	1	1	K03711
+AReG	Transcription regulation (unspecified)	gerE; LuxR family transcriptional regulator, transcriptional regulator of spore coat protein	2	2	K01994
+AReG	Transcription regulation (unspecified)	higA; HTH-type transcriptional regulator / antitoxin HigA	7	7	K18831
+AReG	Transcription regulation (unspecified)	late promoter transcriptional regulator	9	9	
+AReG	Transcription regulation (unspecified)	mqsA; HTH-type transcriptional regulator / antitoxin MqsA	4	4	K13655
+AReG	Transcription regulation (unspecified)	ner, nlp, sfsB; Ner family transcriptional regulator	2	2	K07724
+AReG	Transcription regulation (unspecified)	spoIIID; putative DeoR family transcriptional regulator, stage III sporulation protein D	2	2	K06283
+AReG	Transcription regulation (unspecified)	spoVT; AbrB family transcriptional regulator, stage V sporulation protein T	12	12	K04769
+AReG	Transcription regulation (unspecified)	starvation-inducible transcriptional regulator	8	8	
+AReG	Transcription regulation (unspecified)	sutR; XRE family transcriptional regulator, regulator of sulfur utilization	1	1	K23779
+AReG	Transcription regulation (unspecified)	tipA; MerR family transcriptional regulator, thiopeptide resistance regulator	4	4	K21744
+AReG	Transcription regulation (unspecified)	transcriptional regulator	1032	965	K13655 | K19449 | K22299 | K22300
+AReG	Transcription regulation (unspecified)	transcriptional regulator, D5-like	51	47	
+AReG	Anti-repression	AntA/AntB antirepressor	3	3	
+AReG	Anti-repression	Phage antirepressor protein KilAC domain	8	8	K07741
+AReG	Anti-repression	antB; anti-repressor protein	11	11	K07741
+AReG	Anti-repression	anti-repressor	413	392	K07741
+AReG	Anti-repression	anti-repressor Ant	777	714	K07741
+AReG	Transcriptional repression	Arc-like repressor	132	132	
+AReG	Transcriptional repression	Penicillinase repressor	1	1	
+AReG	Transcriptional repression	Transcriptional repressor NrdR-like, N-terminal domain	1	1	
+AReG	Transcriptional repression	blaI; BlaI family transcriptional regulator, penicillinase repressor	3	3	K02171
+AReG	Transcriptional repression	nadR; HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]	10	10	K06211
+AReG	Transcriptional repression	rex; redox-sensing transcriptional repressor	1	1	K01926
+AReG	Transcriptional repression	transcriptional repressor	436	431	K01356 | K07724
+AReG	RNA-binding-associated functions	RNA-binding protein	434	433	K11089
+AReG	RNA-binding-associated functions	Slr1353 N-terminal dsRNA-binding domain-like	9	9	
+AReG	Transcription initiation / sigma factors	Jumbo bacteriophage sigma-like promoter specificity subunit	23	23	
+AReG	Transcription initiation / sigma factors	Sigma-70, region 4	1	1	
+AReG	Transcription initiation / sigma factors	Srd anti-sigma factor	7	7	
+AReG	Transcription initiation / sigma factors	anti-sigma factor	10	10	
+AReG	Transcription initiation / sigma factors	decoy of host sigma32	1	1	
+AReG	Transcription initiation / sigma factors	decoy of host sigma70	1	1	
+AReG	Transcription initiation / sigma factors	late sigma transcription factor	11	11	
+AReG	Transcription initiation / sigma factors	rsbV; anti-sigma B factor antagonist	2	2	K04749
+AReG	Transcription initiation / sigma factors	sigma factor	164	164	
+AReG	Transcriptional activation	CII-like transcriptional activator	6	6	
+AReG	Transcriptional activation	PerC transcriptional activator	1	1	
+AReG	Transcriptional activation	cynR; LysR family transcriptional regulator, cyn operon transcriptional activator	6	6	K11921
+AReG	Transcriptional activation	cysL; LysR family transcriptional regulator, transcriptional activator of the cysJI operon	7	7	K21900
+AReG	Transcriptional activation	dhcR; LysR family transcriptional regulator, carnitine catabolism transcriptional activator	1	1	K17737
+AReG	Transcriptional activation	late transcriptional activator	13	12	
+AReG	Transcriptional activation	transcriptional activator	107	105	
+AReG	SOS-associated regulation	LexA DNA binding domain	10	10	
+AReG	SOS-associated regulation	lexA; repressor LexA [EC:3.4.21.88]	83	83	K01356
+AReG	Cell-division regulation	dicA; HTH-type transcriptional regulator, cell division transcriptional repressor	82	82	K22300
+AReG	Biofilm / matrix regulation	Extracellular matrix regulatory protein A-like	3	3	K09777
+AReG	Biofilm / matrix regulation	remA; extracellular matrix regulatory protein A	27	27	K09777
+AReG	Biofilm / matrix regulation	sinR; XRE family transcriptional regulator, master regulator for biofilm formation	22	22	K19449
+AReG	Competence-associated regulation	rghR; HTH-type transcriptional regulator, competence development regulator	42	42	K22299
+AReG	Transcription antitermination	Antitermination protein Q	12	12	
+AReG	Transcription antitermination	Phage N antitermination protein	14	14	
+AReG	Transcription antitermination	Phage antitermination protein Q	9	9	
+AReG	Transcription antitermination	Transcriptional antitermination N peptide	1	1	

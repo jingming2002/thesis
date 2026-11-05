@@ -1,0 +1,353 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    dayhoff (AVX512, FMA3, 3022 GB RAM)
+Command: /home/wang500/miniconda3/envs/checkamg/bin/iqtree3 -s /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.trimmed.faa -m MFP -B 1000 -alrt 1000 --bnni -T AUTO --threads-max 64 -seed 20261025 -pre /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE
+Seed:    20261025 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 26 15:04:56 2026
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading alignment file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.trimmed.faa ... Fasta format detected
+Reading fasta file: done in 0.00075388 secs
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00200105 secs using 1508% CPU
+Alignment has 71 sequences with 190 columns, 179 distinct patterns
+160 parsimony-informative, 8 singleton sites, 22 constant sites
+                                                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00408506 secs using 2112% CPU
+   1  vOTU_32470_MetK_Casjensviridae_like                     0.53%    passed     20.81%
+   2  vOTU_40950_MetK_Chimalliviridae_like                    0.53%    passed     42.91%
+   3  vOTU_650_MetK_Intestiviridae_like                       0.53%    passed     89.53%
+   4  vOTU_2441_MetK_Kyanoviridae                             0.00%    passed     81.67%
+   5  vOTU_15927_MetK_Suoliviridae                            0.53%    passed     12.11%
+   6  vOTU_21962_MetK_Family_unclassified                     0.00%    passed     84.81%
+   7  vOTU_29237_MetK_Family_unclassified                     0.53%    passed     44.56%
+   8  vOTU_26426_MetK_Family_unclassified                     0.00%    failed      0.44%
+   9  vOTU_27707_MetK_Family_unclassified                     7.37%    passed     15.86%
+  10  vOTU_34_MetK_Family_unclassified                        0.00%    passed     37.08%
+  11  vOTU_48_MetK_Family_unclassified                        0.00%    passed     98.93%
+  12  vOTU_437_MetK_Family_unclassified                       0.00%    passed     63.54%
+  13  vOTU_5043_MetK_Family_unclassified                      0.00%    passed     34.67%
+  14  vOTU_16475_MetK_Family_unclassified                    78.42%    passed     90.50%
+  15  vOTU_12848_MetK_Family_unclassified                     0.00%    passed     94.64%
+  16  PIBAC_PIGvsB100pB20_907_MetK_Firmicutes                 0.00%    passed     97.44%
+  17  PIBAC_PIGvsB100pB20_1158_MetK_Firmicutes_A              0.00%    passed     89.22%
+  18  PIBAC_PIGvsB100pB20_1197_MetK_Firmicutes_A              0.00%    passed     99.07%
+  19  PIBAC_PIBAC_264_MetK_Synergistota                       0.00%    passed     67.21%
+  20  PIBAC_PIGvsB100pB20_444_MetK_Proteobacteria             0.00%    passed    100.00%
+  21  PIBAC_PIGvsB100pB20_1533_MetK_Firmicutes                0.00%    passed     97.42%
+  22  PIBAC_PIGvsB100pB20_2366_MetK_Firmicutes                0.00%    passed     11.51%
+  23  PIBAC_PIGvsB100pB20_2174_MetK_Firmicutes                0.00%    passed     17.66%
+  24  PIBAC_PIGvsB100pB20_760_MetK_Firmicutes_A               0.00%    passed     88.07%
+  25  PIBAC_PIGvsB100pB20_816_MetK_Bacteroidota               0.00%    passed     98.24%
+  26  PIBAC_PIBAC_83_MetK_Firmicutes_A                        0.00%    passed     96.77%
+  27  PIBAC_PIGvsB100pB20_1831_MetK_Proteobacteria            0.00%    passed     99.87%
+  28  PIBAC_PIGvsB100pB20_1532_MetK_Campylobacterota          0.00%    passed     98.18%
+  29  PIBAC_PIBAC_427_MetK_Actinobacteriota                   0.00%    passed     80.31%
+  30  PIBAC_PIGvsB100pB20_2075_MetK_Firmicutes_A              0.00%    passed     31.98%
+  31  PIBAC_PIBAC_518_MetK_Firmicutes                         0.00%    passed     94.57%
+  32  PIBAC_PIGvsB100pB20_2187_MetK_Firmicutes                0.00%    passed     10.39%
+  33  PIBAC_PIGvsB100pB20_154_MetK_Synergistota               0.00%    passed     80.82%
+  34  PIBAC_PIBAC_500_MetK_Firmicutes                         0.00%    passed     99.25%
+  35  PIBAC_PIGvsB100pB20_1186_MetK_Firmicutes_A              0.00%    passed     88.79%
+  36  PIBAC_PIGvsB100pB20_736_MetK_Firmicutes_A               0.00%    passed     99.87%
+  37  PIBAC_PIGvsB100pB20_799_MetK_Bacteroidota               0.00%    passed     98.42%
+  38  PIBAC_PIGvsB100pB20_600_MetK_Bacteroidota               0.00%    passed     94.43%
+  39  PIBAC_PIGvsB100pB20_1056_MetK_Bacteroidota              0.00%    passed     99.41%
+  40  PIBAC_PIGvsB100pB20_1951_MetK_Firmicutes_A              0.00%    passed     99.95%
+  41  PIBAC_PIGvsB100pB20_1847_MetK_Elusimicrobiota           0.00%    passed     97.27%
+  42  PIBAC_PIGvsB100pB20_811_MetK_Firmicutes_A               0.00%    passed     92.91%
+  43  PIBAC_PIGvsB100pB20_277_MetK_Spirochaetota              0.00%    passed     70.10%
+  44  PIBAC_PIGvsB100pB20_93_MetK_Firmicutes_A                0.00%    passed     99.89%
+  45  PIBAC_PIBAC_164_MetK_Firmicutes_A                       0.00%    passed     99.93%
+  46  PIBAC_PIGvsB100pB20_1200_MetK_Firmicutes_A              0.00%    passed     96.77%
+  47  PIBAC_PIGvsB100pB20_1631_MetK_Campylobacterota          0.00%    passed    100.00%
+  48  PIBAC_PIGvsB100pB20_1196_MetK_Firmicutes                0.00%    passed     90.03%
+  49  PIBAC_PIGvsB100pB20_1471_MetK_Euryarchaeota             0.00%    passed     99.76%
+  50  PIBAC_PIGvsB100pB20_995_MetK_Actinobacteriota           0.00%    passed     60.31%
+  51  PIBAC_PIGvsB100pB20_841_MetK_Firmicutes_A               0.00%    passed     99.49%
+  52  PIBAC_PIGvsB100pB20_830_MetK_Firmicutes_A               0.00%    passed     98.33%
+  53  PIBAC_PIGvsB100pB20_771_MetK_Firmicutes_A               0.00%    passed     59.74%
+  54  PIBAC_PIGvsB100pB20_717_MetK_Spirochaetota              0.00%    passed     96.30%
+  55  PIBAC_PIGvsB100pB20_694_MetK_Firmicutes_A               0.00%    passed     99.92%
+  56  NCBI_WP_067632278.1_MetK_Bacillota                      0.00%    passed     88.34%
+  57  NCBI_WP_129604260.1_MetK_Candidatus_Saccharimonadota    0.00%    passed     83.58%
+  58  NCBI_WP_216570080.1_MetK_Bacillota                      0.00%    passed     82.09%
+  59  NCBI_WP_254015990.1_MetK_Bacteroidota                   0.00%    passed     11.03%
+  60  NCBI_WP_294580853.1_MetK_Bacillota                      0.00%    passed     99.93%
+  61  NCBI_WP_301198315.1_MetK_Bacteroidota                   0.53%    passed     21.57%
+  62  NCBI_WP_301665881.1_MetK_Bacteroidota                   0.00%    passed     70.36%
+  63  NCBI_WP_304707654.1_MetK_Bacteroidota                   0.00%    passed     12.54%
+  64  NCBI_WP_321978364.1_MetK_Bacteroidota                   0.53%    passed     25.58%
+  65  NCBI_WP_410151277.1_MetK_Pseudomonadota                 0.00%    passed     81.87%
+  66  NCBI_WP_412208771.1_MetK_Bacillota                      0.53%    passed     13.85%
+  67  NCBI_WP_417083792.1_MetK_Bacillota                      0.53%    passed     13.55%
+  68  NCBI_WP_424243924.1_MetK_Elusimicrobiota                0.00%    passed     95.85%
+  69  NCBI_WP_462576104.1_MetK_Deinococcota                   0.00%    passed     79.21%
+  70  NCBI_WP_490213037.1_MetK_Actinomycetota                 0.00%    passed     85.99%
+  71  CUR_P0A817_metK_MetK_Pseudomonadota                     0.00%    passed    100.00%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                   1.28%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.0138071 secs using 2200% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.026 seconds
+Measuring multi-threading efficiency up to 64 CPU cores
+Increase to 10 rounds for branch lengths
+83 trees examined
+Threads: 1 / Time: 64.595 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -16713
+Threads: 2 / Time: 38.179 sec / Speedup: 1.692 / Efficiency: 85% / LogL: -16713
+Threads: 3 / Time: 27.702 sec / Speedup: 2.332 / Efficiency: 78% / LogL: -16713
+Threads: 4 / Time: 23.507 sec / Speedup: 2.748 / Efficiency: 69% / LogL: -16713
+Threads: 5 / Time: 22.606 sec / Speedup: 2.857 / Efficiency: 57% / LogL: -16713
+Threads: 6 / Time: 19.907 sec / Speedup: 3.245 / Efficiency: 54% / LogL: -16713
+Threads: 7 / Time: 17.232 sec / Speedup: 3.749 / Efficiency: 54% / LogL: -16713
+Threads: 8 / Time: 15.238 sec / Speedup: 4.239 / Efficiency: 53% / LogL: -16713
+Threads: 9 / Time: 15.421 sec / Speedup: 4.189 / Efficiency: 47% / LogL: -16713
+Determining AUTO threadcount: done in 244.41 secs using 377.7% CPU
+BEST NUMBER OF THREADS: 8
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -13060.531
+Optimal log-likelihood: -13060.498
+Proportion of invariable sites: 0.093
+Gamma shape alpha: 0.849
+Parameters optimization took 1 rounds (0.059 sec)
+Time for fast ML tree search: 0.813 seconds
+
+NOTE: ModelFinder requires 22 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 190 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            14058.778    139 28395.556    29173.956    28846.892
+  2  LG+I          13780.777    140 27841.554    28647.268    28296.137
+  3  LG+G4         13071.720    140 26423.440    27229.154    26878.023
+  4  LG+I+G4       13060.497    141 26402.994    27237.244    26860.825
+  5  LG+R2         13305.992    141 26893.984    27728.234    27351.814
+  6  LG+R3         13120.834    143 26527.668    27422.972    26991.992
+  7  LG+R4         13067.850    145 26425.701    27387.973    26896.519
+  8  LG+R5         13057.322    147 26408.645    27444.645    26885.957
+  9  LG+R6         13056.541    149 26411.082    27528.582    26894.889
+ 14  LG+I+R2       13233.021    142 26750.041    27614.126    27211.118
+ 15  LG+I+R3       13075.349    144 26438.699    27366.699    26906.270
+ 16  LG+I+R4       13057.076    146 26406.153    27404.385    26880.218
+ 17  LG+I+R5       13055.562    148 26407.125    27482.832    26887.684
+ 26  LG+F+I+G4     13144.705    160 26609.410    28385.962    27128.934
+ 48  WAG+I+G4      13193.372    141 26668.744    27502.994    27126.574
+ 70  WAG+F+I+G4    13262.903    160 26845.806    28622.358    27365.330
+ 92  JTT+I+G4      13360.116    141 27002.233    27836.483    27460.063
+114  JTT+F+I+G4    13488.625    160 27297.249    29073.801    27816.773
+136  Q.PFAM+I+G4   13089.155    141 26460.310    27294.560    26918.141
+158  Q.PFAM+F+I+G4 13169.482    160 26658.965    28435.516    27178.488
+180  Q.BIRD+I+G4   13752.464    141 27786.928    28621.178    28244.759
+202  Q.BIRD+F+I+G4 13937.001    160 28194.002    29970.554    28713.526
+224  Q.MAMMAL+I+G4 13618.142    141 27518.284    28352.534    27976.114
+246  Q.MAMMAL+F+I+G4 13771.995    160 27863.990    29640.542    28383.514
+268  Q.INSECT+I+G4 13178.157    141 26638.315    27472.565    27096.145
+290  Q.INSECT+F+I+G4 13327.896    160 26975.791    28752.343    27495.315
+312  Q.PLANT+I+G4  13410.661    141 27103.323    27937.573    27561.153
+334  Q.PLANT+F+I+G4 13531.954    160 27383.908    29160.460    27903.432
+356  Q.YEAST+I+G4  13170.718    141 26623.436    27457.686    27081.267
+378  Q.YEAST+F+I+G4 13258.040    160 26836.079    28612.631    27355.603
+400  JTTDCMUT+I+G4 13350.362    141 26982.724    27816.974    27440.555
+422  JTTDCMUT+F+I+G4 13479.152    160 27278.304    29054.856    27797.828
+444  DCMUT+I+G4    13459.075    141 27200.149    28034.399    27657.980
+466  DCMUT+F+I+G4  13571.287    160 27462.573    29239.125    27982.097
+488  VT+I+G4       13222.318    141 26726.636    27560.886    27184.466
+510  VT+F+I+G4     13289.172    160 26898.345    28674.896    27417.869
+532  PMB+I+G4      13231.885    141 26745.770    27580.020    27203.601
+554  PMB+F+I+G4    13301.116    160 26922.232    28698.784    27441.756
+576  BLOSUM62+I+G4 13213.354    141 26708.708    27542.958    27166.539
+598  BLOSUM62+F+I+G4 13289.235    160 26898.471    28675.022    27417.994
+620  DAYHOFF+I+G4  13459.178    141 27200.356    28034.606    27658.186
+642  DAYHOFF+F+I+G4 13571.830    160 27463.659    29240.211    27983.183
+664  MTREV+I+G4    13990.409    141 28262.818    29097.068    28720.648
+686  MTREV+F+I+G4  13528.687    160 27377.375    29153.926    27896.899
+708  MTART+I+G4    13921.646    141 28125.291    28959.541    28583.122
+730  MTART+F+I+G4  13543.162    160 27406.323    29182.875    27925.847
+752  MTZOA+I+G4    13616.238    141 27514.476    28348.726    27972.307
+774  MTZOA+F+I+G4  13409.405    160 27138.810    28915.362    27658.334
+796  MTMET+I+G4    13961.342    141 28204.685    29038.935    28662.515
+818  MTMET+F+I+G4  13653.699    160 27627.399    29403.950    28146.922
+840  MTVER+I+G4    14238.011    141 28758.023    29592.273    29215.853
+862  MTVER+F+I+G4  13936.560    160 28193.121    29969.672    28712.644
+884  MTINV+I+G4    13924.064    141 28130.128    28964.378    28587.958
+906  MTINV+F+I+G4  13468.127    160 27256.254    29032.806    27775.778
+928  MTMAM+I+G4    14405.562    141 29093.125    29927.375    29550.955
+950  MTMAM+F+I+G4  14036.861    160 28393.722    30170.273    28913.245
+972  FLAVI+I+G4    14205.601    141 28693.201    29527.451    29151.032
+994  FLAVI+F+I+G4  14308.839    160 28937.678    30714.230    29457.202
+1016  HIVB+I+G4     13873.887    141 28029.774    28864.024    28487.604
+1038  HIVB+F+I+G4   13962.929    160 28245.859    30022.410    28765.382
+1060  HIVW+I+G4     14560.429    141 29402.859    30237.109    29860.689
+1082  HIVW+F+I+G4   14482.980    160 29285.959    31062.511    29805.483
+1104  FLU+I+G4      13833.166    141 27948.331    28782.581    28406.162
+1126  FLU+F+I+G4    13875.554    160 28071.108    29847.660    28590.632
+1148  RTREV+I+G4    13209.965    141 26701.930    27536.180    27159.760
+1170  RTREV+F+I+G4  13204.790    160 26729.580    28506.132    27249.104
+1192  CPREV+I+G4    13301.072    141 26884.143    27718.393    27341.974
+1214  CPREV+F+I+G4  13329.268    160 26978.536    28755.087    27498.060
+Akaike Information Criterion:           LG+I+G4
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         LG+I+G4
+Best-fit model: LG+I+G4 chosen according to BIC
+
+All model information printed to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.model.gz
+CPU time for ModelFinder: 1221.609 seconds (0h:20m:21s)
+Wall-clock time for ModelFinder: 282.209 seconds (0h:4m:42s)
+Generating 1000 samples for ultrafast bootstrap (seed: 20261025)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.096 / Estimate: 0.000, 0.663 / LogL: -13071.717
+Init pinv, alpha: 0.013, 1.096 / Estimate: 0.093, 0.848 / LogL: -13060.499
+Init pinv, alpha: 0.026, 1.096 / Estimate: 0.092, 0.848 / LogL: -13060.500
+Init pinv, alpha: 0.039, 1.096 / Estimate: 0.093, 0.849 / LogL: -13060.497
+Init pinv, alpha: 0.051, 1.096 / Estimate: 0.093, 0.848 / LogL: -13060.499
+Init pinv, alpha: 0.064, 1.096 / Estimate: 0.093, 0.849 / LogL: -13060.497
+Init pinv, alpha: 0.077, 1.096 / Estimate: 0.093, 0.850 / LogL: -13060.497
+Init pinv, alpha: 0.090, 1.096 / Estimate: 0.094, 0.851 / LogL: -13060.497
+Init pinv, alpha: 0.103, 1.096 / Estimate: 0.094, 0.851 / LogL: -13060.497
+Init pinv, alpha: 0.116, 1.096 / Estimate: 0.094, 0.852 / LogL: -13060.497
+Optimal pinv,alpha: 0.094, 0.851 / LogL: -13060.497
+
+Parameters optimization took 2.687 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.157709 secs using 792.5% CPU
+Computing ML distances took 0.157965 sec (of wall-clock time) 1.252207 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000649929 secs using 829.2% CPU
+Constructing RapidNJ tree: done in 0.00403285 secs using 198% CPU
+Computing RapidNJ tree took 0.004949 sec (of wall-clock time) 0.040229 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13136.486
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.477 second
+Computing log-likelihood of 98 initial trees ... 2.951 seconds
+Current best score: -13060.497
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -13059.852
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -13048.709
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -13042.108
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -13037.591
+Iteration 10 / LogL: -13061.986 / Time: 0h:4m:56s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -13034.808
+Iteration 20 / LogL: -13035.291 / Time: 0h:5m:4s
+Finish initializing candidate tree set (20)
+Current best tree score: -13034.808 / CPU time: 19.517
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -13030.829
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -13029.909
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -13027.442
+Iteration 30 / LogL: -13030.929 / Time: 0h:5m:11s (0h:1m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -13027.274
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -13025.235
+Iteration 40 / LogL: -13027.305 / Time: 0h:5m:16s (0h:1m:22s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -13020.250
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -13011.331
+Iteration 50 / LogL: -13076.660 / Time: 0h:5m:22s (0h:1m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -13010.781
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -13006.022
+Iteration 60 / LogL: -13018.398 / Time: 0h:5m:27s (0h:1m:12s left)
+Iteration 70 / LogL: -13017.858 / Time: 0h:5m:32s (0h:1m:1s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -13002.783
+Iteration 80 / LogL: -13010.225 / Time: 0h:5m:37s (0h:1m:6s left)
+Iteration 90 / LogL: -13025.891 / Time: 0h:5m:42s (0h:0m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 91: -13000.538
+Iteration 100 / LogL: -13001.447 / Time: 0h:5m:47s (0h:0m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 103: -12999.961
+Iteration 110 / LogL: -13000.327 / Time: 0h:5m:53s (0h:1m:0s left)
+Iteration 120 / LogL: -13008.506 / Time: 0h:5m:58s (0h:0m:53s left)
+Iteration 130 / LogL: -13013.129 / Time: 0h:6m:4s (0h:0m:46s left)
+Iteration 140 / LogL: -13009.962 / Time: 0h:6m:10s (0h:0m:40s left)
+Iteration 150 / LogL: -13010.259 / Time: 0h:6m:16s (0h:0m:33s left)
+Iteration 160 / LogL: -13014.003 / Time: 0h:6m:21s (0h:0m:26s left)
+Iteration 170 / LogL: -13000.330 / Time: 0h:6m:26s (0h:0m:20s left)
+Iteration 180 / LogL: -13013.760 / Time: 0h:6m:32s (0h:0m:14s left)
+Iteration 190 / LogL: -13014.315 / Time: 0h:6m:37s (0h:0m:7s left)
+Iteration 200 / LogL: -13008.622 / Time: 0h:6m:42s (0h:0m:1s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 204 ITERATIONS / Time: 0h:9m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -12999.961
+Optimal log-likelihood: -12999.960
+Proportion of invariable sites: 0.095
+Gamma shape alpha: 0.863
+Parameters optimization took 1 rounds (0.057 sec)
+BEST SCORE FOUND : -12999.960
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.154 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.splits.nex
+Total tree length: 24.941
+
+Total number of iterations: 204
+CPU time used for tree search: 2109.874 sec (0h:35m:9s)
+Wall-clock time used for tree search: 268.818 sec (0h:4m:28s)
+Total CPU time used: 3359.520 sec (0h:55m:59s)
+Total wall-clock time used: 554.728 sec (0h:9m:14s)
+UFBoot trees printed to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.splits.nex...
+71 taxa and 2377 splits.
+Consensus tree written to /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.contree
+Reading input trees file /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.contree
+Log-likelihood of consensus tree: -13003.167
+
+Analysis results written to: 
+  IQ-TREE report:                /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.iqtree
+  Maximum-likelihood tree:       /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.treefile
+  Likelihood distances:          /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.splits.nex
+  Consensus tree:                /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.contree
+  UFBoot trees:                  /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.ufboot
+  Screen log file:               /lustre/BIF/nobackup/wang500/thesis1/results/network5_rebuild_20261026/MetK/MetK.IQTREE.log
+
+Date and Time: Mon Oct 26 15:14:12 2026

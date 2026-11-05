@@ -1,0 +1,12 @@
+tree	clade_id	tree_id	source	phylum	SH_aLRT	UFBoot
+GlyA	C01	NCBI_WP_071408597.1_GlyA_Bacillota	NCBI	Bacillota	100.0	100.0
+GlyA	C01	NCBI_WP_446453706.1_GlyA_Bacillota	NCBI	Bacillota	100.0	100.0
+GlyA	C02	PIBAC_PIGvsB100pB20_300_GlyA_Bacteroidota	PIBAC	Bacteroidota	97.4	99.0
+GlyA	C02	NCBI_WP_445199196.1_GlyA_Bacteroidota	NCBI	Bacteroidota	97.4	99.0
+GlyA	C02	PIBAC_PIGvsB100pB20_647_GlyA_Bacteroidota	PIBAC	Bacteroidota	97.4	99.0
+GlyA	C02	PIBAC_PIGvsB100pB20_803_GlyA_Bacteroidota	PIBAC	Bacteroidota	97.4	99.0
+GlyA	C02	PIBAC_PIBAC_405_GlyA_Bacteroidota	PIBAC	Bacteroidota	97.4	99.0
+GlyA	C03	PIBAC_PIGvsB100pB20_2366_GlyA_Firmicutes	PIBAC	Bacillota	92.9	96.0
+GlyA	C03	PIBAC_PIGvsB100pB20_1910_GlyA_Firmicutes	PIBAC	Bacillota	92.9	96.0
+GlyA	C04	PIBAC_PIBAC_500_GlyA_Firmicutes	PIBAC	Bacillota	100.0	100.0
+GlyA	C04	NCBI_WP_125120718.1_GlyA_Bacillota	NCBI	Bacillota	100.0	100.0

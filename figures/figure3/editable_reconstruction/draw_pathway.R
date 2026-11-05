@@ -1,0 +1,101 @@
+#!/usr/bin/env Rscript
+# Reproduction of the user-supplied pathway diagram using R vector primitives.
+# Coordinates are in a 1120 x 680 design space, with origin at the top left.
+# Run: Rscript draw_pathway.R /path/to/output
+library(grid)
+args <- commandArgs(trailingOnly=TRUE)
+out <- if(length(args)) args[1] else '.'
+dir.create(out,showWarnings=FALSE,recursive=TRUE)
+ink <- '#242A30'; muted <- '#75808B'; accent <- '#C9532B'
+labels <- data.frame(text=character(),x=numeric(),y=numeric(),size=numeric(),color=character(),align=character())
+label <- function(text,x,y,size=12,color=ink,align='centre') {
+ labels[nrow(labels)+1L,] <<- list(text,x,y,size,color,align)
+}
+label('GTP',229,44)
+label('Dihydroneopterin triphosphate',229,108,10.5)
+label('FolE',247,77,11,accent,'left')
+label('Folate biosynthesis',245,142,11,muted,'left')
+label('THF',229,184)
+label('Serine → Glycine',94,217,9,muted,'left')
+label('GlyA',247,222,11,accent,'left')
+label('5,10-Methylene-THF',229,265)
+label('FolD',247,307,11,accent,'left')
+label('5,10-Methenyl-THF',229,350)
+label('FolD',247,392,11,accent,'left')
+label('10-Formyl-THF',229,438)
+label('Formate + THF',433,350,11)
+label('Fhs',450,381,11,accent,'left')
+label('ATP → ADP + Pi',450,400,9,muted,'left')
+label('Purine biosynthesis',382,462,11,muted,'left')
+label('ATP / GTP',630,438)
+label('dUMP',115,579)
+label('dTMP',302,579)
+label('ThyA',208,598,11,muted)
+label('Kinases',375,556,11,muted)
+label('dTTP',454,579)
+label('dATP / dGTP',630,579)
+label('DNA polymerase',663,631,11,muted,'left')
+label('DNA synthesis',832,651,12,ink,'left')
+label('L-Cysteine',599,44)
+label('IscS-like',617,86,11,accent,'left')
+label('Protein-bound sulfur',599,139,11)
+label('Fe + reducing equivalents',872,44,10.5)
+label('Fe–S assembly',872,139)
+label('IscU-like',872,164,11,accent)
+label('Cluster transfer',889,209,11,muted,'left')
+label('Methionine + ATP',602,210,11)
+label('MetK',623,241,11,accent,'left')
+label('SAM',602,271)
+label('NrdG',872,271,11,accent)
+label('[4Fe–4S]',872,295,10.5)
+label('Radical\nactivation',886,346,11,muted,'left')
+label('NrdD',666,511,11,muted)
+edges <- data.frame(id=integer(),x=character(),y=character(),ends=character())
+edge <- function(x,y,ends='last'){
+ stopifnot(length(x)==length(y))
+ edges[nrow(edges)+1L,] <<- list(nrow(edges)+1L,paste(x,collapse=';'),paste(y,collapse=';'),ends)
+}
+edge(c(229,229),c(60,91))
+edge(c(229,229),c(124,167))
+edge(c(229,229),c(200,248),'both')
+edge(c(229,229),c(284,333),'both')
+edge(c(229,229),c(369,419),'both')
+edge(c(433,433,309,309),c(366,404,404,425))
+edge(c(330,570),c(438,438))
+edge(c(630,630),c(458,559))
+edge(c(113,46,46,208,208),c(264,264,537,537,564))
+edge(c(149,267),c(579,579))
+edge(c(337,412),c(579,579))
+edge(c(454,454,630),c(599,651,651),'none')
+edge(c(630,630),c(599,650))
+edge(c(630,820),c(651,651))
+edge(c(599,599),c(62,122))
+edge(c(685,799),c(139,139))
+edge(c(872,872),c(62,119))
+edge(c(872,872),c(185,251))
+edge(c(602,602),c(228,255))
+edge(c(630,820),c(271,271))
+edge(c(872,872,683,683),c(312,387,387,498))
+write.table(labels,file.path(out,'labels.tsv'),sep='\t',row.names=FALSE,quote=TRUE)
+write.table(edges,file.path(out,'edges.tsv'),sep='\t',row.names=FALSE,quote=FALSE)
+draw <- function(){
+ grid.newpage();grid.rect(gp=gpar(fill='white',col=NA))
+ pushViewport(viewport(xscale=c(0,1120),yscale=c(680,0)))
+ for(i in seq_len(nrow(edges))){
+  e<-edges[i,];x<-as.numeric(strsplit(e$x,';',fixed=TRUE)[[1]]);y<-as.numeric(strsplit(e$y,';',fixed=TRUE)[[1]])
+  ar<-if(e$ends=='none')NULL else arrow(angle=22,length=unit(2,'mm'),ends=e$ends,type='closed')
+  grid.lines(x=unit(x,'native'),y=unit(y,'native'),arrow=ar,gp=gpar(col=ink,fill=ink,lwd=.85,linejoin='mitre'))
+ }
+ for(i in seq_len(nrow(labels))){
+  z<-labels[i,];grid.text(z$text,x=unit(z$x,'native'),y=unit(z$y,'native'),just=z$align,gp=gpar(col=z$color,fontsize=z$size,fontfamily='sans',lineheight=1.15))
+ }
+ popViewport()
+}
+cairo_pdf(file.path(out,'one_carbon_pathway.pdf'),width=11.2,height=6.8);draw();dev.off()
+png(file.path(out,'one_carbon_pathway.png'),width=3360,height=2040,res=300,type='cairo');draw();dev.off()
+if(requireNamespace('svglite',quietly=TRUE)){
+ svglite::svglite(file.path(out,'one_carbon_pathway.svg'),width=11.2,height=6.8);draw();dev.off()
+}else{
+ svg(file.path(out,'one_carbon_pathway.svg'),width=11.2,height=6.8);draw();dev.off()
+}
+writeLines(capture.output(sessionInfo()),file.path(out,'R_sessionInfo.txt'))
